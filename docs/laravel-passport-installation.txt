@@ -1,0 +1,49 @@
+/*
+** After installing laravel  run folowing command
+*   -> composer require laravel/passport
+*   -> php artisan migrate // this will add table for oath
+*   -> php artisan passport:install  //to create server RSA Key
+---------------------------------------------------------------------------
+** AuthService provider(Providers/AuthServiceProvider) add  following lines inside boot function
+*   Passport::routes();
+*   Passport::tokensExpireIn(now()->addDays(15));  //set the oAuth Token expire in 15 days default 1 Years
+*   Passport::refreshTokensExpireIn(now()->addDays(30)); //set oAuth Refresh Token expire in 30 days default 1 years
+---------------------------------------------------------------------------
+** In Kernel.php (App\Http) Add Following line in MiddleWareGroups
+*     \Laravel\Passport\Http\Middleware\CreateFreshApiToken::class, // To bind OAuth with laravel DefaultMiddleware Auth
+---------------------------------------------------------------------------
+** In Kernel.php(App\Http) Add following line in RouteMiddleware Create a New Middle ware as follows
+**       //folloiwng line will middleware will verify the token Without login for #rd party Apps/ Js / Mobile Apps
+*        'client' => CheckClientCredentials::class,
+---------------------------------------------------------------------------
+** in Command Run Following Code
+*    ->php artisan vendor:publish --tag=passport-components  //This will create Default Vue Component for the API Management
+---------------------------------------------------------------------------
+** In app.js add following code
+*       Vue.component(
+*             'passport-clients',
+*             require('./components/passport/Clients.vue')
+*            );
+*         Vue.component(
+*             'passport-authorized-clients',
+*             require('./components/passport/AuthorizedClients.vue')
+*         );
+*         Vue.component(
+*             'passport-personal-access-tokens',
+*             require('./components/passport/PersonalAccessTokens.vue')
+*         );
+---------------------------------------------------------------------------
+** Run command
+*   ->npm run dev
+---------------------------------------------------------------------------
+** In header or footer page template include app.js
+---------------------------------------------------------------------------
+** In view template body add following code
+*   <passport-clients></passport-clients>
+*    <passport-authorized-clients></passport-authorized-clients>
+*    <passport-personal-access-tokens></passport-personal-access-tokens>
+---------------------------------------------------------------------------
+** In the route where you require to use you can use following middleware
+**      auth:api  //laravel default Middleware for api
+**      client  //Middleware which use
+*/

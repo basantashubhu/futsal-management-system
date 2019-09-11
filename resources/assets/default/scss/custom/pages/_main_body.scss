@@ -1,0 +1,59 @@
+/* .m-body {
+	.m-content{
+		padding: 20px 30px !important;
+	}
+} */
+/* .m-subheader {
+    padding: 15px 30px 0px 30px !important;
+} */
+.m--margin-top-bottom{
+	margin-bottom: 25px;
+}
+
+body .m-portlet.with-border {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #ffffff;
+    border-top: 5px solid #008ab2;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.m-subheader .m-subheader__title.m-subheader__title--separator {
+	border-right: 1px solid #e2e5ec;
+}
+
+body .m-portlet .m-portlet__body {
+    &.no-pd {
+        padding: 0!important;
+    }
+}
+
+/**
+ * Dropzone
+ */
+.dropzone {
+    background-color: #fff !important;
+}
+
+/**
+report table
+*/
+.reportTable tr:last-child{
+    font-weight: 700;
+}
+.reportTable th:not(:first-child),.reportTable td:not(:first-child){
+   text-align: center;
+    vertical-align: middle !important;
+}
+
+.daterangepicker.dropdown-menu{
+    z-index:99999 !important;
+}
+
+.m-table.m-table--border-dark th, .m-table.m-table--border-dark td {
+    border-color: #343a40; }
+.hoverBlue:hover{
+    color: blue;
+}

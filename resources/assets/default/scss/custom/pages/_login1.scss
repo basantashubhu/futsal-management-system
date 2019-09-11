@@ -1,0 +1,90 @@
+$font-stack: 'IBM Plex Sans', sans-serif;
+$primary-color: #333;
+$link-underline: underline;
+$padding-text: 10px;
+$white-color: #ffffff;
+$black-color: #000000;
+$signin-color: #23bfd8;
+$login-text-color: #403e3e;
+
+body{
+	font: 100% $font-stack;
+	color: $primary-color;
+}
+.wrapper-login{
+	background-size: cover;
+	min-height: 100%;
+	padding: 50px;
+
+	.sd-login-area{
+		width: 60%;
+		margin: 10px auto;
+		display: table;
+	}
+	.sd-login-info{
+		padding: $padding-text;
+		background-color: $white-color;
+		width: 30%;
+		text-align: center;
+		display: table-cell;
+
+		h2{
+			color: $black-color;
+			font-size: 24px;
+		}
+		img{
+			margin-top: $padding-text;
+		}
+	}
+	.sd-login-form{
+		padding: $padding-text;
+		background-color: #ebebeb;
+		width: 70%;
+		display: table-cell;
+
+		.sd-main-form{
+			width: 60%;
+			color: $login-text-color;
+			margin: auto;
+			margin-top: 40px;
+
+			h2{
+				color: $login-text-color;
+				font-size: 24px;
+			}
+			form{
+				margin-top: 20px;
+				width: 100%;
+			}
+			.remember_me{
+				width: 20px;
+				height: 20px;
+			}
+			a{
+				float: right;
+			}
+			.sd-login-btn{
+			    padding: 6px 50px;
+			    background-color: $signin-color;
+			    color: #ffffff;
+			    font-size: 16px;
+			}
+			.sd-register-btn{
+			    padding: 6px 50px;
+			    background-color: #fff;
+			    color: #403e3e;
+			    font-size: 16px;
+			}
+			.sd-border-top{
+				border-top: 1px solid rgba(0,0,0,0.1);
+    			padding-bottom: 20px;
+			}
+		}
+
+	}
+}
+//custom color for header text in login page
+//
+.custom_login_header .m-login__welcome{
+	color: #008ab1 !important;
+}

@@ -1,0 +1,48 @@
+.lookupParent {
+	position: relative;
+}
+
+.lookup-lists {
+
+	position: absolute;
+	z-index: 99;
+	margin-top: 0px;
+	min-width: 163px;
+	max-height: 300px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: none;
+    margin-bottom: 20px;
+	-webkit-box-shadow: 0px 4px 13px 1px rgba(69, 65, 78, 0.2);
+	-moz-box-shadow: 0px 4px 13px 1px rgba(69, 65, 78, 0.2);
+	-o-box-shadow: 0px 4px 13px 1px rgba(69, 65, 78, 0.2);
+	box-shadow: 0px 4px 13px 1px rgba(69, 65, 78, 0.2);
+
+	&.has-loader {
+		padding: 10px;
+		min-height: 40px;
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+
+		li {
+		    padding: 7px 10px;
+		    list-style-type: none;
+		    border: 1px solid #ebedf2;
+		    cursor: pointer;
+
+			&:not(:last-child) {
+				border-bottom: 0;
+			}
+
+			&:hover, &:focus, &.selectedLookUp {
+				background-color: #f4f5f8;
+				outline: none;
+				// border-color:#cccccc;
+				// border-bottom: 1px solid #cccccc;
+			}
+		}
+	}
+}

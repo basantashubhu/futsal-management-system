@@ -1,0 +1,233 @@
+@media screen and (max-width: 1420px) and (min-width: 600px) {
+    .m-topbar {
+        .m-topbar__nav-wrapper {
+            .m-topbar__nav {
+                li:not(.noHideLogout) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 2000px) and (min-width: 1134px) {
+	.responsive-filter{
+		display:none;
+	}
+    .s-exportClass{
+        display: none;
+    }
+}
+@media screen and (max-width: 2000px) and (min-width: 1501px) {
+    .showInMedium{
+        display: none;
+    }
+}
+@media screen and (max-width: 1500px) and (min-width: 1133px) {
+    .b-d-a{
+        min-width: 500px;
+    }
+    .b-d-a-a{
+        min-width: 600px;
+    }
+    .m-d-l{
+        min-width: 600px;
+    }
+    .s-d-l{
+        min-width: 200px;
+    }
+    header #submenu-right .m-menu__arrow {
+        left: 70px !important;
+    }
+    .m-header-menu .m-menu__nav > .m-menu__item .m-menu__submenu > .m-menu__subnav .m-menu__content .m-menu__heading > .m-menu__link-text{
+        font-size: 0.9rem;
+    }
+    .m-header-menu .m-menu__nav > .m-menu__item .m-menu__submenu > .m-menu__subnav .m-menu__content .m-menu__inner > .m-menu__item > .m-menu__link .m-menu__link-text{
+        font-size: 0.9rem;
+    }
+    .m-header-menu .m-menu__nav > .m-menu__item .m-menu__inner > .m-menu__item .m-menu__link .m-menu__link-icon, .m-header-menu .m-menu__nav > .m-menu__item .m-menu__subnav > .m-menu__item .m-menu__link .m-menu__link-icon{
+        display: none;
+    }
+    #dateTypeFilter{
+        width: 75px !important;
+    }
+    .dateTypeFilter, .dateRangePicker{
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+    }
+    .dateRangePicker{
+        .date_filter{
+            width: 115px;
+        }
+    }
+    #DashboardApplicationQuickSearch{
+        .applicationStatusFilter, .width-80, .applicationSourceFilter{
+            width: 75px !important;
+        }
+        .col-auto{
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+    }
+    #PetQuickSearchTest{
+        .col-auto{
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+        #petOwnerName, .petapplicationStatusFilter, .width-80{
+            width: 75px !important;
+        }
+    }
+    #BatchInvoiceQuickSearch{
+        .col-auto{
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+        .invoiceBatchProvider, .statusFilterBatch{
+            width: 75px !important;
+        }
+    }
+    #providerQuickSearch{
+        .col-auto{
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+        .orglicFilter, .orgNameFilter, .orgStatusFilter{
+            width: 75px !important;
+        }
+    }
+    .showInBig{
+        display: none;
+    }
+    .global-filter{
+        button.nav-link.dropdown-toggle:after, button.btn.dropdown-toggle:after{
+            display: none !important;
+        }
+    }
+}
+
+@media screen and (max-width: 1410px) and (min-width: 1265px){
+    .nav-link{
+        padding: 2px;
+        font-size:12px;
+    }
+}
+@media screen and (max-width: 1410px) and (min-width: 1265px){
+    .nav-link{
+        padding: 2px;
+        font-size:11px;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 300px){
+    #applicationSummary #hideHead{
+        display: none;
+    }
+}
+@media screen and (max-width: 1133px) and (min-width: 900px){
+    .b-d-a{
+        min-width: 465px;
+    }
+    .b-d-a-a{
+        min-width: 465px;
+    }
+    .m-d-l{
+        min-width: 465px;
+    }
+    .s-d-l{
+        min-width: 200px;
+    }
+    header #submenu-right .m-menu__arrow{
+        left: 70px !important;
+    }
+    .m-header-menu .m-menu__nav > .m-menu__item .m-menu__submenu > .m-menu__subnav .m-menu__content .m-menu__heading > .m-menu__link-text{
+        font-size: 0.8rem;
+    }
+    .m-header-menu .m-menu__nav > .m-menu__item .m-menu__submenu > .m-menu__subnav .m-menu__content .m-menu__inner > .m-menu__item > .m-menu__link .m-menu__link-text{
+        font-size: 0.8rem;
+    }
+    .m-header-menu .m-menu__nav > .m-menu__item .m-menu__inner > .m-menu__item .m-menu__link .m-menu__link-icon, .m-header-menu .m-menu__nav > .m-menu__item .m-menu__subnav > .m-menu__item .m-menu__link .m-menu__link-icon{
+        display: none;
+    }
+    #appHead{
+        width: 20%;
+    }
+    #appAddForm{
+        width: 80%;
+    }
+    .m-dropdown.m-dropdown--arrow.m-dropdown--up .m-dropdown__arrow.m-dropdown__arrow--right, .m-dropdown.m-dropdown--arrow .m-dropdown__arrow.m-dropdown__arrow--right{
+        left:0px !important;
+        right: auto !important;
+    }
+}
+@media screen and (max-width: 1133px) and (min-width: 300px){
+	.global-filter {
+        display: none;
+    }
+    .responsive-filter{
+        display:block;
+    }
+    .s-exportClass{
+        display: block;
+        float: right;
+        margin-left: 20px;
+    }
+    .m-dropdown.m-dropdown--align-left .m-dropdown__wrapper{
+    	right: 0 !important;
+    	left: unset;
+    }
+    .m-dropdown.m-dropdown--arrow.m-dropdown--up .m-dropdown__arrow, .m-dropdown.m-dropdown--arrow .m-dropdown__arrow{
+		left: 0 !important;
+		// left: 89% !important;
+    }
+    .m-dropdown.m-dropdown--align-right .m-dropdown__wrapper{
+        left: 0 !important;
+    }
+    .s-exportClass{
+        button.nav-link.dropdown-toggle:after, button.btn.dropdown-toggle:after{
+            display: none !important;
+        }
+    }
+}
+@media screen and (max-width: 1645px) and (min-width: 1406px) {
+    .nav-link{
+        padding: 5px 5px !important;
+    }
+}
+@media screen and (max-width: 1405) and (min-width: 1000px) {
+    .nav-link{
+        padding: 3px 3px !important;
+        font-size: 10px !important;
+    }
+}
+
+/* Screen Size 1366px  */
+
+@media screen and (min-width: 1361px) {
+    .header_logo {
+        padding-right: 30px !important;
+    }
+}
+
+
+/* Screen Size 1024px */
+
+@media screen and (max-width: 1360px) {
+    .logged_user {
+        display: none !important;
+    }
+}
+
+.m-content--skin-light {
+    .m-body {
+        background-color: #fff !important;
+    }
+}
+.mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+    display: none !important;
+}
+@media (max-width: 1199px) and (min-width: 1050px){
+    .m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step {
+    padding: 1rem 0 1rem 0 !important;
+    display: inline-block !important;
+    margin: 0px 20px !important;
+    }
+}

@@ -1,0 +1,4 @@
+city,zip,state,county,district,region
+City,Zip,State,County,District,Region
+string(191),string(191),string(191),string(191),string(191),string(191)
+Wilmington,19806,Delaware,New Castle 2,,

@@ -1,0 +1,26 @@
+/* Float Label */
+.floatLabelForm .field{
+    position: relative;
+}
+      
+.floatLabelForm .field label{
+    position: absolute;
+    z-index: 3;
+    left: 30px;
+    top: 17%;
+    overflow: hidden;
+}
+
+.floatLabelForm .desc label{left:2%; top: 15%;}
+
+.floatLabelForm input, .floatLabelForm select{
+    height: 35px !important;
+}
+
+.floatLabelForm .ui.checkbox input[type="checkbox"], .ui.checkbox input[type="radio"]{
+    left: 7% !important;
+}
+
+.floatLabelForm .ui.checkbox{
+    width: 100% !important;
+}

@@ -1,0 +1,4 @@
+name,code,holiday_date,description,type,paid_flag,eto_eligibility,county,state
+Holiday Name,Holiday Code,Holiday Date,Holiday Description,Holiday Type,,ETO Eligibility,County,State
+string(191),string(191),Date,string(191),string(191),boolean,boolean,string(191),string(191)
+Christmas,MLK19,12/25/2019,,Federal ,yes,yes,Sussex,DE

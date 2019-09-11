@@ -1,0 +1,46 @@
+#generateForm{
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.form-footer{
+    display: inline-block;
+    width: 100%;
+}
+.tableContainer{
+    overflow: hidden;
+    width: 100%;
+}
+.tableContainer table{
+    float: left;
+}
+table thead.fixedHeader{
+    display: table;
+    overflow: auto;
+    width: 100%
+}
+table thead.fixedHeader tr{
+    position: relative;
+}
+table tbody.scrollContent{
+    display: block;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+table tbody.scrollContent::-webkit-scrollbar{
+    width: 2px;
+}
+table tbody.scrollContent::-webkit-scrollbar-track{
+    width: 2px;
+}
+/* Handle */
+table tbody.scrollContent::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+table tbody.scrollContent::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

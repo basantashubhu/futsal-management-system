@@ -1,0 +1,16 @@
+.np-aggreement {
+    max-height: 300px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fbfbfb;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+/* NP Detail :: Rate Plans */
+.rate_plan_lists {
+	.m-accordion:not(:last-child) {
+		margin-bottom: 20px;
+	}
+}

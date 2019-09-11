@@ -1,0 +1,158 @@
+.std-modal {
+
+	&.modal-default {
+		/* Default Modal */
+		.modal-header {
+	        background-color: #36a3f7;
+			border-color: #36a3f7;
+
+			.modal-title {
+				color: #fff !important;
+			}
+
+			.close {
+				color: #fff !important;
+				margin: -0.4rem -1rem -1rem auto;
+			}
+		}
+
+	}
+
+
+	/* Danger Modal */
+	&.modal-danger {
+
+		.modal-header {
+			background-color: #f4516c;
+    		border-color: #f4516c;
+		}
+
+		.modal-title {
+			color: #fff !important;
+		}
+
+		.close {
+			color: #fff !important;
+			margin: -0.4rem -1rem -1rem auto;
+		}
+
+	}
+
+	.modal-body {
+
+		&.light-white {
+			background-color: #fbfbfb;
+		}
+
+		&.has-divider {
+			padding: 0;
+
+			.row {
+				margin: 0;
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+
+			.m-form__group{
+				padding-top: 15px;
+				padding-bottom: 0px;
+			}
+			.m-form__group:last-child{
+				margin-bottom: 15px;
+			}
+		}
+
+		.btn {
+			font-size: 12px;
+		}
+
+		background: #eee;
+      	padding: 10px auto;
+
+	}
+
+	.modal-footer {
+		background-color: #fff;
+    	border-color: #e4e4e4;
+
+    	.btn-secondary {
+
+			border-color: gainsboro;
+
+			&:hover {
+				border-color: #bfc5ca;
+			}
+
+    	}
+
+	}
+
+}
+
+
+/* .show-lookup {
+    display: none;
+    max-height: 231.75px;
+    overflow: hidden;
+    min-height: 0px;
+    position: absolute;
+    transform: translate3d(0px, 35px, 0px);
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    z-index: 2;
+    width: 100%;
+    box-shadow: 0px 0px 15px 1px rgba(69, 65, 78, 0.2);
+
+    li{
+        list-style-type: none;
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+    li:hover{
+        background-color: #f4f5f8;
+        cursor: pointer;
+    }
+} */
+
+.modal-custom-width{
+	max-width: 1200px;
+	margin: 1.73rem auto;
+}
+.modal-custom-lg-width{
+	max-width: 1300px;
+	margin: 1.73rem auto;
+}
+.modal-custom-medium-width{
+	max-width: 1000px;
+	margin: 1.73rem auto;
+}
+
+.modal-custom-800-width{
+	max-width: 800px;
+	margin: 1.73rem auto;
+}
+.modal-custom-600-width{
+	max-width: 600px;
+	margin: 1.73rem auto;
+}
+.modal-custom-small-width{
+	max-width: 700px;
+	margin: 1.73rem auto;
+}
+.labelPayment{
+	background-color: #ced6e0;
+	border: 1px solid #bdc7d2;
+    position: absolute;
+    top: 14px;
+    padding: 2px 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    max-width: 18%;
+}
+.left-labelPayment{
+    left: 40px;
+}
+.right-labelPayment{
+    right: 40px;
+}

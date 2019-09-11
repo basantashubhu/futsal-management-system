@@ -1,0 +1,52 @@
+@media screen and (max-width: 1500px){
+	.siteTd{
+		width: 160px;
+	}
+
+	.siteTd .select2-container{
+		width: 77% !important;
+	}
+
+	.timesheetItem--media{
+		max-width: 100px;
+	}
+
+	.templateTable tbody td:nth-child(3),
+	.templateTable tbody td:nth-child(4),
+	.templateTable tbody td:nth-child(5),
+	.templateTable tbody td:nth-child(6),
+	.allSitesTable tbody td:nth-child(7),
+	.allSitesTable tbody td:nth-child(8){
+		width: 90px !important;
+		min-width: 90px !important;
+	}
+
+
+}
+
+
+@media screen and (max-width: 1300px) {
+
+	.templateTable tbody td:nth-child(3),
+	.templateTable tbody td:nth-child(4),
+	.templateTable tbody td:nth-child(5),
+	.templateTable tbody td:nth-child(6),
+	.allSitesTable tbody td:nth-child(7),
+	.allSitesTable tbody td:nth-child(8){
+		width: 90px !important;
+		min-width: 90px !important;
+	}
+
+	.timesheetItem--media{
+		max-width: 100px;
+	}
+
+	.siteTd{
+		width: 160px;
+	}
+
+	.siteTd .select2-container{
+		width: 77% !important;
+	}
+
+}

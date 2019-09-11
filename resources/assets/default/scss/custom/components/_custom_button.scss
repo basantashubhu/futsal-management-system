@@ -1,0 +1,37 @@
+.btn-login{
+	color: #fff;
+    background-color: #008ab1 !important;
+    border-color: #008ab1 !important;
+}
+.btn-login:hover {
+    color: #fff;
+    background-color: #f7921e !important;
+    border-color: #f7921e !important;
+}
+.btn{
+    &#{-xs}{
+        line-height: 0.2;
+        font-size:11px !important;
+    }
+}
+.btn-login-outline-focus{
+    border-color:#008ab1 !important;
+    color: #717171 !important;
+}
+.btn-login-outline-focus:hover{
+    background-color: #f7921e !important;
+    border-color: #f7921e !important;
+}
+/**
+ * Badges
+ */
+body .m-badge {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    line-height: 15px;
+    min-height: 15px;
+}
+.btn.m-btn--air.btn-default.focus, .btn.m-btn--air.btn-default:focus, .btn.m-btn--air.btn-default:hover:not(:disabled):not(.active), .btn.m-btn--air.btn-secondary.focus, .btn.m-btn--air.btn-secondary:focus, .btn.m-btn--air.btn-secondary:hover:not(:disabled):not(.active){
+    background-color: #378dd8 !important;
+    border-color: #378dd8 !important;
+}

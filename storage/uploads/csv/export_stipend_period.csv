@@ -1,0 +1,4 @@
+pay_code,pay_period,budget_year,start_date,end_date
+Pay Code,Period Number,Fiscal Year,Start Date,End Date
+string(191),int(10),int(10),Date,Date
+118,1,2019,4/16/2019,4/30/2019

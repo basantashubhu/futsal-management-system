@@ -1,0 +1,607 @@
+ID,type,Breed,Country,Origin,Image
+1,DOG,Affenpinscher,"Germany, France","Germany, France",Affenpinscher.jpg
+2,DOG,Afghan Hound,Afghanistan,Afghanistan,Afghan Hound.jpg
+3,DOG,Afghan Shepherd,Afghanistan,Afghanistan,Afghan Shepherd.jpg
+4,DOG,Aidi,Morocco,Morocco,Aidi.jpg
+5,DOG,Airedale Terrier,United Kingdom(England),United Kingdom(England),Airedale Terrier.jpg
+6,DOG,Akbash,Turkey,Turkey,Turkish akbash.jpg
+7,DOG,Akita,Japan,Japan,Japaneseakita.jpg
+8,DOG,Alano Español,Spain,Spain,Alano-espanol-0003.jpg
+9,DOG,Alaskan husky,United States,United States,Idol swingley.jpg
+10,DOG,Alaskan Klee Kai,United States,United States,WOWAKK-Kukai-Alaskan-Klee-Kai.jpg
+11,DOG,Alaskan Malamute,United States,United States,Alaskanmalamute0b.jpg
+12,DOG,Alaunt,Albania,Albania,Jacopo del Sallaio.jpg
+13,DOG,Alopekis,Greece,Greece,Oropedia Anavras 1 (2) (Medium).jpg
+14,DOG,Alpine Dachsbracke,Austria,Austria,Alpejski go?czy krótkono?ny g99.jpg
+15,DOG,Alpine Mastiff,Switzerland,Switzerland,1815 Alpine Mastiff.jpg
+16,DOG,Alpine Spaniel,"Switzerland, Savoy","Switzerland, Savoy",Alpine spaniel.jpg
+17,DOG,American Akita,Japan/United States,Japan/United States,American akita.jpg
+18,DOG,American Bulldog,United States,United States,Saylor's Doc Holliday.jpg
+19,DOG,American Cocker Spaniel,United States,United States,American Cocker in Tallinn 2.JPG
+20,DOG,American English Coonhound,United States,United States,200px}
+21,DOG,American Eskimo Dog,Germany,Germany,American Eskimo Dog.jpg
+22,DOG,American Foxhound,United States,United States,AmericanFoxhound2.jpg
+23,DOG,American Hairless Terrier,United States,United States,TagnonPond9-6-03.jpg
+24,DOG,American Pit Bull Terrier,United States,United States,American Pit Bull Terrier - Seated.jpg
+25,DOG,American Staffordshire Terrier,United States,United States,"AMERICAN STAFFORDSHIRE TERRIER, Zican’s Bz Ez Dragon (24208348891).2.jpg"
+26,DOG,American Water Spaniel,United States,United States,Chien d'eau americain champion 1.JPG
+27,DOG,Anatolian Shepherd Dog,Turkey,Turkey,Anatolian 589.jpg
+28,DOG,Andalusian Hound,Spain,Spain,Podenco chico resized.jpg
+29,DOG,Anglo-Français de Petite Vénerie,France,France,Anglo-Français de petite vénerie.jpg
+30,DOG,Appenzeller Sennenhund,Switzerland,Switzerland,Appenzeller czer? 045.jpg
+31,DOG,Ariege Pointer,France,France,Pointer of Ariege from 1915.JPG
+32,DOG,Ariegeois,France,France,Go?czy 059.jpg
+33,DOG,Armant,Egypt,Egypt,"Armant dog, with some orange stuff and trees in background.jpg"
+34,DOG,Armenian Gampr dog,Armenia,Armenia,Gampr Hamlik Parsanyan 2.jpg
+35,DOG,Artois Hound,France,France,Artois from 1915.JPG
+36,DOG,Australian Cattle Dog,Australia,Australia,ACD-blue-spud.jpg
+37,DOG,Australian Kelpie,Australia,Australia,Hilu the Australian Kelpie dog.jpg
+38,DOG,Australian Shepherd,United States,United States,Redtriaussie01.jpg
+39,DOG,Australian Silky Terrier,Australia,Australia,"SILKY TERRIER, Paradise Passion Every Inch A Lady (24182688032).jpg"
+40,DOG,Australian Stumpy Tail Cattle Dog[10],Australia,Australia,Australian Stumpy Tail Cattle Dog.jpg
+41,DOG,Australian Terrier,Australia,Australia,Australian Terrier 002 U.jpg
+42,DOG,Austrian Black and Tan Hound,Austria,Austria,Brandlbracke.JPG
+43,DOG,Austrian Pinscher,Austria,Austria,Pinczer austiacki 678.jpg
+44,DOG,Azawakh,Mali,Mali,Goumsao De Nulle Part Ailleurs 2014.jpg
+45,DOG,Bakharwal Dog,India,India,
+46,DOG,Barbet,France,France,Chien de race Barbet.jpg
+47,DOG,Basenji,Democratic Republic of the Congo,Democratic Republic of the Congo,Basenji 600.jpg
+48,DOG,Basque Ratter,Spain,Spain,
+49,DOG,Basque Shepherd Dog,Spain,Spain,Pastor vasco m 14months loby 3018.jpg
+50,DOG,Basset Artésien Normand,France,France,"Grupp 6 BASSET ARTÉSIEN NORMAND, Skogvaktarens Queen Sally (24180074612).jpg"
+51,DOG,Basset Bleu de Gascogne,France,France,Basset bleu de Gascogne.jpg
+52,DOG,Basset Fauve de Bretagne,France,France,Basset Fauve de Bretagne 600.jpg
+53,DOG,"Basset Griffon Vendéen, Grand",France,France,G Basset Griffon Vendeen 600.jpg
+54,DOG,"Basset Griffon Vendéen, Petit",France,France,JillyCrufts-cropped2.JPG
+55,DOG,Basset Hound,France,France,"Basset, Tallinn 4.JPG"
+56,DOG,Bavarian Mountain Hound,Germany,Germany,Zoran Spod Ruskiej Granicy the Bavarian Mountain Hound.jpg
+57,DOG,Beagle,United Kingdom(England),United Kingdom(England),Beagle 600.jpg
+58,DOG,Beagle-Harrier,France,France,Beagle harrier.JPG
+59,DOG,Bearded Collie,United Kingdom(Scotland),United Kingdom(Scotland),Bearded Collie 600.jpg
+60,DOG,Beauceron,France,France,Owczarek francuski beauceron 009pl.jpg
+61,DOG,Bedlington Terrier,United Kingdom,United Kingdom,Bedlington Terriers.jpg
+62,DOG,Belgian Shepherd Dog (Groenendael),Belgium,Belgium,European Groenendael male.jpg
+63,DOG,Belgian Shepherd Dog (Laekenois),Belgium,Belgium,Fang-sitt-040728.jpg
+64,DOG,Belgian Shepherd Dog (Malinois),Belgium,Belgium,Malinois rybnik-kamien pl.jpg
+65,DOG,Belgian Shepherd Dog (Tervuren),Belgium,Belgium,Tervueren.jpg
+66,DOG,Bergamasco Shepherd,Italy,Italy,Ortensia di Valle Scrivia.jpg
+67,DOG,Berger Blanc Suisse,Switzerland,Switzerland,Sheba of White Starlight part.JPG
+68,DOG,Berger Picard,France,France,BergerPicard.jpg
+69,DOG,Bernese Mountain Dog,Switzerland,Switzerland,Berner sennhund.jpg
+70,DOG,Bichon Frisé,"Spain, Belgium","Spain, Belgium",Bichon Frisé - studdogbichon.jpg
+71,DOG,Billy,France,France,Poitou Hound from 1915.JPG
+72,DOG,Black and Tan Coonhound,United States,United States,Black and Tan Coonhound.jpg
+73,DOG,Black and Tan Virginia Foxhound,United States,United States,
+74,DOG,Black Norwegian Elkhound,Norway,Norway,BlackNorwegianElkhound.jpg
+75,DOG,Black Russian Terrier,Russia,Russia,Czarny terier rosyjski 64.jpg
+76,DOG,Black Mouth Cur,United States,United States,MurphysKassieBlackmouthAlabama2.jpg
+77,DOG,"Bleu de Gascogne, Grand",France,France,Grand Bleu de Gascogne in a blue dogcollar.jpg
+78,DOG,"Bleu de Gascogne, Petit",France,France,Ma?y go?czy gasko?ski Cita z Beckova Cb5.jpg
+79,DOG,Bloodhound,"Belgium, France","Belgium, France",Bloodhound 800.jpg
+80,DOG,Blue Heeler,Australia,Australia,Australian blue cattle dog 04.JPG
+81,DOG,Blue Lacy,United States,United States,BlueLacyPhoto1.jpg
+82,DOG,Blue Paul Terrier,United Kingdom(Scotland),United Kingdom(Scotland),
+83,DOG,Blue Picardy Spaniel,France,France,Epagneul bleu de picardie 868.jpg
+84,DOG,Bluetick Coonhound,United States,United States,BluetickCoonhound.jpg
+85,DOG,Boerboel,South Africa,South Africa,Boerboel.jpg
+86,DOG,Bohemian Shepherd,Czech Republic,Czech Republic,IRLUKA KROSANDRA (1).jpg
+87,DOG,Bolognese,Italy,Italy,Bolo?czyk 5e3.jpg
+88,DOG,Border Collie,"United Kingdom(Scotland, England, Wales)","United Kingdom(Scotland, England, Wales)",Border Collie 600.jpg
+89,DOG,Border Terrier,"United Kingdom(Scotland, England)","United Kingdom(Scotland, England)",Border Terrier.jpg
+90,DOG,Borzoi,Russia,Russia,Borzoi female.jpg
+91,DOG,Bosnian Coarse-haired Hound,Bosnia and Herzegovina,Bosnia and Herzegovina,
+92,DOG,Boston Terrier,United States,United States,BostonTerrierBrindleStand w.jpg
+93,DOG,Bouvier des Ardennes,Belgium,Belgium,Bouvier des Ardennes.JPG
+94,DOG,Bouvier des Flandres,Belgium,Belgium,Bouvier.JPG
+95,DOG,Boxer,Germany,Germany,Male fawn Boxer undocked.jpg
+96,DOG,Boykin Spaniel,United States,United States,Boykin spaniel.jpg
+97,DOG,Bracco Italiano,Italy,Italy,Giotto BI.jpg
+98,DOG,Braque d'Auvergne,France,France,Braque d Auvergne.jpg
+99,DOG,Braque du Bourbonnais,France,France,Braque du Bourbonnais.jpg
+100,DOG,Braque du Puy,France,France,Dupuy Pointer from 1915.JPG
+101,DOG,Braque Francais,France,France,Wy?e? pirenejski 308.jpg
+102,DOG,Braque Saint-Germain,France,France,Braque saint-germain 666.jpg
+103,DOG,Brazilian Dogo,Brazil,Brazil,Doguepelolongo.jpg
+104,DOG,Brazilian Terrier,Brazil,Brazil,Brazilian terrier.JPG
+105,DOG,Briard,France,France,Briard fauve.JPG
+106,DOG,Briquet Griffon Vendéen,France,France,Briquet Griffon Vendeen.jpg
+107,DOG,Brittany,France,France,Epagneul Breton.jpg
+108,DOG,Broholmer,Denmark,Denmark,Ivarr03.JPG
+109,DOG,Bruno Jura Hound,"Switzerland, France","Switzerland, France",09057110 Jura Laufhund.jpg
+110,DOG,Bucovina Shepherd Dog,Romania,Romania,Bucovina Sheepdog.jpg
+111,DOG,Bull and Terrier,United Kingdom,United Kingdom,Benjamin Marshall - Dustman - Bulldog and Terrier Mix.jpg
+112,DOG,Bull Terrier,United Kingdom(England),United Kingdom(England),Bull Terrier Chico 10.jpg
+113,DOG,Bull Terrier (Miniature),United Kingdom(England),United Kingdom(England),Bull terier i bull terier miniatura d46.jpg
+114,DOG,Bulldog,United Kingdom(England),United Kingdom(England),Racibórz 2007 082.jpg
+115,DOG,Bullenbeisser,Germany,Germany,Bullenbeiser.jpg
+116,DOG,Bullmastiff,United Kingdom(England),United Kingdom(England),Brutus bullmastiff.jpg
+117,DOG,Bully Kutta,"Pakistan, India","Pakistan, India",PakistaniMastiffPunjab.jpg
+118,DOG,Burgos Pointer,Spain,Spain,Burgos Pointer or Perdiguero de Burgos.JPG
+119,DOG,Cairn Terrier,United Kingdom(Scotland),United Kingdom(Scotland),Cairn Terrier - 002.jpg
+120,DOG,Canaan Dog,Middle EastLebanon - Israel,Middle EastLebanon - Israel,CanaanDog3.jpg
+121,DOG,Canadian Eskimo Dog,Canada,Canada,Spoonsced.jpg
+122,DOG,Cane Corso,Italy,Italy,Italian Corso Dog 2.JPG
+123,DOG,Cantabrian Water Dog,Spain,Spain,Kantauriar ur-txakurra1.jpg
+124,DOG,Cão da Serra de Aires,Portugal,Portugal,Cao de Serra de Aires600.jpg
+125,DOG,Cão de Castro Laboreiro,Portugal,Portugal,Cao de castro laboreiro.jpg
+126,DOG,Cão de Gado Transmontano,Portugal,Portugal,Transmontano Mastiff.jpg
+127,DOG,Cão Fila de São Miguel,Portugal,Portugal,Caofila.jpg
+128,DOG,Carolina Dog,United States,United States,American Dingo aka Carolina Dog1.jpg
+129,DOG,Carpathian Shepherd Dog,Romania,Romania,Carpatin.jpg
+130,DOG,Catahoula Leopard Dog,United States,United States,Louisiana Cataholula Leopard Dog - Coahoma Arkansas.JPG
+131,DOG,Catalan Sheepdog,Spain,Spain,Gos d'Atura Català.JPG
+132,DOG,Caucasian Shepherd Dog,"Georgia, Armenia, Azerbaijan","Georgia, Armenia, Azerbaijan",CaucasianOvcharka-Julius.jpg
+133,DOG,Cavalier King Charles Spaniel,United Kingdom(England),United Kingdom(England),Miss Betty.jpg
+134,DOG,Central Asian Shepherd Dog,Russia,Russia,Central Asian Shepherd.jpg
+135,DOG,Cesky Fousek,Czech Republic,Czech Republic,Czeski fousek 777.jpg
+136,DOG,Cesky Terrier,Czech Republic,Czech Republic,"Grupp 3, CESKYTERRIER, DK UCH NO JV-14 NO UCH NO V-15 NORD JV-14 NORD UCH SE UCH Sellandafjalls Teo (24310213205).jpg"
+137,DOG,Chesapeake Bay Retriever,United States,United States,CH Chesapeake.jpg
+138,DOG,Chien Français Blanc et Noir,France,France,Français noir et blanc.JPG
+139,DOG,Chien Français Blanc et Orange,France,France,
+140,DOG,Chien Français Tricolore,France,France,Chien2.JPG
+141,DOG,Chien-gris,France,France,Gris De Saint-Louis from 1915.JPG
+142,DOG,Chihuahua,Mexico,Mexico,Chihuahua1 bvdb.jpg
+143,DOG,Chilean Fox Terrier,Chile,Chile,Fox terrier chileno.JPG
+144,DOG,Chinese Chongqing Dog,China,China,"Sichuan-chongqing, han orientali, molosso, II sec, 02.JPG"
+145,DOG,Chinese Crested Dog,China,China,IndyStands.jpg
+146,DOG,Chinese Imperial Dog,China,China,Chinese Imperial Dog.jpg
+147,DOG,Chinook,United States,United States,Mountan Laurel Ajax the Chinook dog.jpg
+148,DOG,Chippiparai,India,India,A male chippiparai.jpg
+149,DOG,Chow Chow,China,China,ChowChow2Szczecin.jpg
+150,DOG,Cierny Sery,Slovakia,Slovakia,8s45heryprobaobraz 018.jpg
+151,DOG,Cirneco dell'Etna,Italy,Italy,Cirneco dell Etna 611.jpg
+152,DOG,Clumber Spaniel,United Kingdom(England),United Kingdom(England),Clumber spaniel 767.jpg
+153,DOG,"Collie, Rough",United Kingdom(Scotland),United Kingdom(Scotland),Rough Collie 600.jpg
+154,DOG,"Collie, Smooth",United Kingdom(Scotland),United Kingdom(Scotland),SmoothCollieTri2 wb.jpg
+155,DOG,Combai,India,India,Kombai dog.jpg
+156,DOG,Cordoba Fighting Dog,Argentina,Argentina,Cordoba profile.jpg
+157,DOG,Coton de Tulear,Madagascar,Madagascar,Coton de Tular 1.jpg
+158,DOG,Cretan Hound,Greece,Greece,Kritikosichnilatis 1.jpg
+159,DOG,Croatian Sheepdog,Croatia,Croatia,Gera062005sed.jpg
+160,DOG,Cumberland Sheepdog,United Kingdom(England),United Kingdom(England),
+161,DOG,Curly-Coated Retriever,United Kingdom(England),United Kingdom(England),Curly Coated Retriever.jpg
+162,DOG,Cursinu,Corsica (France),Corsica (France),Cursinu 1.jpg
+163,DOG,Czechoslovakian Wolfdog,Czechoslovakia,Czechoslovakia,TWH-jolly.JPG
+164,DOG,Dachshund,Germany,Germany,Short-haired-Dachshund.jpg
+165,DOG,Dalmatian,Croatia,Croatia,Dalmatian liver stacked.jpg
+166,DOG,Dandie Dinmont Terrier,United Kingdom(Scotland),United Kingdom(Scotland),Dandie Dinmont Terrier 600.jpg
+167,DOG,Danish-Swedish Farmdog,"Denmark, Sweden","Denmark, Sweden",Danish Swedish Farmdog.jpg
+168,DOG,Deutsche Bracke,Germany,Germany,DeutscheBracke.jpg
+169,DOG,Doberman Pinscher,Germany,Germany,European Dobermann.jpg
+170,DOG,Dogo Argentino,Argentina,Argentina,Dogo.jpg
+171,DOG,Dogo Cubano,Cuba,Cuba,DogoCubano2.jpg
+172,DOG,Dogue de Bordeaux,France,France,French Mastiff aka Dogue de Bordeaux 2.JPG
+173,DOG,Drentse Patrijshond,Netherlands,Netherlands,Drentse Patrijshond.jpg
+174,DOG,Drever,Sweden,Sweden,Drever NUCh Tanjo.jpg
+175,DOG,Dunker,Norway,Norway,Dunker.jpg
+176,DOG,Dutch Shepherd,Netherlands,Netherlands,Long-haired Dutch Shepherd 2.JPG
+177,DOG,Dutch Smoushond,Netherlands,Netherlands,Hollandse Smoushond Amsterdam cropped.jpg
+178,DOG,East Siberian Laika,Russia,Russia,East Siberian Laika.jpg
+179,DOG,East European Shepherd,Russia,Russia,Owczarek wschodnioeuropejski MB 01.jpg
+180,DOG,Elo,Germany,Germany,Elo.jpg
+181,DOG,English Cocker Spaniel,United Kingdom(England),United Kingdom(England),English Cocker Spaniel in Tallinn.JPG
+182,DOG,English Foxhound,United Kingdom(England),United Kingdom(England),English Foxhound portrait.jpg
+183,DOG,English Mastiff,United Kingdom(England),United Kingdom(England),EnglishMastiffChurchill.JPG
+184,DOG,English Setter,United Kingdom(England),United Kingdom(England),EnglishSetter9 fx wb.jpg
+185,DOG,English Shepherd,United Kingdom(England),United Kingdom(England),TricolorEnglishShepherdDog.jpg
+186,DOG,English Springer Spaniel,United Kingdom(England),United Kingdom(England),English-Springer-Spaniel show.jpg
+187,DOG,English Toy Terrier (Black & Tan),United Kingdom(England),United Kingdom(England),English Toy Terrier 600 01.jpg
+188,DOG,English Water Spaniel,United Kingdom,United Kingdom,English Water Spaniel.jpg
+189,DOG,English White Terrier,United Kingdom,United Kingdom,Old English White Terrier.jpg
+190,DOG,Entlebucher Mountain Dog,Switzerland,Switzerland,Elio v Schaerlig im Juni 2007 klein.jpg
+191,DOG,Estonian Hound,Estonia,Estonia,Go?czy esto?ski MB 01.jpg
+192,DOG,Estrela Mountain Dog,Portugal,Portugal,Estrela Mountain Dog 6 month old male.jpg
+193,DOG,Eurasier,Germany,Germany,Eurasier Image 001.jpg
+194,DOG,Eurohound,Scandinavia,Scandinavia,Eurohound.jpg
+195,DOG,Field Spaniel,United Kingdom(England),United Kingdom(England),Field spaniel 581.jpg
+196,DOG,Fila Brasileiro,Brazil,Brazil,Yacare De El Siledin.JPG
+197,DOG,Finnish Hound,Finland,Finland,Nuori-suomenajokoira.jpg
+198,DOG,Finnish Lapphund,Finland,Finland,Finnish Lapphund Glenchess Revontuli.jpg
+199,DOG,Finnish Spitz,Finland,Finland,Finnish Spitz 600.jpg
+200,DOG,Flat-Coated Retriever,United Kingdom,United Kingdom,Flat Coated Retriever - black.jpg
+201,DOG,Fox Terrier (Smooth),United Kingdom(England),United Kingdom(England),Patrick the Smooth Fox Terrier.jpg
+202,DOG,"Fox Terrier, Wire",United Kingdom(England),United Kingdom(England),Elias1?erven2006.jpg
+203,DOG,French Brittany,France,France,Timba arret.jpg
+204,DOG,French Bulldog,"United Kingdom(England), France","United Kingdom(England), France",Fantasme de la parure.jpg
+205,DOG,French Spaniel,France,France,04031137 Epagneul Francais.jpg
+206,DOG,Gaddi Dog,India,India,
+207,DOG,Galgo Español,Spain,Spain,Galgo espagnol Hembra.jpg
+208,DOG,Galician Cattle Dog,Spain,Spain,Palleiro1.JPG
+209,DOG,Garafian Shepherd,Spain,Spain,Garafiano2.jpg
+210,DOG,Gascon Saintongeois,France,France,Virelade from 1915.JPG
+211,DOG,Georgian Shepherd Dog,Georgia,Georgia,Georgia Shepherd.jpg
+212,DOG,German Longhaired Pointer,Germany,Germany,DeutschLanghaarneu.jpg
+213,DOG,German Pinscher,Germany,Germany,German Pinscher.JPG
+214,DOG,German Roughhaired Pointer,Germany,Germany,03030288 Deutsch Stichelhaa.jpg
+215,DOG,German Shepherd Dog,Germany,Germany,Berger allemand en montagne.jpg
+216,DOG,German Shorthaired Pointer,Germany,Germany,Duitse staande korthaar 10-10-2.jpg
+217,DOG,German Spaniel,Germany,Germany,Deutscher Wachtel 2.jpg
+218,DOG,German Spitz,Germany,Germany,Un chien Spitz allemand.jpg
+219,DOG,German Wirehaired Pointer,Germany,Germany,GermanWirehrPtr1 wb.jpg
+220,DOG,Giant Schnauzer,Germany,Germany,GiantSchnauzer.jpg
+221,DOG,Glen of Imaal Terrier,Ireland,Ireland,Wheaten glen of imaal.jpg
+222,DOG,Golden Retriever,United Kingdom(Scotland),United Kingdom(Scotland),Golden Retriever standing Tucker.jpg
+223,DOG,Gordon Setter,United Kingdom(Scotland),United Kingdom(Scotland),"BIR Grupp 7- GORDONSETTER, Sansetters Roover (24234227995).jpg"
+224,DOG,Gran Mastín de Borínquen,Puerto Rico,Puerto Rico,
+225,DOG,Grand Anglo-Français Blanc et Noir,France,France,Grand anglo francais noir.jpg
+226,DOG,Grand Anglo-Français Blanc et Orange,France,France,06101298 Grand anglo francais orange.jpg
+227,DOG,Grand Anglo-Français Tricolore,France,France,Grand anglo francais tricol.jpg
+228,DOG,Grand Griffon Vendéen,France,France,Grand griffon vendéen aka Large Vendéen Griffon 3.JPG
+229,DOG,Great Dane,Germany,Germany,Dog niemiecki R 01.jpg
+230,DOG,Great Pyrenees,"France, Spain","France, Spain",Pyreneittenkoira.jpg
+231,DOG,Greater Swiss Mountain Dog,Switzerland,Switzerland,Gross1.jpg
+232,DOG,Greek Harehound,Greece,Greece,Hellinikos Ichnilatis.jpg
+233,DOG,Greenland Dog,Greenland,Greenland,Greenland Dog.jpg
+234,DOG,Greyhound,"United Kingdom, Middle East","United Kingdom, Middle East",GraceTheGreyhound.jpg
+235,DOG,Griffon Bleu de Gascogne,France,France,04031124 Griffon Bleu de Gascogne.jpg
+236,DOG,Griffon Bruxellois,Belgium,Belgium,Brussels Griffon Rembrant.png
+237,DOG,Griffon Fauve de Bretagne,France,France,08115500 Griffon Fauve Bretagne.jpg
+238,DOG,Griffon Nivernais,France,France,Griffon nivernais.jpg
+239,DOG,Guatemalan Dogo,Guatemala,Guatemala,Dogo1.jpg
+240,DOG,Hamiltonstövare,Sweden,Sweden,Hamiltonstovare 600.jpg
+241,DOG,Hanover Hound,Germany,Germany,Hannoverscher Schweisshund.jpg
+242,DOG,Hare Indian Dog,"Canada, United States","Canada, United States",Hareindiandog.jpg
+243,DOG,Harrier,United Kingdom,United Kingdom,Harrier tricolour.jpg
+244,DOG,Havanese,Cuba,Cuba,Havanese cd1.jpg
+245,DOG,Hawaiian Poi Dog,United States,United States,"Hawaiian natives wearing kihei, with animals, sketch by Louis Choris (crop, central dog).jpg"
+246,DOG,Himalayan Sheepdog,Nepal,Nepal,Jackie Himalayan Shephard.jpg
+247,DOG,Hokkaido,Japan,Japan,Hokkaidou inu.jpg
+248,DOG,Hortaya Borzaya,"Ukraine, Southern Russia, Belarus","Ukraine, Southern Russia, Belarus",Hortaya Borzaya.jpg
+249,DOG,Hovawart,Germany,Germany,Hovawart black and tan.jpg
+250,DOG,Huntaway,New Zealand,New Zealand,Huntaway.JPG
+251,DOG,Hygenhund,Norway,Norway,Norwegian Hygenhound.jpg
+252,DOG,Ibizan Hound,Spain,Spain,Podenco z ibizy 645.jpg
+253,DOG,Icelandic Sheepdog,Iceland,Iceland,Ulfur.jpg
+254,DOG,Indian pariah dog,India,India,The Indian Pariah Dog.jpg
+255,DOG,Indian Spitz,India,India,Greater indian spitz.jpg
+256,DOG,Irish Red and White Setter,Ireland,Ireland,Irish Red And White Setter 2005.jpg
+257,DOG,Irish Setter,Ireland,Ireland,Can Setter dog GFDL.jpg
+258,DOG,Irish Terrier,Ireland,Ireland,Irish-terrier.jpg
+259,DOG,Irish Water Spaniel,Ireland,Ireland,Irlandzki spaniel wodny 676.jpg
+260,DOG,Irish Wolfhound,Ireland,Ireland,Irish Wolfhound Sam.jpg
+261,DOG,Istrian Coarse-haired Hound,Croatia,Croatia,Istrian Coarse-haired Hound.jpg
+262,DOG,Istrian Shorthaired Hound,Croatia,Croatia,Istrische Bracke.jpg
+263,DOG,Italian Greyhound,Italy,Italy,Italian Greyhound standing gray.jpg
+264,DOG,Jack Russell Terrier,United Kingdom(England),United Kingdom(England),Jrt02.jpg
+265,DOG,Jagdterrier,Germany,Germany,Jagdterrier.jpg
+266,DOG,Jämthund,Sweden,Sweden,Jämthund.jpg
+267,DOG,Japanese Chin,Japan,Japan,Czin japo?ski 554.jpg
+268,DOG,Japanese Spitz,Japan,Japan,JapaneseSpitzPhoto1 - hiro.jpg
+269,DOG,Japanese Terrier,Japan,Japan,Japanese Terrier 22.04.2012 2pl.jpg
+270,DOG,Kaikadi,India,India,
+271,DOG,Kai Ken,Japan,Japan,Image of Kai (dog).jpg
+272,DOG,Kangal Dog,Turkey,Turkey,Varish.jpg
+273,DOG,Kanni,India,India,Kanni.png
+274,DOG,Karakachan Dog,Bulgaria,Bulgaria,Karakatschan.jpg
+275,DOG,Karelian Bear Dog,Finland,Finland,Karelski pies na nied?wiedzie 123.jpg
+276,DOG,Karst Shepherd,Slovenia,Slovenia,Owczarek kraski 654.jpg
+277,DOG,Keeshond,"Netherlands, Germany","Netherlands, Germany",Keeshond Majic standing cropped.jpg
+278,DOG,Kerry Beagle,Ireland,Ireland,Kerry Beagle.jpg
+279,DOG,Kerry Blue Terrier,Ireland,Ireland,Kerry blue terier 545.jpg
+280,DOG,King Charles Spaniel,United Kingdom(England),United Kingdom(England),Three King Charles Spaniels.jpg
+281,DOG,King Shepherd,United States,United States,SabreKingShepherd.JPG
+282,DOG,Kintamani,Indonesia,Indonesia,Kintamani dog black.jpg
+283,DOG,Kishu Ken,Japan,Japan,Kishu.jpg
+284,DOG,Komondor,Hungary,Hungary,Komondor delvin.jpg
+285,DOG,Kooikerhondje,Netherlands,Netherlands,Kooiker03.jpg
+286,DOG,Koolie,Australia,Australia,Pete may01 web.JPG
+287,DOG,Korean Jindo,Korea (South),Korea (South),Korea Jindo Dog 2.jpg
+288,DOG,Kromfohrländer,Germany,Germany,Kromfohrlaender glatt.jpg
+289,DOG,Kumaon Mastiff,India,India,
+290,DOG,Kunming Wolfdog,China,China,Kunming Dog.jpg
+291,DOG,Kur?,New Zealand,New Zealand,ChiefsWithKuri1828.jpg
+292,DOG,Kuvasz,Hungary,Hungary,Kuvasz Prince Juninho Poster.jpg
+293,DOG,Kyi-Leo,United States,United States,KyiLeoGus.jpg
+294,DOG,Labrador Husky,Canada,Canada,Labrador huskies.JPG
+295,DOG,Labrador Retriever,"Canada, United Kingdom(England)","Canada, United Kingdom(England)",YellowLabradorLooking new.jpg
+296,DOG,Lagotto Romagnolo,Italy,Italy,Lagotto Romagnolo.jpg
+297,DOG,Lakeland Terrier,United Kingdom(England),United Kingdom(England),Lakeland Terrier.jpg
+298,DOG,Lancashire Heeler,United Kingdom(England),United Kingdom(England),Lancashire Heeler 600.jpg
+299,DOG,Landseer,Canada,Canada,Landseer.jpg
+300,DOG,Lapponian Herder,Finland,Finland,Lapskvallhund.jpg
+301,DOG,Leonberger,Germany,Germany,Leonberg-Male-Adulte-Ursus.jpg
+302,DOG,Lhasa Apso,Tibet,Tibet,Aishia.jpg
+303,DOG,Lithuanian Hound,Lithuania,Lithuania,
+304,DOG,Löwchen,"Germany, France, Netherlands, Spain","Germany, France, Netherlands, Spain",Lowchen.jpg
+305,DOG,Mackenzie River Husky,Canada and Alaska,Canada and Alaska,MackenzieRiverHusky.jpg
+306,DOG,Magyar agár,"Hungary, Transylvania","Hungary, Transylvania",Magyar agár male.jpg
+307,DOG,Mahratta Greyhound,India,India,
+308,DOG,Majorca Ratter,Spain,Spain,Ratero mallorquin.JPG
+309,DOG,Majorca Shepherd Dog,Spain,Spain,Ca de bestiar.jpg
+310,DOG,Maltese,Italy,Italy,Maltese 600.jpg
+311,DOG,Manchester Terrier,United Kingdom(England),United Kingdom(England),Mancherster Terrier.jpg
+312,DOG,Maremma Sheepdog,Italy,Italy,Cane Pastore Abruzzese Abruzzo.jpg
+313,DOG,McNab,United States,United States,McNab (dog).jpg
+314,DOG,Mexican Hairless Dog,Mexico,Mexico,Mexico.Xoloitzcuintle.01.jpg
+315,DOG,Miniature Australian Shepherd,United States,United States,Miniature Australian Shepherd red tricolour.jpg
+316,DOG,Miniature American Shepherd,United States,United States,Blue Merle Miniature American Shepherd in Grass.jpg
+317,DOG,Miniature Fox Terrier,Australia,Australia,Miniature Fox Terrier.jpg
+318,DOG,Miniature Pinscher,Germany,Germany,Miniature pinscher.jpg
+319,DOG,Miniature Schnauzer,Germany,Germany,Miniature Schnauzer 02.jpg
+320,DOG,Miniature Shar Pei,China,China,XBlack.JPG
+321,DOG,Mioritic,Romania,Romania,Mioritic.jpg
+322,DOG,Molossus,Greece,Greece,"Molossian Hound, British Museum.jpg"
+323,DOG,Molossus of Epirus,Greece,Greece,
+324,DOG,Montenegrin Mountain Hound,Montenegro,Montenegro,Montenegrin Mountain Hound.jpg
+325,DOG,Moscow Watchdog,Russia,Russia,Moscowwatchdog.jpg
+326,DOG,Moscow Water Dog,Russia,Russia,
+327,DOG,Mountain Cur,United States,United States,MountainCur.jpg
+328,DOG,Mucuchies,Venezuela,Venezuela,Mucuchies natural habitat.jpg
+329,DOG,Mudhol Hound,India,India,Caravan hound Closeupfire.jpg
+330,DOG,Mudi,Hungary,Hungary,Hondenras Mudi.jpg
+331,DOG,"Münsterländer, Large",Germany,Germany,GrosserMuensterlaender.jpg
+332,DOG,"Münsterländer, Small",Germany,Germany,Kleiner Munsterlander edit.jpg
+333,DOG,Neapolitan Mastiff,Italy,Italy,Mastino Napoletano Rüde clp.JPG
+334,DOG,Newfoundland,Canada,Canada,Bearb josh04 07.JPG
+335,DOG,New Zealand Heading Dog,New Zealand,New Zealand,New Zealand heading dogs head.jpg
+336,DOG,Norfolk Spaniel,United Kingdom,United Kingdom,Dash-II-Norfolk-Spaniel.jpg
+337,DOG,Norfolk Terrier,United Kingdom,United Kingdom,Norfolk terrier CAC.jpg
+338,DOG,Norrbottenspets,Sweden,Sweden,Nordic Spitz.jpg
+339,DOG,North Country Beagle,United Kingdom,United Kingdom,
+340,DOG,Northern Inuit Dog,United Kingdom(England),United Kingdom(England),Northern Inuit Dog.jpg
+341,DOG,Norwegian Buhund,Norway,Norway,Norwegian Buhund 600.jpg
+342,DOG,Norwegian Elkhound,Norway,Norway,Norwegian Elkhound.jpg
+343,DOG,Norwegian Lundehund,Norway,Norway,Lundehund-2003.jpg
+344,DOG,Norwich Terrier,United Kingdom,United Kingdom,Norwichterrier.jpg
+345,DOG,Nova Scotia Duck Tolling Retriever,Canada,Canada,Tollers.jpg
+346,DOG,Old Croatian Sighthound,Croatia,Croatia,
+347,DOG,Old Danish Pointer,Denmark,Denmark,Wy?e? du?ski 123.jpg
+348,DOG,Old English Sheepdog,United Kingdom(England),United Kingdom(England),Old english sheepdog Ch Bobbyclown's Dare for More.jpg
+349,DOG,Old English Terrier,United Kingdom(England),United Kingdom(England),Old english terrier 041.jpg
+350,DOG,Old German Shepherd Dog,Germany,Germany,Altdeutscher Schaeferhund cropped.jpg
+351,DOG,Old Time Farm Shepherd,United States,United States,Sable and White Female OTFS Dog.JPG
+352,DOG,Olde English Bulldogge,United States,United States,UKC Olde English Bulldogge Male.jpg
+353,DOG,Otterhound,United Kingdom(England),United Kingdom(England),Two otterhounds.jpg
+354,DOG,Pachon Navarro,Spain,Spain,
+355,DOG,Pandikona Hunting Dog,India,India,Pandikona.jpg
+356,DOG,Paisley Terrier,United Kingdom(Scotland),United Kingdom(Scotland),Paisley1903.jpg
+357,DOG,Papillon,"Spain, Belgium, France","Spain, Belgium, France",RileyPapillon.JPG
+358,DOG,Parson Russell Terrier,United Kingdom(England),United Kingdom(England),05052881 PRT braun rau.jpg
+359,DOG,Patterdale Terrier,United Kingdom(England),United Kingdom(England),Nuttall-bred-patterdale-287612791962623GtT.jpg
+360,DOG,Pekingese,China,China,"PEKINGESE, C.I.B. CZ CH DK JV-12 HR CH NO UCH NORD JV-12 SE UCH El’Mambee’s Save My Love (24208350441).jpg"
+361,DOG,Perro de Presa Canario,Spain,Spain,Dogo Canario.jpg
+362,DOG,Perro de Presa Mallorquin,Spain,Spain,Ca de bou dog.jpg
+363,DOG,Peruvian Hairless Dog,Peru,Peru,PHDStandardStanding - Perro Sin Pelo del Perú.jpg
+364,DOG,Phalène,"Belgium, Spain","Belgium, Spain",Spaniel miniaturowy kontynentalny phalene 00.jpg
+365,DOG,Pharaoh Hound,Malta,Malta,Pies faraona e34.jpg
+366,DOG,Phu Quoc Ridgeback,Vietnam,Vietnam,Phu Quoc dog.jpg
+367,DOG,Picardy Spaniel,France,France,Epagneul picard 685.jpg
+368,DOG,Plummer Terrier,United Kingdom,United Kingdom,PlummerTerrier.jpg
+369,DOG,Plott Hound,United States,United States,Plott Hound at a show.jpg
+370,DOG,Podenco Canario,Spain,Spain,Podenco canario hembra.jpg
+371,DOG,Pointer,United Kingdom(England),United Kingdom(England),English pointer.jpg
+372,DOG,Poitevin,France,France,Poitevin-01.jpg
+373,DOG,Polish Greyhound,Poland,Poland,Chart polski 67u7.jpg
+374,DOG,Polish Hound,Poland,Poland,PolishHound-MlChPl-OKSANA-ZOstregoBoru-wl.JoannaZembrzuska 3.JPG
+375,DOG,Polish Hunting Dog,Poland,Poland,"PolishScenthound-""NUTKA Klusujaca Sfora wl A.Balcerzak.jpg"
+376,DOG,Polish Lowland Sheepdog,Poland,Poland,Polski owczarek nizinny rybnik-kamien pl.jpg
+377,DOG,Polish Tatra Sheepdog,Poland,Poland,Polski Owczarek Podhalanski.jpg
+378,DOG,Pomeranian,"Germany, Poland","Germany, Poland",Pomeranian 600.jpg
+379,DOG,Pont-Audemer Spaniel,France,France,04031158 Epagneul Pont Audemer.jpg
+380,DOG,Poodle,"Germany, France","Germany, France",Silver Miniature Poodle stacked.jpg
+381,DOG,Porcelaine,France,France,Porcelaine.jpg
+382,DOG,Portuguese Podengo,Portugal,Portugal,Evitarocks.jpg
+383,DOG,Portuguese Pointer,Portugal,Portugal,Wy?e? portugalski 123.jpg
+384,DOG,Portuguese Water Dog,Portugal,Portugal,Cão de agua Português 2.jpg
+385,DOG,Posavac Hound,Croatia,Croatia,Posavski Goni? aka Posavac Hound 2.JPG
+386,DOG,Pražský Krysa?ík,Czech Republic,Czech Republic,Prazsky krysarik 1.jpg
+387,DOG,Pudelpointer,Germany,Germany,Pudelpointer on point.jpg
+388,DOG,Pug,China,China,Fawn pug 2.5year-old.JPG
+389,DOG,Puli,Hungary,Hungary,PuliBlack wb.jpg
+390,DOG,Pumi,Hungary,Hungary,Pumi 2.jpg
+391,DOG,Pungsan Dog,Korea (North),Korea (North),Poongsandogs.JPG
+392,DOG,Pyrenean Mastiff,Spain,Spain,MasPiri-Puma-FIN.jpg
+393,DOG,Pyrenean Shepherd,France,France,PyreneanShepSmooth wb.jpg
+394,DOG,Rafeiro do Alentejo,Portugal,Portugal,Rafeiro male.jpg
+395,DOG,Rajapalayam,India,India,Rajapalayamcute.jpg
+396,DOG,Rampur Greyhound,India,India,Rampurgreyhound.jpg
+397,DOG,Rastreador Brasileiro,Brazil,Brazil,
+398,DOG,Ratonero Bodeguero Andaluz,Spain,Spain,Ratonero Bodeguero Andaluz.jpg
+399,DOG,Ratonero Murciano de Huerta,Spain,Spain,
+400,DOG,Ratonero Valenciano,Spain,Spain,Ratonero valenciano hell.jpg
+401,DOG,Rat Terrier,United States,United States,AmRatTerr2 wb.jpg
+402,DOG,Redbone Coonhound,United States,United States,Memphis the Redbone Coonhound (7 Nov 2004).jpg
+403,DOG,Rhodesian Ridgeback,Zimbabwe,Zimbabwe,Rhodesian Ridgeback 600.jpg
+404,DOG,Rottweiler,Germany,Germany,Rottweiler.jpg
+405,DOG,Russian Spaniel,Russia,Russia,Russpaniel.jpg
+406,DOG,Russian Toy,Russia,Russia,RusskiyToyWelpe.jpg
+407,DOG,Russian Tracker,Russia,Russia,Russian Yellow Retriever from 1915.jpg
+408,DOG,Russo-European Laika,Russia,Russia,East Siberian Laika in Riga.JPG
+409,DOG,Russell Terrier,United Kingdom(England),United Kingdom(England),FCI JRT.jpg
+410,DOG,Saarloos Wolfdog,"Netherlands, Germany","Netherlands, Germany",Oishani Othari van Koekie's Ranch.jpg
+411,DOG,Sabueso Español,Spain,Spain,Angoi de A Fonsagrada.JPG
+412,DOG,Sabueso fino Colombiano,Colombia,Colombia,Colombianus Finus.jpg
+413,DOG,Saint-Usuge Spaniel,France,France,EpagneuldeSaintUsuge.jpg
+414,DOG,Sakhalin Husky,Japan,Japan,
+415,DOG,Saluki,Fertile Crescent,Fertile Crescent,Saluki dog breed.jpg
+416,DOG,Samoyed,Russia,Russia,Samoyed 600.jpg
+417,DOG,Sapsali,Korea,Korea,Korea-Jeonju-Sapsal dog in front of a Hanok Village-01.jpg
+418,DOG,Šarplaninac,"Serbia, Macedonia","Serbia, Macedonia",????????????? ?? ??.????? ????????.jpg
+419,DOG,Schapendoes,Netherlands,Netherlands,Nederlandse-schapendoes-02.jpg
+420,DOG,Schillerstövare,Sweden,Sweden,Schillerstövare bearbeitet.jpg
+421,DOG,Schipperke,Belgium,Belgium,Schipperke gismo 12.jpg
+422,DOG,Standard Schnauzer,Germany,Germany,Emppumenossa.jpg
+423,DOG,Schweizer Laufhund,Switzerland,Switzerland,Swiss Hound.jpg
+424,DOG,Schweizerischer Niederlaufhund,Switzerland,Switzerland,08115491 Schwyzer Niederlaufhund.jpg
+425,DOG,Scotch Collie,United Kingdom(Scotland),United Kingdom(Scotland),Smooth Collie 600.jpg
+426,DOG,Scottish Deerhound,United Kingdom(Scotland),United Kingdom(Scotland),Deerhound. F's K.jpg
+427,DOG,Scottish Terrier,United Kingdom(Scotland),United Kingdom(Scotland),Scottish Terrier Photo of Face.jpg
+428,DOG,Sealyham Terrier,United Kingdom(Wales),United Kingdom(Wales),SealyhamTerrier2.jpg
+429,DOG,Segugio Italiano,Italy,Italy,Segugio italiano a pelo raso aka Short-haired Italian Hound.JPG
+430,DOG,Seppala Siberian Sleddog,Canada,Canada,Seppala Siberian Sleddog.jpg
+431,DOG,Serbian Hound,Serbia,Serbia,Serbian Hound Face.JPG
+432,DOG,Serbian Tricolour Hound,Serbia,Serbia,Srpski Trobojni Gonic.gif
+433,DOG,Seskar Seal Dog,Finland,Finland,Seiskarinkoira Seiskari dog.jpg
+434,DOG,Shar Pei,China,China,"BIR Grupp 2-SHAR PEI, Sharpuggles Moulin Rouge (23605985414).jpg"
+435,DOG,Shetland Sheepdog,United Kingdom(Scotland),United Kingdom(Scotland),Shetland Sheepdog 600.jpg
+436,DOG,Shiba Inu,Japan,Japan,Taka Shiba.jpg
+437,DOG,Shih Tzu,China,China,Shih-Tzu.JPG
+438,DOG,Shikoku,Japan,Japan,Shikokuken.jpg
+439,DOG,Shiloh Shepherd,United States,United States,Plushcoatshilohshepherd.jpg
+440,DOG,Siberian Husky,Russia,Russia,Siberian-husky.jpg
+441,DOG,Silken Windhound,United States,United States,Fallon the Silken Windhound.jpg
+442,DOG,Sinhala Hound,Sri Lanka,Sri Lanka,
+443,DOG,Skye Terrier,United Kingdom(Scotland),United Kingdom(Scotland),Skye terrier 800.jpg
+444,DOG,Sloughi,Morocco,Morocco,Sloughi sandcolor.jpg
+445,DOG,Slovak Cuvac,Slovakia,Slovakia,Cuvac 1.jpg
+446,DOG,Slovakian Rough-haired Pointer,Slovakia,Slovakia,ICh Brita z Ruzenice.jpg
+447,DOG,Slovenský Kopov,Slovakia,Slovakia,MVP Nitra 2004 (8).jpg
+448,DOG,Smålandsstövare,Sweden,Sweden,Smaland-Stövare.jpg
+449,DOG,Small Greek Domestic Dog,Greece,Greece,SmallGreekDomesticDog.jpg
+450,DOG,Soft-Coated Wheaten Terrier,Ireland,Ireland,Dog2wheaten.jpg
+451,DOG,South Russian Ovcharka,Russia,Russia,South Russian Ovcharka.jpg
+452,DOG,Southern Hound,United Kingdom,United Kingdom,Southern Hound.jpg
+453,DOG,Spanish Mastiff,Spain,Spain,Mastif hiszpanski pl.jpg
+454,DOG,Spanish Water Dog,Spain,Spain,Perro agua.jpg
+455,DOG,Spinone Italiano,Italy,Italy,Spinone italiano Oliver.jpg
+456,DOG,Sporting Lucas Terrier,United Kingdom(England),United Kingdom(England),LucasTerrier.jpg
+457,DOG,St. Bernard,"Italy, Switzerland","Italy, Switzerland",Stbernardinsnow.jpg
+458,DOG,St. John's water dog,"Newfoundland, Canada","Newfoundland, Canada",St Johns dog.jpg
+459,DOG,Stabyhoun,Netherlands,Netherlands,AStabijs - world dog show 2010.jpg
+460,DOG,Staffordshire Bull Terrier,United Kingdom(England),United Kingdom(England),Staffordshire Bull Terrier 600.jpg
+461,DOG,Stephens Cur,United States,United States,Stephens Cur.jpg
+462,DOG,Styrian Coarse-haired Hound,Austria,Austria,Steirische Rauhhaarbracke.jpg
+463,DOG,Sussex Spaniel,United Kingdom(England),United Kingdom(England),Sussex spaniel t43.jpg
+464,DOG,Swedish Lapphund,Sweden,Sweden,Svensk lapphund.JPG
+465,DOG,Swedish Vallhund,Sweden,Sweden,"BIR Grupp 5- VÄSTGÖTASPETS, Skogsbygdens Nora Supernova (24234228695).jpg"
+466,DOG,Tahltan Bear Dog,Canada,Canada,Tahltan Bear Dog sketch2.jpg
+467,DOG,Taigan,Kyrgyzstan,Kyrgyzstan,Taigan.jpg
+468,DOG,Taiwan Dog,Taiwan,Taiwan,Formosan nina.jpg
+469,DOG,Talbot,"United Kingdom, Belgium, France","United Kingdom, Belgium, France",Cartercrest.jpg
+470,DOG,Tamaskan Dog,Finland,Finland,Tamaskan.jpg
+471,DOG,Teddy Roosevelt Terrier,United States,United States,Teddyterrier.jpg
+472,DOG,Telomian,Malaysia,Malaysia,Telomian.jpg
+473,DOG,Tenterfield Terrier,Australia,Australia,Rosie the Champion Tenterfield Terrier.jpg
+474,DOG,Terceira Mastiff,Portugal,Portugal,Fila de Terceira.jpg
+475,DOG,Thai Bangkaew Dog,Thailand,Thailand,
+476,DOG,Thai Ridgeback,Thailand,Thailand,Thai-Ridgeback.jpg
+477,DOG,Tibetan Mastiff,Tibet,Tibet,Tibetan Mastiff-10-GCH-Comancheria's Ciye Chiricahua Cochise (16558783846).jpg
+478,DOG,Tibetan Spaniel,Tibet,Tibet,Tibetansk spaniel.jpg
+479,DOG,Tibetan Terrier,Tibet,Tibet,"TIBETANSK TERRIER, C.I.B. DK V-12 JWW-12 NORD UCH NORD V-12 Kuai Le Gou’s Smash Hit (24182687372).jpg"
+480,DOG,Tornjak,"Bosnia and Herzegovina, Croatia","Bosnia and Herzegovina, Croatia",Bosnian and Herzegovinian - Croatian Shepherd Dog aka Tornjak.jpg
+481,DOG,Tosa,Japan,Japan,BUKADAI 2.jpg
+482,DOG,Toy Bulldog,United Kingdom(England),United Kingdom(England),Toy Bulldog Little Knot 1903.jpg
+483,DOG,Toy Fox Terrier,United States,United States,Toy Fox Terrier 2.jpg
+484,DOG,Toy Manchester Terrier,"United Kingdom(England), United States","United Kingdom(England), United States",Toy-manchester-terrier-weave.png
+485,DOG,Toy Trawler Spaniel,United Kingdom,United Kingdom,Trawler spaniel goblin.jpg
+486,DOG,Transylvanian Hound,Hungary,Hungary,Erdelyi kopo VadaszNimrodSzeder01.jpg
+487,DOG,Treeing Cur,United States,United States,
+488,DOG,Treeing Tennessee Brindle,United States,United States,Sienna TTBD.jpg
+489,DOG,Treeing Walker Coonhound,United States,United States,Treeing-walker-coonhound-standing.jpg
+490,DOG,Trigg Hound,"Kentucky, United States","Kentucky, United States",Ned (Trigg).png
+491,DOG,Tweed Water Spaniel,United Kingdom,United Kingdom,Tweed Water Spaniel.jpg
+492,DOG,Tyrolean Hound,Austria,Austria,Tiroler Bracke.jpg
+493,DOG,Uruguayan Cimarron,Uruguay,Uruguay,Boqueron de Quilligan.JPG
+494,DOG,Valencian Ratter,Spain,Spain,Ratonero valenciano hell.jpg
+495,DOG,Vanjari Hound,India,India,Banjara from 1915.JPG
+496,DOG,Villano de Las Encartaciones,Spain,Spain,Billano arra1.JPG
+497,DOG,Vizsla,Hungary,Hungary,Vizsla 02.jpg
+498,DOG,Volpino Italiano,Italy,Italy,Volpino04.jpg
+499,DOG,Weimaraner,Germany,Germany,Weimaraner wb.jpg
+500,DOG,"Welsh Corgi, Cardigan",United Kingdom(Wales),United Kingdom(Wales),Cardigan Welsh Corgi 600.jpg
+501,DOG,"Welsh Corgi, Pembroke",United Kingdom(Wales),United Kingdom(Wales),Pembroke Welsh Corgi 600.jpg
+502,DOG,Welsh Sheepdog,United Kingdom(Wales),United Kingdom(Wales),Welsh Sheepdog.jpg
+503,DOG,Welsh Springer Spaniel,United Kingdom(Wales),United Kingdom(Wales),Welsh Springer Spaniel 1.jpg
+504,DOG,Welsh Terrier,United Kingdom(Wales),United Kingdom(Wales),Welch Terrier on sand - 2007.png
+505,DOG,West Highland White Terrier,United Kingdom(Scotland),United Kingdom(Scotland),West Highland White Terrier Krakow.jpg
+506,DOG,West Siberian Laika,Russia,Russia,West Siberian Laika.jpg
+507,DOG,Westphalian Dachsbracke,Germany,Germany,Westfälische Dachsbracke.jpg
+508,DOG,Wetterhoun,Netherlands,Netherlands,Fryzyjski pies wodny u68.jpg
+509,DOG,Whippet,England,England,WhippetWhiteSaddled wb.jpg
+510,DOG,White Shepherd,United States,United States,"Schweizer Schäferhund, 9 Monate.JPG"
+511,DOG,Wirehaired Pointing Griffon,"Netherlands, France","Netherlands, France",Korthalsgriffon.jpg
+512,DOG,Wirehaired Vizsla,Hungary,Hungary,Drahthaarvizsla.jpg
+513,DOG,Xiasi Dog,China,China,Xiasi Quan dog.jpg
+514,DOG,Yorkshire Terrier,United Kingdom(England),United Kingdom(England),Yorkshire Terrier WA Mozart Dolce Sinfonia.jpg
+515,CAT,Aegean,Greece,Natural/Standard,Aegean cat.jpg
+516,CAT,American Bobtail,United States,Mutation,American bobtail 2.jpg
+517,CAT,American Curl,United States,Mutation,American curl 2.jpg
+518,CAT,American Shorthair,United States,Natural,American Shorthair.jpg
+519,CAT,American Wirehair,United States,Mutation,American Wirehair - CFF cat show Heinola 2008-05-04 IMG 8721.JPG
+520,CAT,Aphrodite Giant,Cyprus,Natural,Aphrodite's Giant.jpg
+521,CAT,Arabian Mau,Arabian Peninsula,Natural,3yoArabianMau.jpeg
+522,CAT,Asian,UK Found Stock from Asia,,BrownVarientAsianCat.JPG
+523,CAT,Asian Semi-longhair,United Kingdom,Crossbreed,Tiffanie at cat show.jpg
+524,CAT,Australian Mist,Australia,Crossbreed,Australian Mist.jpg
+525,CAT,Balinese,USA Found Stock from Thailand,Crossbreed,Oskar.jpg
+526,CAT,Bambino,United States,Crossbreed,
+527,CAT,Bengal,USA Found Stock from Asia,Hybrid,BengalCat Stella.jpg
+528,CAT,Birman,France Found Stock from Burma,Natural,Birman2.jpg
+529,CAT,Bombay,Crossbred,Moderate,Bombay cat.jpg
+530,CAT,Brazilian Shorthair,Brazil,Natural,Gato pelo curto brasileiro.JPG
+531,CAT,British Longhair,United Kingdom,,British Longhair - Black Silver Shaded.jpg
+532,CAT,British Semi-longhair,United Kingdom,,British Longhair - Black Silver Shaded.jpg
+533,CAT,British Shorthair,United Kingdom,Natural,Britishblue.jpg
+534,CAT,Burmese,Burma and Thailand,Natural,Blissandlucky11.jpg
+535,CAT,Burmilla,United Kingdom,Crossbreed,Male Burmilla cat.jpeg
+536,CAT,California Spangled,United States,Crossbreed,Star Spangled Cat.jpg
+537,CAT,Chantilly-Tiffany,United States,,Tiffany3.jpg
+538,CAT,Chartreux,France,Natural,Abbaye fev2006 003.jpg
+539,CAT,Chausie,France,Hybrid,Chausiecatexample.jpg
+540,CAT,Cheetoh,United States,Hybrid Crossbreed,Cheetoh cat chilling.png
+541,CAT,Colorpoint Shorthair,,,Jake117.jpg
+542,CAT,Cornish Rex,United Kingdom (England),Mutation,BebopsLilacPrince.JPG
+543,CAT,"Cymric,",United Kingdom (Isle of Man),Natural/Mutation,Cymric - Norwegian forest cat presentation show Kotka 2009-02-01 IMG 0687.JPG
+544,CAT,Cyprus,Cyprus,Natural,CyprusShorthair.jpg
+545,CAT,Devon Rex,United Kingdom (England),Mutation,Devon Rex Izzy.jpg
+546,CAT,"Donskoy,",Russia,,Cat don sphinx.JPG
+547,CAT,Dragon Li,China,Natural,Dragon Li - Li Hua Mau1.jpg
+548,CAT,"Dwarf cat,",,Crossbreed,Munchkin cat.jpg
+549,CAT,Egyptian Mau,Egypt,Natural,Egy mau.jpg
+550,CAT,European Shorthair,Finland and Sweden,Natural,European shorthair procumbent Quincy.jpg
+551,CAT,Exotic Shorthair,United States,Crossbreed,Cream tabby exotic cat.jpg
+552,CAT,Foldex[4],Canada,Crossbreed,"Cachorro de Gato FoldEx (""Belisario del Laberinto"").JPG"
+553,CAT,German Rex,East Germany,Mutation,German Rex Emi.jpg
+554,CAT,Havana Brown,United Kingdom,,Havana Brown.jpg
+555,CAT,Highlander,United States,Crossbreed,Highlander-7.jpg
+556,CAT,"Himalayan,",United States/United Kingdom,Crossbreed,Chocolate Himlayan.jpg
+557,CAT,Japanese Bobtail,Japan,Natural,JapaneseBobtailBlueEyedMi-ke.JPG
+558,CAT,Javanese,United States,Crossbreed,Javanese cat.jpg
+559,CAT,Karelian Bobtail,Western Russia,Natural,
+560,CAT,Khao Manee,Thailand,Natural,"Khao Manee ""ChaWee"".jpg"
+561,CAT,Korat,Thailand,Natural,"Veda,chat-adulte-mâle-race-korat.JPG"
+562,CAT,Korean Bobtail,Korea,Natural,
+563,CAT,Korn Ja,Thailand,Natural,
+564,CAT,"Kurilian Bobtail,","Eastern Russia,",Natural,Kurilian bobtail.JPG
+565,CAT,LaPerm,United States,Mutation,Laperm LH red tabby.jpg
+566,CAT,Lykoi,United States,Natural/Mutation,8-month-old male Lykoi.jpg
+567,CAT,Maine Coon,United States,Natural,Maine Coon female.jpg
+568,CAT,Manx,United Kingdom (Isle of Man),Mutation,Japanese Bobtail looking like Manx.jpg
+569,CAT,Mekong Bobtail,Russia,Natural/Mutation,"Mekong bobtail female, Cofein Pride cattery.jpg"
+570,CAT,Minskin,United States,Crossbreed,Minskin Kitten Female blue tabby color-pattern.jpg
+571,CAT,Munchkin,United States,Mutation,Longhairedmunchkin.jpg
+572,CAT,Nebelung,United States,,"Nebelung Male, Aleksandr van Song de Chine.JPG"
+573,CAT,Norwegian Forest cat,Norway,Natural,Norskskogkatt Evita 3.JPG
+574,CAT,Ocicat,United States,Crossbreed,Ocicat-Charan.jpg
+575,CAT,Oriental Bicolor,,,Oriental shorthair 20070130 caroline.jpg
+576,CAT,Oriental Longhair,,,OLH-GIP Divan Cesar.jpg
+577,CAT,Oriental Shorthair,,,Oriental Shorthair Blue Eyed White cat (juvenile).jpg
+578,CAT,PerFold (Experimental Breed - WCF),Europe,Crossbreed,"PerFold Cat (""Benito del Laberinto"").jpg"
+579,CAT,Persian (Modern Persian Cat),Iran (Persia),Crossbreed,Persialainen.jpg
+580,CAT,Persian (Traditional Persian Cat),Greater Iran,Natural,SnowyandHazy.jpg
+581,CAT,Peterbald,Russia,Crossbreed,Tamila the lilac tabby Peterbald cat.jpg
+582,CAT,Pixie-bob,United States,Natural,Jarnac Bepacific feb07.jpg
+583,CAT,Ragamuffin,United States,Crossbreed,20050922AmarilloRes.jpg
+584,CAT,Ragdoll,United States,Crossbreed,Ragdoll from Gatil Ragbelas.jpg
+585,CAT,Russian Blue,Russia,Natural,Russian Blue 001.gif
+586,CAT,Savannah,United States,Hybrid,Savannah Cat portrait.jpg
+587,CAT,Scottish Fold,United Kingdom (Scotland),Natural/Mutation,Lilac-coated Scottish Fold
+588,CAT,Selkirk Rex,United States,Mutation/Cross,PolloSelkirkRex.jpg
+589,CAT,Serengeti,United States,Hybrid Crossbreed,Serengetimalecat.jpg
+590,CAT,Serrade petit,France,Natural,mini-cat Serrade petit.jpg
+591,CAT,Siamese,Thailand,Natural,Siam lilacpoint.jpg
+592,CAT,Siberian,Russia,Natural,Siberiancat.jpg
+593,CAT,Singapura,Singapore,Natural,Raffles singapura cat.jpg
+594,CAT,Snowshoe,United States,Crossbreed,Snowshoe (cat).JPG
+595,CAT,Sokoke,Kenya,Natural,Sokoke dalili.jpg
+596,CAT,Somali,Somalia,Mutation,Blue Somali kitten age 3 months.jpg
+597,CAT,Sphynx,Canada,Mutation,Sphinx2 July 2006.jpg
+598,CAT,Suphalak,Thailand,Natural,Suphalak Female in Thailand named AumDaengManee.jpg
+599,CAT,Thai,Thailand,Natural,Mimbi3.JPG
+600,CAT,Thai Lilac,Thailand,Natural,Thai Lilac.jpg
+601,CAT,Tonkinese,Canada,Crossbreed,Tonkinese.gif
+602,CAT,Toyger,United States,Crossbreed,Toyger - Cornish Rex presentation show Riihimäki 2008-11-16 IMG 0101.JPG
+603,CAT,Turkish Angora,Turkey,Natural,Turkse angora.jpg
+604,CAT,Turkish Van,UK Found Stock from Turkey,Natural,Turkish Van Example2.jpg
+605,CAT,Ukrainian Levkoy,Ukraine,,Ukrainian Levkoy cat.jpg
+606,CAT,York Chocolate,United States (New York),Natural,York Chocolate.jpg

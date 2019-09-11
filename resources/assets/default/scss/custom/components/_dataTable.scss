@@ -1,0 +1,213 @@
+.m-datatable__cell{
+	text-transform: capitalize;
+}
+.m-datatable.m-datatable--default>.m-datatable__table>.m-datatable__head .m-datatable__row>.m-datatable__cell,
+.m-datatable.m-datatable--default>.m-datatable__table>.m-datatable__body .m-datatable__row>.m-datatable__cell,
+.m-datatable.m-datatable--default>.m-datatable__table>.m-datatable__foot .m-datatable__row>.m-datatable__cell {
+	padding: 7px 10px;
+}
+
+
+.m-datatable.m-datatable--default.m-datatable--loaded > .m-datatable__table > .m-datatable__head .m-datatable__row > .m-datatable__cell,
+.m-datatable.m-datatable--default.m-datatable--loaded > .m-datatable__table > .m-datatable__body .m-datatable__row > .m-datatable__cell,
+.m-datatable.m-datatable--default.m-datatable--loaded > .m-datatable__table > .m-datatable__foot .m-datatable__row > .m-datatable__cell {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.m-datatable__table {
+	overflow-x: hidden !important;
+}
+
+.mCustomScrollBox {
+
+	min-height: 300px;
+
+	.mCSB_container {
+		min-height: 100% !important;
+	}
+}
+
+
+.min-height-200 {
+	.m-datatable__table {
+		min-height: 200px !important;
+	}
+}
+
+
+.m-datatable.m-datatable--default > .m-datatable__pager {
+	border-top: 1px solid #dfdfe0;
+    padding-top: 0px;
+    margin: 0;
+    margin-bottom: -15px;
+}
+
+body .toolbar {
+
+	// Search
+	.form-control.m-input--solid {
+		border-color: #f2f3f8 !important;
+	}
+
+	.m-form__label {
+		background-color: #f2f3f8;
+	    padding-left: 10px;
+	    -webkit-border-radius: 5px;
+	    border-radius: 5px;
+	    -webkit-border-top-right-radius: 0;
+	    border-top-right-radius: 0;
+	    -webkit-border-bottom-right-radius: 0;
+	    border-bottom-right-radius: 0;
+	}
+
+	.bootstrap-select .dropdown-toggle {
+		border-color: #ddd !important;
+		-webkit-border-top-left-radius: 0 !important;
+		border-top-left-radius: 0 !important;
+		-webkit-border-bottom-left-radius: 0 !important;
+		border-bottom-left-radius: 0 !important;
+	}
+
+	.m-subheader__daterange {
+	    border: 1px solid #ddd;
+	    -webkit-border-radius: 20px;
+	    border-radius: 20px;
+	    padding: 4px 8px;
+	    font-size: 12px;
+		font-weight: 400;
+
+	    .m--font-brand {
+	    	color: #000 !important;
+	    }
+
+	    .m-btn--icon.m-btn--custom.m-btn--icon-only.btn-sm, .btn-group-sm > .m-btn--icon.m-btn--custom.m-btn--icon-only.btn {
+			height: 20px !important;
+			color: #fff;
+			margin-left: 3px;
+	    }
+	}
+
+	.dropdown-toggle {
+		padding: 0.35rem 0.75rem !important;
+	}
+
+	.w-220 {
+		width: 220px !important;
+	}
+
+	.w-150 {
+		width: 150px !important;
+	}
+
+	.m-btn--icon.m-btn--icon-only.btn-sm, .btn-group-sm > .m-btn--icon.m-btn--icon-only.btn {
+		height: 25px;
+		width: 25px;
+	}
+}
+
+
+.m-datatable.m-datatable--default.m-datatable--loaded > .m-datatable__table > .m-datatable__head .m-datatable__row,
+.m-datatable.m-datatable--default.m-datatable--loaded > .m-datatable__table > .m-datatable__body .m-datatable__row,
+.m-datatable.m-datatable--default.m-datatable--loaded > .m-datatable__table > .m-datatable__foot .m-datatable__row {
+	border-bottom: 1px solid #f2f3f8;
+}
+
+
+/**
+ * Action Menu
+ */
+
+.action-menu {
+    position: fixed;
+    display: none;
+    top: 50%;
+    z-index: 99999;
+	width: auto;
+
+	ul {
+	    @extend %justify-center;
+	    padding: 0;
+	    align-items: center;
+	    min-width: 70px;
+	    background-color: #ffffff;
+	    position: fixed;
+	    border: 1px solid #ccc;
+	    -webkit-border-radius: 20px;
+	    border-radius: 20px;
+	    -webkit-box-shadow: 0px 2px 5px 0px #909090;
+	    -moz-box-shadow: 0px 2px 5px 0px #909090;
+	    box-shadow: 0px 2px 5px 0px #909090;
+	}
+
+	ul:after {
+        position: absolute;
+	    content: '';
+	    bottom: -31%;
+	    width: 0;
+	    left: 42%;
+	    height: 0;
+	    border-left: 10px solid transparent;
+	    border-right: 10px solid transparent;
+	    border-top: 10px solid #ffffff;
+	}
+
+	ul li {
+	    list-style-type: none;
+	    padding: 4px 6px;
+	}
+
+	ul li:not(:first-child) {
+	    border-left: 1px solid #c4c5d6;
+	}
+
+	ul li .m-btn--icon.m-btn--icon-only {
+		height: 25px !important;
+		width: 25px !important;
+	}
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table thead tr th,
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr td{
+	text-align: left !important;
+}
+
+table.dataTable td.reorder{
+	text-align: left !important;
+}
+table.dataTable td, table.dataTable th{
+	padding: 7px 10px !important;
+}
+
+table.dataTable th{
+	background-color: #f4f3f8 !important;
+}
+.m_table_1_wrapper .dataTables_length{
+	position: absolute !important;
+    right: 75px !important;
+    top: 230px !important;
+}
+// .m-datatable__table{
+// 	overflow-y: scroll !important;
+// }
+// .m-datatable__table::-webkit-scrollbar{
+//     width: 5px;
+// }
+// .m-datatable__table::-webkit-scrollbar-track{
+//     width: 5px;
+// }
+// /* Handle */
+// .m-datatable__table::-webkit-scrollbar-thumb {
+//     background: #888;
+// }
+
+// /* Handle on hover */
+// .m-datatable__table::-webkit-scrollbar-thumb:hover {
+//     background: #555;
+// }
+//
+.petInfoRow{
+	background-color: #fffad0 !important;
+}

@@ -1,0 +1,94 @@
+body #developerPanel {
+    position: fixed;
+    display: none;
+    bottom: 0;
+    z-index: 9999;
+    margin: 20px 20px 0 20px;
+    left: 160px;
+    width: 89%;
+    background-color: #fff;
+    // width: -webkit-calc(100% - 150px);
+    // width: -moz-calc(100% - 150px);
+    // width: -o-calc(100% - 150px);
+    // width: calc(100% - 150px);
+
+    .m-portlet {
+        height: 100%;
+    	margin-bottom: 0;
+    	-webkit-box-shadow: 0px 2px 3px 1px #a0a0a0;
+    	box-shadow: 0px 2px 3px 1px #a0a0a0;
+    }
+
+    .m-widget3__body {
+        max-width: 100%;
+        word-break: break-word;
+    }
+
+    .menu-border {
+        border: 1px solid #ddd;
+    }
+
+    .m-portlet__head {
+		background-color: #34495e;
+
+		.m-portlet__head-text {
+			color: #fff
+		}
+    }
+
+    .m-portlet__body {
+        min-height: 300px;
+    	height: 100%;
+
+        .nav-link {
+            color: #2c2e3e;
+            font-weight: 500;
+        }
+    }
+
+    #DeveloperNoteForm {
+        textarea {
+            max-height: 260px;
+            min-height: 150px;
+            height: 250px;
+            -webkit-transition: 0.1s;
+            -ms-transition: 0.1s;
+            -moz-transition: 0.1s;
+            transition: 0.1s;
+        }
+    }
+
+    .notes {
+        border: 1px solid #ddd;
+        padding: 10px;
+        max-height: 300px;
+        overflow: auto;
+        -webkit-transition: 0.1s;
+            -ms-transition: 0.1s;
+            -moz-transition: 0.1s;
+            transition: 0.1s;
+
+        .added {
+            padding: 10px;
+            border: 1px solid #FFC107;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+    }
+
+    .m-widget3 .m-widget3__item .m-widget3__header .m-widget3__status {
+        display: -webkit-box !important;
+        display: -moz-box !important;
+        display: -ms-flexbox !important;
+        display: -webkit-flex !important;
+        display: flex !important;
+    }
+
+    .m-widget3 .m-widget3__item .m-widget3__header .m-widget3__info {
+        padding-left: 0 !important;
+    }
+
+    .m-widget3 .m-widget3__item .m-widget3__body .m-widget3__text {
+        color: #3a3a3a !important;
+    }
+}

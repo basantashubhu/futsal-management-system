@@ -1,0 +1,127 @@
+/*
+* @Author: 
+ /** 
+ * DEVELOPERS 
+ * ------------------------------------------------  
+ * - SUMAN THAPA - LEAD(NEPALNME@GMAIL.COM) 
+ * ------------------------------------------------  
+ * - PRABHAT GURUNG 
+ * - BASANTA TAJPURIYA 
+ * - RAKESH SHRESTHA 
+ * - MANISH BUDDHACHARYA 
+ * - LEKH RAJ RAJ 
+ * - ASCOL PARAJULI 
+ * ------------------------------------------------  
+ * THIS INTELLECTUAL PROPERTY IS COPYRIGHT Ⓒ 2019 
+ * SHUBHU TECH PVT LTD , NEPAL. ALL RIGHT RESERVED
+* @Date:   2019-03-28 19:50:49
+* @Last Modified by:   Lekh Raj Rai
+* @Last Modified time: 2019-07-11 20:04:39
+*/
+#AddStipendItem .select2-selection.select2-selection--single,
+#stipendItemUpdate .select2-selection.select2-selection--single,
+
+
+
+
+#NoteCreate .select2-selection.select2-selection--single,
+#holiday_add_form .select2-selection.select2-selection--single,
+#holiday_edit_form .select2-selection.select2-selection--single,
+
+#financeCodeCategory .select2-selection.select2-selection--single,
+#financeCodeBusiness .select2-selection.select2-selection--single,
+#financeCodeDepartment .select2-selection.select2-selection--single,
+#financeCodeAccount .select2-selection.select2-selection--single,
+#financeCodeProgram .select2-selection.select2-selection--single,
+#financeCodeProject .select2-selection.select2-selection--single,
+#financeCodeFund .select2-selection.select2-selection--single,
+
+
+#approvalFlowCreate .select2-selection.select2-selection--single,
+#updateCounty .select2-selection.select2-selection--single,
+#LookupCreate .select2-selection.select2-selection--single,
+#lookupUpdate .select2-selection.select2-selection--single,
+#siteFormWizard .select2-selection.select2-selection--single,
+#siteUpdate .select2-selection.select2-selection--single,
+#organizationCreate .select2-selection.select2-selection--single,
+#organizationUpdate .select2-selection.select2-selection--single,
+#newCounty .select2-selection.select2-selection--single,
+#newStateCreate .select2-selection.select2-selection--single,
+#newRegionCreate .select2-selection.select2-selection--single,
+#newDistrictCreate .select2-selection.select2-selection--single,
+#newCityCreate .select2-selection.select2-selection--single
+{
+    height: 35px !important;
+}
+input[type="number"]{
+    margin-bottom: 15px;
+}
+.no-bx-shadow{
+    box-shadow: none !important;
+    background:#eeeeee;
+    margin-bottom: 0 !important;
+}
+.form_container_custom{
+    background: #eeeeee !important; 
+    padding: 17px 17px 0px 10px !important;
+   
+}
+.p10{
+    padding: 10px !important;
+}
+.text-center{
+    text-align: center !important;
+}
+
+.modal-header {
+  padding: 15px 30px !important;
+}
+.modal-title{
+    font-weight: 600 !important;
+    font-size: 26px !important;
+}
+.cust_plus_icon,
+.cust_edit_icon{
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+
+/* -------- submodal for stipend items */
+
+.rowBg{
+    background: #d8d8d8;
+}
+.my-submodal-table{
+    border: 1px solid #a6a6a6;
+}
+.my-submodal-table tr th{
+    background: #a6a6a6;
+    color: #fff;
+}
+.my-submodal-table tr td{
+    border-bottom: 1px solid #a6a6a6;
+}
+.p25{
+        padding-top: 25px !important;
+    }
+     .mt20{
+       margin-top: 20px !important;
+   }
+   .w-50p{
+    width: 50px !important;
+   }
+   .w-110p{
+    width: 110px !important;
+   }
+.m0-15{
+  margin: 0 15px !important;
+}
+.periodSearchItem{
+    padding: 15px !important;
+}
+.periodSearchItem:hover{
+    cursor: pointer;
+    background:#e1e5ff !important;
+
+}

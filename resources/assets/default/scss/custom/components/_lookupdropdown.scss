@@ -1,0 +1,19 @@
+.show-lookup{
+	display: none;
+	max-height: 231.75px;
+    overflow: hidden;
+    min-height: 0px;
+    position: absolute;
+    transform: translate3d(0px, 35px, 0px);
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+
+	ul{
+		li{
+			list-style-type: none;
+			display: block;
+			font-size: 14px;
+		}
+	}
+}

@@ -1,0 +1,191 @@
+form.m-form {
+    .form-group label {
+        color: #717171;
+        font-weight: 600;
+        font-size: 90%;
+        // padding: 2px;
+    }
+}
+
+.form-control {
+	font-size: 12px;
+    font-family: "Poppins";
+    border-color: #d0d0d0;
+
+	&.focus, &:focus, &:hover {
+		border-color: #36a3f7;
+	}
+}
+
+
+.required {
+    color: #f4516c !important;
+}
+
+%input-required {
+    border-color: #f4516c82 !important;
+}
+
+body .input-required {
+    border-color: #b12704 !important;
+}
+body .input-required1 {
+    border-color: #b12704 !important;
+}
+
+body .m-separator.m-separator--dashed {
+    border-bottom: 1px dashed #c4c5c5;
+}
+
+/**
+ * Wizard
+ */
+
+.m-wizard.m-wizard--5.m-wizard--success .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current {
+    border-color: #008ab1;
+}
+
+.m-wizard.m-wizard--5.m-wizard--success .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--current .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label {
+	color: #008ab1;
+}
+.m-wizard.m-wizard--5 .m-wizard__head .m-wizard__nav .m-wizard__steps .m-wizard__step .m-wizard__step-info .m-wizard__step-number .m-wizard__step-label{
+    font-size: 1.1rem !important;
+}
+
+.form-bc {
+    background-color: #eee;
+}
+
+.m-checkbox > span {
+    border-color: #7b7b7b !important;
+
+    // &:after {
+    //     border-color: #444d63 !important;
+    // }
+}
+
+.input-group-text{
+    padding: 0.65rem 0.5rem;
+    background-color: #fff !important;
+    border-color: #ced4da !important;
+    cursor: pointer;
+}
+
+.multipleField{
+    table{
+        margin: -10px;
+        th{
+        padding: 5px;
+        color: #717171;
+        font-weight: 600;
+        }
+        td{
+        padding: 5px;
+        }
+    }
+}
+
+.form-control[disabled]{
+    border-color: #d0d0d0 !important;
+}
+
+.bg-form-box {
+
+    .form-title{
+        margin-top: -10px;
+        margin-bottom: -2px;
+        margin-left: 0px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+.input-section{
+    width: 90%;
+    float: left;
+}
+.btn-section{
+    float: left;
+    margin-left: 4px;
+}
+.input-section1{
+    width: 87%;
+    float: left;
+}
+
+.treatmentClass .treatments{
+    max-height: 120px;
+    overflow-y: scroll;
+}
+.treatmentClass .treatments::-webkit-scrollbar{
+    width: 5px;
+}
+.treatmentClass .treatments::-webkit-scrollbar-track{
+    width: 5px;
+}
+/* Handle */
+.treatmentClass .treatments::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.treatmentClass .treatments::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.my-form{
+    margin-left: 17px;
+}
+.myFiles{
+    max-height: 100px;
+    overflow-y: scroll;
+}
+.myFiles::-webkit-scrollbar{
+    width: 5px;
+}
+.myFiles::-webkit-scrollbar-track{
+    width: 5px;
+}
+/* Handle */
+.myFiles::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.myFiles::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.myFiles ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.myFiles ul li {
+    color: #7a7978;
+    padding: 0px 15px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #7a7978;
+}
+.myFiles ul li span:last-child {
+    margin: -30px -15px;
+    padding: 5px 10px;
+    border: none;
+    display: inline-block;
+}
+.myFiles ul li span:last-child:hover {
+    color: red !important;
+    cursor: pointer;
+}
+.myFiles ul li span input{
+    border: none !important;
+    width: 80% !important;
+}
+.myFiles ul li span input:hover{
+    border: none !important;
+}
+.btn-custom-size{
+    height: 20px !important;
+    width: 20px !important;
+}

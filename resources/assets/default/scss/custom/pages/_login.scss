@@ -1,0 +1,77 @@
+.std-login {
+
+	.m-login__head .m-login__title {
+		text-transform: uppercase;
+	    font-weight: 600;
+	    color: #575353;
+	}
+
+    .m-form__group .form-control {
+    	padding-left: 10px !important;
+    	padding-right: 10px !important;
+    	border: 1px solid #ced4da !important;
+
+		&:focus {
+			-webkit-box-shadow: none !important;
+			box-shadow: none !important;
+		}
+
+    	&.m-login__form-input--last {
+    		margin-top: 10px !important;
+    	}
+    }
+
+    .invalid-feedback {
+    	strong {
+			font-weight: 600;
+		    font-size: 12px;
+		    margin-bottom: 5px;
+    	}
+    }
+}
+
+// Login 4
+.m-login.m-login--2.m-login-2--skin-3 {
+	.m-login__container .m-login__form .form-control {
+	    color: #34495e !important;
+	    background: #e3e2e4;
+	}
+
+	.m-checkbox.m-checkbox--light > span:after {
+		border-color: #2c3e50 !important;
+	}
+
+	.m-checkbox.m-checkbox--light > input:checked ~ span {
+		border-color: #34495e !important;
+	}
+}
+
+.std-login .m-form__group .form-control {
+	&.input-required {
+		@extend %input-required;
+	}
+}
+.custom_login_page{
+	background-attachment: inherit !important;
+}
+.custom_login_header{
+	margin-top: 4%;
+	margin-left: 4%;
+}
+@media screen and (max-width: 1920px) and (min-width: 992px) {
+	.custom_login_page{
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px !important;
+		background-position: center !important;
+	    background-repeat: no-repeat !important;
+	}
+}
+@media (max-width: 992px) {
+	.m-login.m-login--1 .m-login__content{
+		padding: 0px !important;
+		min-height: 370px;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	}
+}

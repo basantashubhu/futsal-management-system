@@ -1,0 +1,56 @@
+.global-filter {
+
+	.m-portlet {
+
+		&:not(.noBorder) {
+		    border: 1px solid #ddd;
+		}
+	    -webkit-border-radius: 5px;
+	    border-radius: 5px;
+	    box-shadow: none !important;
+
+	    .m-portlet__body {
+	    	padding: 10px !important;
+	    }
+	}
+
+	.w-110 {
+		width: 110px !important;
+	}
+
+	.w-150 {
+		width: 150px !important;
+	}
+
+	.w-270 {
+		width: 270px !important;
+	}
+
+	& > .col {
+
+		&:not(:first-child) {
+			 padding-left: 10px;
+		}
+
+		&:not(:last-child) {
+			border-right: 1px solid #ccc;
+		    padding-right: 10px;
+		}
+	}
+
+	.pill-style {
+		.left {
+		    border-top-left-radius: 20px !important;
+		    border-bottom-left-radius: 20px !important;
+		}
+
+		.right {
+
+			&, button {
+				border-top-right-radius: 20px !important;
+			    border-bottom-right-radius: 20px !important;
+			}
+		}
+	}
+
+}

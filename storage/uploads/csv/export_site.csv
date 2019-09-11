@@ -1,0 +1,4 @@
+site_code,site_name,site_type,add1,add2,city,zip,state,county,phone,alt_phone,fax,ctc_fname,ctc_mname,ctc_lname,ctc_cell,ctc_email,supervisor_id
+Site Code,Site Name,Site Type,Address 1,Address 2,City ,Zip Code,State ,County,Site Phone Number,Site Alternative Phone,Fax,Contact First Name,Contact Middle name,Contact Last Name,Contact Cell Number,Contact Email,Supervisor
+string(191),string(191),string(191),string(191),string(191),string(191),string(191),string(191),string(191),INT(20),INT(20),INT(20),string(191),string(191),string(191),string(191),string(191),string(191)
+NCC1,Kathmandu,Metro,310 Kiamensi Road,,Wilmington,19804,DE,New Castle 1,888-888-8888,888-888-8888,888-888-8888,Jone,,Doe,888-888-8888,test@gmail.com,223

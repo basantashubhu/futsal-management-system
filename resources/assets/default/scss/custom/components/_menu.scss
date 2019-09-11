@@ -1,0 +1,21 @@
+body .m-portlet .m-portlet__body {
+    padding: 2.2rem 2.2rem;
+  &.p-a-1-i {
+    padding: 1rem !important;
+  }
+}
+
+.m-subheader .m-subheader__title {
+    display: inline-block !important;
+    color: #474b55;
+}
+
+.m-nav .m-nav__item:hover:not(.m-nav__item--disabled)>.m-nav__link .m-nav__link-icon,
+.m-nav .m-nav__item:hover:not(.m-nav__item--disabled)>.m-nav__link .m-nav__link-text,
+.m-nav .m-nav__item:hover:not(.m-nav__item--disabled)>.m-nav__link .m-nav__link-arrow,
+.m-nav .m-nav__item.m-nav__item--active>.m-nav__link .m-nav__link-icon,
+.m-nav .m-nav__item.m-nav__item--active>.m-nav__link .m-nav__link-text,
+.m-nav .m-nav__item.m-nav__item--active>.m-nav__link .m-nav__link-arrow ,
+.m-subheader .m-subheader__breadcrumbs.m-nav > .m-nav__item > .m-nav__link:hover > .m-nav__link-text{
+	color: #f7921e;
+}

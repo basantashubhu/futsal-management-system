@@ -1,0 +1,55 @@
+.m-wizard.m-wizard--2.m-wizard--success .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--next .m-wizard__step-number > span{
+	background-color: #ffae03;
+}
+.m-wizard.m-wizard--2.m-wizard--success .m-wizard__head .m-wizard__steps .m-wizard__step.m-wizard__step--next:hover .m-wizard__step-number > span{
+	background-color: #fdc040;
+}
+.next_step{
+	border: 1px solid #ffae03;
+	-moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+}
+.m-wizard__step.m-wizard__step--final .m-wizard__step-number > span
+{
+  background-color:#f4516c !important;
+}
+@-webkit-keyframes glowing {
+  0% { -webkit-box-shadow: 0 0 1px #ffe102; }
+  50% { -webkit-box-shadow: 0 0 10px #ffb301; }
+  100% { -webkit-box-shadow: 0 0 1px #ffe102; }
+}
+
+@-moz-keyframes glowing {
+  0% { -moz-box-shadow: 0 0 1px #ffe102; }
+  50% { -moz-box-shadow: 0 0 10px #ffb301; }
+  100% { -moz-box-shadow: 0 0 1px #ffe102; }
+}
+
+@-o-keyframes glowing {
+  0% { box-shadow: 0 0 1px #ffe102; }
+  50% { box-shadow: 0 0 10px #ffb301; }
+  100% { box-shadow: 0 0 1px #ffe102; }
+}
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 1px #ffe102; }
+  50% { box-shadow: 0 0 10px #ffb301; }
+  100% { box-shadow: 0 0 1px #ffe102; }
+}
+
+/**
+ * Make Progress Button Yellow
+ */
+
+.next_step {
+  .app-col-header button.btn, .app-col-header .tool button.btn {
+    background-color: #ffae03 !important;
+    border-color: #ffae03 !important;
+  }
+
+  &.next-step-btn , .next-step-btn {
+    background-color: #ffae03 !important;
+    border-color: #ffae03 !important;
+  }
+}

@@ -1,0 +1,185 @@
+/*
+* @Author: 
+ /** 
+ * DEVELOPERS 
+ * ------------------------------------------------  
+ * - SUMAN THAPA - LEAD(NEPALNME@GMAIL.COM) 
+ * ------------------------------------------------  
+ * - PRABHAT GURUNG 
+ * - BASANTA TAJPURIYA 
+ * - RAKESH SHRESTHA 
+ * - MANISH BUDDHACHARYA 
+ * - LEKH RAJ RAJ 
+ * - ASCOL PARAJULI 
+ * ------------------------------------------------  
+ * THIS INTELLECTUAL PROPERTY IS COPYRIGHT Ⓒ 2019 
+ * SHUBHU TECH PVT LTD , NEPAL. ALL RIGHT RESERVED
+* @Date:   2019-03-15 13:36:03
+* @Last Modified by:   Lekh Raj Rai
+* @Last Modified time: 2019-05-15 12:05:25
+*/
+/* Float Label */
+
+
+
+/* -------------------------- site add form ----------------*/
+.site_add_form{
+    margin-bottom:0 !important;
+    box-shadow: none !important;
+    background: #eeeeee !important;
+}
+.p5_0{
+    padding:5px 0 !important;
+}
+.mt15{
+    margin-top: 15px;
+}
+.mp0{
+    margin:0 !important;
+    padding:0 !important;
+}
+/*.site_basic_info{
+    margin-right: 12px;
+}*/
+.site_additional_info{
+   /* margin-left: 12px;*/
+    height: auto;
+}
+.site_basic_info,
+.site_additional_info{
+    background: #f1f2f6;
+    padding: 15px;
+    -webkit-box-shadow: 0px 1px 15px 1px rgba(69,65,78,0.08);
+    box-shadow: 0px 4px 10px 0px rgba(92,75,78,0.08);
+
+}
+.custom_form_label{
+    padding-left: 0;
+    line-height: 2;
+    font-weight: 500 !important;
+}
+legend#vol_basic_info,
+legend#site_basic_info{
+    font-size: 13px;
+    background: #ced6e0;
+    width: auto;
+    padding: 4px 10px;
+    color: #000;
+    border-radius: 20px;
+    font-weight: 500;
+}
+legend#site_additional_info,
+legend#vol_address_info,
+legend#vol_detial_info,
+legend#site_address_info{
+    font-size: 13px;
+    background: #ced6e0;
+    width: auto;
+    padding: 4px 10px;
+    color: #000;
+    border-radius: 20px;
+    font-weight: 500;
+}
+input[type="text"].site,
+input[type="email"].site{
+    margin-bottom: 15px;
+}
+
+
+
+
+
+/* ------------------------- Pay Period Style ---------- */
+.pay_payperiod_form{
+    margin-bottom:0 !important;
+    box-shadow: none !important;
+    background: #eeeeee !important;
+}
+.custom_form_bg{
+    margin-bottom:0 !important;
+    box-shadow: none !important;
+    background: #eeeeee !important;
+}
+.p5_0{
+    padding:5px 0 !important;
+}
+.mt15{
+    margin-top: 15px;
+}
+.mp0{
+    margin:0 !important;
+    padding:0 !important;
+}
+.pt30{
+    padding-top: 30px !important;
+}
+.date_information,
+.pay_period_basic_info{
+    background: #fafafa;
+    padding: 15px;
+    -webkit-box-shadow: 0px 1px 15px 1px rgba(69,65,78,0.08);
+    box-shadow: 0px 4px 10px 0px rgba(92,75,78,0.08);
+}
+fieldset.volunteer_form{
+    background: #fafafa;
+    padding: 15px;
+    -webkit-box-shadow: 0px 1px 15px 1px rgba(69,65,78,0.08);
+    box-shadow: 0px 4px 10px 0px rgba(92,75,78,0.08);
+}
+.custom_form_label{
+    padding-left: 0;
+    line-height: 2;
+    font-weight: 500 !important;
+}
+legend#pay_period_basic_info{
+    font-size: 13px;
+    /*background: #ced6e0;*/
+    width: auto;
+    padding: 4px 10px;
+ /*   color: #000;*/
+    border-radius: 20px;
+}
+
+legend#site_additional_info,
+legend#date_information{
+    font-size: 13px;
+    background: #ced6e0;
+    width: auto;
+    padding: 4px 10px;
+    color: #000;
+    border-radius: 20px;
+}
+/*
+fieldset>.form-group{
+    margin-bottom: 20px !important;
+}*/
+/* =================== organization add form modal style ======= */
+legend#custom_legend{
+        font-size: 13px;
+        background: #ced6e0 !important;
+        width: auto;
+        padding: 5px 15px;
+        color: #000;
+        border-radius: 20px;
+
+    }
+    fieldset.custom_fieldset{
+        background: #fff !important;
+        padding: 15px;
+        -webkit-box-shadow: 0px 1px 15px 1px rgba(69,65,78,0.08);
+        box-shadow: 0px 4px 10px 0px rgba(92,75,78,0.08);
+    }
+    .glow-btn:hover{
+        cursor: pointer;
+    }
+    @media only screen and (max-width: 990px) {
+        input#estd_date{
+            margin-bottom: 20px;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        fieldset#custom_fieldset .company{
+            margin-top: 15px !important;
+        }
+    }
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- /**
+ * DEVELOPERS
+ * ----------------------------------------------
+ * SUMAN  THAPA - LEAD  (NEPALNME@GMAIL.COM)
+ * ----------------------------------------------
+ * - RUNA SIDDHI BAJRACHARYA
+ * - RABIN BHANDARI
+ * - SHIVA THAPA
+ * - PRABHAT GURUNG
+ * - KIRAN CHAULAGAIN
+ * -----------------------------------------------
+ * Created On:
+ *
+ * THIS INTELLECTUAL PROPERTY IS COPYRIGHT Ⓒ 2018
+ * ZEUSLOGIC, INC. ALL RIGHT RESERVED
+*/
+-->
+<html lang="en">
+<!-- begin::Head -->
+<head>
+    <meta charset="utf-8">
+    <title>Futsal Management System</title>
+    <meta name="author" content="Basanta Tajpuriya">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Latest updates and statistic charts">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--begin::Web font -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {"families": ["Poppins:300,400,500,600,700", "Roboto:300,400,500,600,700"]},
+            active: function () {
+                sessionStorage.fonts = false;
+            }
+        });
+    </script>
+
+    <!--end::Web font -->
+    <!--begin::Base Styles -->
+    <link href="{{'images/logo.png'}}" rel="shortcut icon">
+    <link href="{{ asset('css/theme.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css"/>
+    <!--end::Base Styles -->
+    <!-- <link rel="shortcut icon" href="assets/demo/demo3/media/img/logo/favicon.ico" /> -->
+</head>
+<!-- end::Head -->
+<body class="m--skin- m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default">
+@yield('content')
+@section('scripts')
+    <script src="{{ asset('js/logincore.js') }}" type="text/javascript" charset="utf-8"></script>
+    <script src="{{ asset('js/theme.js') }}" type="text/javascript" charset="utf-8"></script>
+
+@show
+</body>
+</html>

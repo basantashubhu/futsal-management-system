@@ -1,0 +1,43 @@
+.advance-search {
+    background-color: #dfddf9;
+    padding-top: 10px;
+
+    .footer-action {
+        padding: 10px 10px 0 10px;
+        margin-top: 10px;
+        background-color: #fff;
+            label{
+                background-color: #787990 !important;
+                border-color: #787990 !important;
+                color: #fff !important;
+            }
+            label:hover{
+                background-color: #484a67 !important;
+                border-color: #484a67 !important;
+            }
+
+    }
+}
+body {
+    .custom-selecter-btn {
+        .bs-actionsbox {
+            button {
+                -webkit-border-radius: 0 !important;
+                border-radius: 0 !important;
+            }
+        }
+    }
+}
+
+.custom-selecter-btn {
+    button:first-child {
+        -webkit-border-top-right-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+        -webkit-border-bottom-right-radius: 20px !important;
+        border-bottom-right-radius: 20px !important;
+    }
+}
+
+body .width-80 {
+    width: 80px !important;
+}

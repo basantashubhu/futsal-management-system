@@ -1,0 +1,28 @@
+.m-accordion {
+	position: relative;
+
+	&.m-accordion--bordered .m-accordion__item, .m-accordion.m-accordion--default .m-accordion__item {
+		border-color: #ddd
+	}
+
+	.has-border {
+		border: 1px solid #ced6e0 !important;
+
+		.m-accordion__item-body {
+			border-top-color: #ced6e0 !important;
+		}
+	}
+
+	.accordion-close, .accordion-close1, .accordion-close2 {
+		position: absolute;
+	    top: 11px;
+	    right: -14px;
+	    z-index: 99;
+	}
+}
+.removeUploadSection{
+	position: absolute !important;
+    top: 35px;
+    right: 2px;
+    z-index: 99;
+}

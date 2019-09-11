@@ -1,0 +1,154 @@
+alt_id,ssn,salutation,volunteer_title,fname,mname,lname,add1,add2,city,zip,state,county,Supervisor,hired_date,volunteer_tel_no,volunteer_cell,volunteer_email,fsf_id
+Volnteer ID,SSN,Salutation,Volunteer Title,First Name,Middle Name,Last Name,Address 1,Address 2,City,Zip Code,State,County,,Hired Date,Volunteer Telephone Number,Volunteer Cell,Volunteer Email,FSF Vendor ID
+int(10),INT(10),string(191),string(191),string(191),string(191),string(191),string(191),string(191),string(191),string(191),string(191),string(191),,Date,string(191),string(191),string(191),
+363,,Ms.,FGP Volunteer,Sandra,,Bowden-Avant,1530 North Little Creek Rd,,Dover,19901,Delaware,Kent,4,11/17/2008,,,,4443
+618,,Mr.,FGP Volunteer,John,,Bright,411 S. Queen St,Apt #318,Dover,19901,Delaware,Kent,4,10/24/2016,,,,310653
+640,,Ms.,FGP Volunteer,Mryna,,Buenaventura,44 Pebble Creek Drive,,Smyrna,19977,Delaware,Kent,4,10/10/2017,,,,360355
+639,,Mr.,FGP Volunteer,Leroy,,Carter,426 S. New Street ,Apt 303,Dover,19901,Delaware,Kent,4,10/16/2017,,,,361620
+501,,Ms.,FGP Volunteer,Mildred ,J,Coston,430 KINGS HIGHWAY,,Dover,19901,Delaware,Kent,4,11/28/2011,,,,111704
+643,,Mr.,FGP Volunteer,Arthur,,Cunningham,3000 LeMay Lane ,,Dover,19901,Delaware,Kent,4,11/29/2017,,,,375634
+463,,Ms.,FGP Volunteer,Sandra ,,DeLane,237 E Radison Run,,Clayton,19938,Delaware,Kent,4,10/25/2010,,,,53460
+313,,Ms.,FGP Volunteer,Joan,T,Duphily,72 Vondaway Drive,,Dover,19901,Delaware,Kent,4,9/4/2007,,,,9674
+512,,Ms.,FGP Volunteer,Bertha,,Freeman,2319 LOCKWOOD CHAPEL RD,,Harley,19953,Delaware,Kent,4,4/8/2013,,,,8954
+601,,Ms.,FGP Volunteer,Renea,,Garcia,159 Orange Street,,Magnolia,19962,Delaware,Kent,4,1/4/2016,,,,272733
+646,,Ms.,FGP Volunteer,Josephine ,R,Grant,430 Kings Highway,Apt 3014,Dover,19901,Delaware,Kent,4,3/1/2018,,,,393195
+473,,Ms.,FGP Volunteer,Lois,Amy,Hopper,131 W Center St.,Apt 13,Harrington,19952,Delaware,Kent,4,3/14/2011,,,,85036
+125,,Ms.,FGP Volunteer,Janet,,Hurtt,430 Kings Hwy  ,Apt 416,Dover,19901,Delaware,Kent,4,,,,,7841
+613,,Ms.,FGP Volunteer,Naomi,,Jackson,253 Owls Nest Road,,Clayton,19938,Delaware,Kent,4,1/19/2016,,,,175779
+487,,Ms.,FGP Volunteer,Mildred,A,Johnson,24 Lynnbroom Lane,,Dover,19904,Delaware,Kent,4,10/4/2011,,,,106204
+580,,Ms.,FGP Volunteer,Audrey,,Joseph,148 S. Main St,Apt A,Smyrna,19977,Delaware,Kent,4,11/5/2014,,,,242106
+145,,Ms.,FGP Volunteer,Valerie,,Lacey,358 Refuge Run,,Camden,19934,Delaware,Kent,4,,,,,6169
+153,,Ms.,FGP Volunteer,Bernice,,London,323 West Wind Dr.,,Dover,19901,Delaware,Kent,4,,,,,3764
+426,,Ms.,FGP Volunteer,Cheryl,,Martin,41 Orhard Ave,,Felton,19943,Delaware,Kent,4,3/8/2010,,,,13792
+163,,Ms.,FGP Volunteer,Maryann,,McGowan,401 Goldbourgh Way,,Smyrna,19977,Delaware,Kent,4,,,,,6768
+652,,Ms.,FGP Volunteer,Charlotte ,A,McMillan,101 Babb Drive,Unit 2202,Dover,19901,Delaware,Kent,4,1/2/2019,,,,453034
+180,,Ms.,FGP Volunteer,Olethia,,Nelson,137 Center St.,,Camden,19934,Delaware,Kent,4,,,,,4624
+506,,Ms.,FGP Volunteer,Thelma,,Norwood,428 EVELYNDALE DR,,Dover,19901,Delaware,Kent,4,1/24/2012,,,,119326
+620,,Mr.,FGP Volunteer,Phillip,,Persichetti,213 Weiner Ave.,,Harrington,19952,Delaware,Kent,4,11/2/2016,,,,317972
+517,,Ms.,FGP Volunteer,Brenda,,Roberts,44 Moriarity Street,,Dover,19901,Delaware,Kent,4,5/8/2013,,,,135221
+211,,Ms.,FGP Volunteer,Ann,,Russell,180 Spoonbill Circle,Box 40,Camden,19934,Delaware,Kent,4,,,,,3555
+212,,Ms.,FGP Volunteer,Beatrice,,Russum,10 Bertha Dr.,,Magnolia,19962,Delaware,Kent,4,,,,,7951
+619,,Ms.,FGP Volunteer,Felita,,Sampson,100 N.E. 4th Street,Apt #4,Milford,19963,Delaware,Kent,4,11/2/2016,,,,162279
+625,,Ms.,FGP Volunteer,Sonia,,Samspon,45 Lassen Court ,,Milford,19963,Delaware,Kent,4,1/18/2017,,,,162278
+215,,Ms.,FGP Volunteer,Jane,,Schneider,189 Sawmill Branch Rd.,,Townsend,19934,Delaware,Kent,4,,,,,18506
+598,,Mr.,FGP Volunteer,Charles,,Smith,735 Bacon Ave,,Dover,19901,Delaware,Kent,4,1/4/2016,,,,277246
+628,,Ms.,FGP Volunteer,Zoan,,Thomasel,103 Morgan Choice Road,,Camden,19934,Delaware,Kent,4,3/3/2017,,,,329066
+249,,Ms.,FGP Volunteer,Josephine ,,Wallace,132 New St. ,Apt 103,Dover,19904,Delaware,Kent,4,,,,,9752
+630,,Ms.,FGP Volunteer,Corrine,,Waters,3174 Abec Lane ,,Felton,19943,Delaware,Kent,4,4/3/2017,,,,332356
+612,,Ms.,FGP Volunteer,Marsha,,Williams,787 Bacon Avenue,Apt #8,Dover,19901,Delaware,Kent,4,1/18/2016,,,,276139
+536,,Ms.,FGP Volunteer,Sandra ,M,Winfrey,1820 Ironmine Road,,Felton,19943,Delaware,Kent,4,9/6/2013,,,,189406
+379,,Ms.,FGP Volunteer,Carmen,,Arocho,1302 CYNWYD CLUB DRIVE,,Wilmington,19808,Delaware,New Castle 1,9,3/16/2009,,,,1698
+420,,Ms.,FGP Volunteer,Aurea,,Ayala,30 Maureen Way,,Bear,19701,Delaware,New Castle 1,9, 1 Feb 10,,,,32523
+331,,Ms.,FGP Volunteer,Concepcion,,Baez,1601 WEST 5TH STREET,,Wilmington,19805,Delaware,New Castle 1,9,,,,,32515
+20,,Mr.,FGP Volunteer,Eufemio,,Berrios,200 Washington St. ,Apt 803,Wilmington,19801,Delaware,New Castle 1,9,,,,,32694
+348,,Ms.,FGP Volunteer,Marylee ,T,Bradley,501 S Rodney Street,Apt 212,Wilmington,19805,Delaware,New Castle 1,9,8/25/2008,,,,13439
+34,,Ms.,FGP Volunteer,Doris,,Brown,309 W. 18th St. ,Apt  1004,Wilmington,19802,Delaware,New Castle 1,9,12/2/2005,,,,13404
+277,,Ms.,FGP Volunteer,Barbara,,Byrd,323 Manlove Place,,Wilmington,19804,Delaware,New Castle 2,9,7/5/2006,,,,13438
+538,,Ms.,FGP Volunteer,Josefina,,Caceres,200 N. Washington St,Apt 602,Wilmington,19801,Delaware,New Castle 1,9,10/8/2013,,,,189785
+404,,Ms.,FGP Volunteer,Doris ,,Cannon,1800 NORTH BROOM STREET,,Wilmington,19806,Delaware,New Castle 1,9,10/27/2009,,,,13402
+43,,Ms.,FGP Volunteer,Ada,,Cardona,509 N. Harrison St.,,Wilmington,19805,Delaware,New Castle 1,9,,,,,32526
+523,,Ms.,FGP Volunteer,Sylvia,,Colon',302 N. Harrison Street,,Wilmington,19805,Delaware,New Castle 1,9,6/10/2013,,,,179177
+452,,Ms.,FGP Volunteer,Cecilia,,Cruz,37 Liborio Lane,,New Castle,19720,Delaware,New Castle 1,9,9/20/2010,,,,57085
+594,,Ms.,FGP Volunteer,Marva,,Faulkner,4303 Christiana Meadows,,Bear,19701,Delaware,New Castle 1,9,4/10/2015,,,,249269
+533,,Ms.,FGP Volunteer,Alicia,,Galindez,26 B BROOKEDGE COURT,Apt 302,NEWARK,19702,Delaware,New Castle 1,9,9/23/2013,,,,188016
+453,,Ms.,FGP Volunteer,Andrea,,Garcia,1343 Cypress Ave,,Wilmington,19805,Delaware,New Castle 1,9,10/4/2010,,,,53313
+546,,Ms.,FGP Volunteer,Mariana,,Gomora-Garcia,2311 Frederick Ave,,Wilmington,19805,Delaware,New Castle 1,9,,,,,197602
+126,,Ms.,FGP Volunteer,Margaret,,Johnson,838 NORTH MARKET STREET APT LL01,,WILMINGTON,19801,Delaware,New Castle 1,9,2/16/2006,,,,13307
+576,,Ms.,FGP Volunteer,Clementina,,Juarez,200 Washington St.,Apt 719,Wilmington,19801,Delaware,New Castle 1,9,4/3/2006,,,,21320
+427,,Ms.,FGP Volunteer,Anna ,,Lebron,409 N. Van Buren St,,Wilmington,19805,Delaware,New Castle 1,9,4/16/2010,,,,9868
+434,,Ms.,FGP Volunteer,Merlyn,,Matias Erazo,200 Washington St,Apt 622,Wilmington,19801,Delaware,New Castle 1,9,6/16/2010,,,,44781
+547,,Ms.,FGP Volunteer,Gloria,,McLean,122 STANLEY LANE,,New Castle,19720,Delaware,New Castle 1,9,,,,,197601
+507,,Ms.,FGP Volunteer,Nardaliza,,Medina,309 W. 18th St,Apt 1106,Wilmington,19802,Delaware,New Castle 1,9,2/16/2012,,,,120138
+534,,Ms.,FGP Volunteer,Alice ,,Padovani,310 Cedar St,,Wilmington,19805,Delaware,New Castle 1,9,9/23/2013,,,,188015
+553,,Ms.,FGP Volunteer,Antonia,,Perez,200 NORTH WASHINGTON STREET,,wilmington,19801,Delaware,New Castle 1,9,2/25/2014,,,,202970
+551,,Ms.,FGP Volunteer,Bartinia,,Phillips,801 Blair Court,,New Castle,19720,Delaware,New Castle 1,9,,,,,146204
+653,,Ms.,FGP Volunteer,Mary ,E,Prettyman,1 Lexington Drive,,Claymont,19703,Delaware,New Castle 1,9,1/16/2019,,,,460150
+421,,Ms.,FGP Volunteer,Lourdes ,M,Ramirez,29 SCOTTEI LANE,,New Castle,19720,Delaware,New Castle 1,9,2/18/2010,,,,32719
+566,,Ms.,FGP Volunteer,Caridad,,Rodriguez,2112 Barr Rd,,Wilmington,19808,Delaware,New Castle 1,9,9/12/2014,,,,222548
+526,,Mr.,FGP Volunteer,Felix ,A,Rojas-Solano,200 N. Washington St,Apt 608,Wilmington,19801,Delaware,New Castle 1,9,8/12/2013,,,,185298
+645,,Ms.,FGP Volunteer,Ramonita,,Roldan,1800 N Broom Street,Apt 608,Wilmington,19802,Delaware,New Castle 1,9,1/30/2018,,,,388693
+644,,Ms.,FGP Volunteer,Isabel ,,Rolon,600 West Avenue,,New Castle,19720,Delaware,New Castle 1,9,1/26/2018,,,,388255
+543,,Ms.,FGP Volunteer,Elizabeth,,Santiago,403 Wildel Ave,,New Castle,19720,Delaware,New Castle 1,9,11/20/2013,,,,193768
+627,,Ms.,FGP Volunteer,Winifred,,Tawo,200 N. Washington St,Apt 419,Wilmington,19801,Delaware,New Castle 1,9,2/13/2017,,,,328454
+234,,Ms.,FGP Volunteer,Josephine,,Thomas,200 Washington St.,Apt. 514,Wilmington ,19801,Delaware,New Castle 1,9,,,,,9668
+381,,Ms.,FGP Volunteer,Leonidas,,Torres,824 W. 5th Street,,Wilmington,19801,Delaware,New Castle 1,9,4/17/2009,,,,32726
+511,,Ms.,FGP Volunteer,Mildred,,Turner,200 N. Washington St,Apt 416,Wilmington,19801,Delaware,New Castle 1,9,4/16/2013,,,,39179
+244,,Ms.,FGP Volunteer,Luz,,Vazquez,204 Bassett Ave.,,New Castle,19720,Delaware,New Castle 1,9,,,,,32524
+634,,Ms.,FGP Volunteer,Dorothy,,Watson,1102 W. 5th Street,,Wilmington,19805,Delaware,New Castle 1,9,,,,,354150
+597,,Ms.,FGP Volunteer,Elizabeth,,Williams,105 North Broom Street,Apt 1,Wilmington ,19805,Delaware,New Castle 1,9,11/18/2015,,,,269334
+267,,Ms.,FGP Volunteer,Barbara,,Willing,1800 N BROOM ST ,Apt 810,Wilmington,19802,Delaware,New Castle 1,9,,,,,9478
+650,,Ms.,FGP Volunteer,Rosa,,Alston,500 N Walnut Street,Apt 14-B,Wilmington,19801,Delaware,New Castle 2,9,12/10/2018,,,,451916
+334,,Ms.,FGP Volunteer,Lottie,,Banks,145 Bunche Blvd.,,Wilmington,19801,Delaware,New Castle 2,9,,,,,13104
+590,,Ms.,FGP Volunteer,Zelma ,,Blackson,521 McCabe Avenue,,Wilmington,19802,Delaware,New Castle 2,9,3/16/2015,,,,249197
+384,,Ms.,FGP Volunteer,Cecilia,,Blyden,1800 N. Broom Street,Apt 1603,Wilmington,19802,Delaware,New Castle 2,9,7/20/2009,,,,1979
+595,,Ms.,FGP Volunteer,Vanessa,,Brower,915 E 23rd Street,,Wilmington,19802,Delaware,New Castle 2,9,5/27/2015,,,,253712
+464,,Ms.,FGP Volunteer,Onnie,,Bryan,PO Box 2599,,Wilmington,19805,Delaware,New Castle 2,9,11/16/2010,,,,65858
+38,,Ms.,FGP Volunteer,Eleanor,,Bushell,210 N.West Street,Apt A,Wilmington,19801,Delaware,New Castle 2,9,11/16/2005,,,,9581
+46,,Ms.,FGP Volunteer,Ruth ,,Carroll,119 N. Clayton Street,,Wilmington,19805,Delaware,New Castle 2,9,,,,,19372
+570,,Ms.,FGP Volunteer,Margaret ,F,Conquest,416 Morehouse Drive,,Wilmington,19801,Delaware,New Castle 2,9,9/16/2014,,,,225954
+530,,Ms.,FGP Volunteer,Fay,,Dennis,2407 N. West St,,Wilmington,19802,Delaware,New Castle 2,9,9/25/2013,,,,12466
+383,,Ms.,FGP Volunteer,Rosetta,,Dennis,3016 N. Heald St,,Wilmington,19802,Delaware,New Castle 2,9,5/4/2009,,,,9429
+68,,Ms.,FGP Volunteer,Rita ,,Doles,2400 N. Broom St.,Apt 1109,Wilmington,19802,Delaware,New Castle 2,9,,,,,8039
+89,,Ms.,FGP Volunteer,Bertha ,,Friend,"Apt. 1005, 1800 N. Broom St.",,Wilmington,19802,Delaware,New Castle 2,9,,,,,9598
+629,,Ms.,FGP Volunteer,Peggy,,Gerald,1018 Old Forge Road,,New Castle,19720,Delaware,New Castle 2,9,3/20/2017,,,,331200
+395,,Ms.,FGP Volunteer,Helen,,Grace,1800 N. Broom St,Apt 707,Wilmington,19802,Delaware,New Castle 2,9,9/21/2009,,,,1533
+560,,Ms.,FGP Volunteer,Linda,,Hall,"1800 Broom St., ",Apt 1511,Wilmington,19802,Delaware,New Castle 2,9,4/8/2014,,,,73905
+636,,Ms.,FGP Volunteer,Antoinette,,Ibrahim,1800 N Broom St.,Apt 1013,Wilmington,19802,Delaware,New Castle 2,9,9/11/2017,,,,357784
+482,,Ms.,FGP Volunteer,Valerie ,E,Kennedy,2700 N. Market St,Apt 507,Wilmington,19802,Delaware,New Castle 2,9,9/19/2011,,,,104347
+152,,Ms.,FGP Volunteer,Joyce,,Lloyd,610 N. Walnut St.,Apt J,Wilmington,19801,Delaware,New Castle 2,9,,,,,9606
+649,,Ms.,FGP Volunteer,Betty ,,Mason,808 Peachtree Road,,Claymont,19703,Delaware,New Castle 2,9,12/13/2018,,,,451928
+449,,Ms.,FGP Volunteer,Ruth,,Mattox,8420 Society Dr,,Claymont,19703,Delaware,New Castle 2,9,9/20/2010,,,,53301
+515,,Ms.,FGP Volunteer,Lena,,Mills,2308 Thatcher Street,,Wilmington,19802,Delaware,New Castle 2,9,5/28/2013,,,,170948
+617,,Ms.,FGP Volunteer,Shirley,,Murray,1800 N Broom Street,,Wilmington,19802,Delaware,New Castle 2,9,1/25/2016,,,,39020
+651,,Ms.,FGP Volunteer,Vera ,Lee,Perkins,48 Quindome Drive,,New Castle,19720,Delaware,New Castle 2,9,12/10/2018,,,,451915
+558,,Ms.,FGP Volunteer,Brenda,,Poindexter,6 W Kyla Marie Drive,,Newark,19702,Delaware,New Castle 2,9,,,,,207552
+316,,Ms.,FGP Volunteer,Ruth ,E,Pulliam,1333 W 4th Street,,Wilmington,19805,Delaware,New Castle 2,9,10/16/2007,,,,9635
+539,,Ms.,FGP Volunteer,Elizabeth,,Sullivan,18 Casimir Court,,New Castle,19720,Delaware,New Castle 2,9,10/30/2013,,,,191022
+592,,Ms.,FGP Volunteer,Frendessa,,Thompson,3 Sandalwood Drive,,Newark,19713,Delaware,New Castle 2,9,3/18/2015,,,,247264
+436,,Ms.,FGP Volunteer,Joanne ,,Ushery,200 Washington St,Apt 706,Wilmington,19801,Delaware,New Castle 2,9,6/7/2010,,,,44787
+471,,Ms.,FGP Volunteer,Carolyn,,Watkins,1020 Old Forge Rd,,New Castle,19720,Delaware,New Castle 2,9,2/8/2011,,,,78692
+622,,Ms.,FGP Volunteer,Joan,,Watson,610 N Walnut Street,Apt G,Wilmington,19801,Delaware,New Castle 2,9,11/28/2016,,,,317940
+362,,Ms.,FGP Volunteer,Georgiana,,Wells,3 Albany Avenue,,New Castle,19720,Delaware,New Castle 2,9,11/12/2008,,,,9496
+256,,Ms.,FGP Volunteer, Betty,,West,403 McCabe Avenue,,Wilmington,19802,Delaware,New Castle 2,9,3/16/2006,,,,13374
+513,,Ms.,FGP Volunteer,Ramaria,,Wilson,17 W. 29th Street,,Wilmington,19802,Delaware,New Castle 2,9,4/16/2013,,,,175447
+336,,Ms.,FGP Volunteer,Margaret,,Ayers,30093 Pinetown Rd.,,Lewes,19958,Delaware,Sussex,8,,,,,13280
+366,,Ms.,FGP Volunteer,Leslie ,,Brake,113 Freedom Park Drive,,Seaford,19973,Delaware,Sussex,8,12/1/2008,,,,24045
+579,,Ms.,FGP Volunteer,Patricia,,Caldwell,26650 Seaford Road,,Seaford,19973,Delaware,Sussex,8,11/5/2014,,,,244370
+494,,Ms.,FGP Volunteer,Cynthia,,Caseley,152 Manor Lane,,Milford,19963,Delaware,Sussex,8,11/1/2011,,,,78688
+52,,Ms.,FGP Volunteer,Corine,,Collins,37481 Novilla Wescott,,Delmar,19940,Delaware,Sussex,8,,,,,17454
+393,,Ms.,FGP Volunteer,Sue,,Collins,PO Box 283,,Bethel,19931,Delaware,Sussex,8,9/14/2009,,,,19015
+54,,Ms.,FGP Volunteer,Rosalie,,Coverdale,402 Patroitic St. ,,Seaford,19973,Delaware,Sussex,8,,,,,13293
+58,,Ms.,FGP Volunteer,Zenomia,,Davis,22023 Pine Haven Rd.,,Lincoln,19960,Delaware,Sussex,8,,,,,9119
+400,,Ms.,FGP Volunteer,Rena,,Dean,10033 Green Top Road,,Lincoln,19960,Delaware,Sussex,8,10/1/2009,,,,10188
+647,,Ms.,FGP Volunteer,Rosalie,,Dill,18010 Barnes Rd,,Bridgeville,19933,Delaware,Sussex,8,2/1/2018,,,,393766
+631,,Ms.,FGP Volunteer,Riva,,Donahue,330 Laurel Commons Lane,Unit 311,Laurel,19956,Delaware,Sussex,8,5/1/2017,,,,334172
+342,,Ms.,FGP Volunteer,Flora ,J,Fletcher,P.O. Box 223,,Seaford,19973,Delaware,Sussex,8,8/25/2008,,,,8493
+575,,Ms.,FGP Volunteer,Katherine,,Fordham,PO Box 174,,Harbeson,19951,Delaware,Sussex,8,11/17/2014,,,,235480
+396,,Ms.,FGP Volunteer,Geraldine,,Garyantes,14417 Shiloh Church Road,,Laurel,19956,Delaware,Sussex,8,9/25/2009,,,,9599
+454,,Ms.,FGP Volunteer,Betty,,Gray,110 Manor Lane,,Milford,19963,Delaware,Sussex,8,9/30/2010,,,,55081
+589,,Ms.,FGP Volunteer,Joyce,,Griffin,12056 County Seat Highway,,Laurel,19956,Delaware,Sussex,8,4/1/2015,,,,248106
+528,,Ms.,FGP Volunteer,Helena,,Harmon,26409 Mount Joy Road,,Millsboro,19966,Delaware,Sussex,8,,,,,185498
+607,,Ms.,FGP Volunteer,Karen,,Hitchens,31082 Holtz Landing,,Dagsboro,19939,Delaware,Sussex,8,11/23/2015,,,,277226
+587,,Ms.,FGP Volunteer,Virginia,,Hurd,443 Criket Hollow Lane,,Milford,19963,Delaware,Sussex,8,4/1/2015,,,,247966
+358,,Ms.,FGP Volunteer,Patsy ,Ann,Jarvis,28129 Line Road,,Seaford,19973,Delaware,Sussex,8,9/29/2008,,,,32447
+285,,Ms.,FGP Volunteer,Betty,,Johnson,16515 Whitesville Road,,Delmar,19940,Delaware,Sussex,8,9/11/2006,,,,13672
+520,,Ms.,FGP Volunteer,Carolyn ,E,Jones,61 Clementine Ct,,Seaford,19973,Delaware,Sussex,8,5/22/2013,,,,8375
+397,,Ms.,FGP Volunteer,Ava,,Leake,64 Colonial Lane,,Milford,19963,Delaware,Sussex,8,9/28/2009,,,,2979
+344,,Ms.,FGP Volunteer,Carole ,O,Lynch,8227 Woodland Ferry Road,,Laurel,19956,Delaware,Sussex,8,8/27/2008,,,,9003
+555,,Ms.,FGP Volunteer,Edna,,Mann,20555 State Forest Rd,,Georgetown,19947,Delaware,Sussex,8,,,,,202927
+170,,Ms.,FGP Volunteer,Joan,,Milligan,23239 S. DuPont Hwy.,,Greenwood,19950,Delaware,Sussex,8,,,,,20881
+608,,Ms.,FGP Volunteer,Patricia,,Nichols,10883 PINE DR,,Seaford,19973,Delaware,Sussex,8,11/23/2015,,,,10618
+181,,Ms.,FGP Volunteer,Kathryn,,Oliver,112 Ingramtown Road,,Georgetown,19947,Delaware,Sussex,8,,,,,13461
+365,,Ms.,FGP Volunteer,Arintha ,A,Peacock,26374 Miller Street,,Millsboro,19966,Delaware,Sussex,8,12/3/2008,,,,13650
+609,,Ms.,FGP Volunteer,Hilda,,Ross,24761 Jewell Street,,Seaford,19973,Delaware,Sussex,8,11/23/2015,,,,9815
+218,,Ms.,FGP Volunteer,Jane,,Smack,414 Patriot St.,,Seaford,19973,Delaware,Sussex,8,,,,,13286
+519,,Ms.,FGP Volunteer,Patricia,,Smargissi,114 Manor Lane,,Milford,19963,Delaware,Sussex,8,5/22/2013,,,,179111
+606,,Mr.,FGP Volunteer,John ,E,Smith,1142 SAVANNAH ROAD,Apt 204,Lewes,19958,Delaware,Sussex,8,11/23/2015,,,,277225
+648,,Ms.,FGP Volunteer,Sarah,,Smith,11 E High St,,Blades,19973,Delaware,Sussex,8,2/1/2018,,,,192766
+415,,Mr.,FGP Volunteer,Ralph ,Arlen,Stark,78 Seaford Meadows Dr,,Seaford,19973,Delaware,Sussex,8,1/5/2010,,,,9023
+611,,Mr.,FGP Volunteer,Roy,,Suggs,525 B West 7th Street,,Laurel,19956,Delaware,Sussex,8,11/23/2015,,,,53297
+255,,Ms.,FGP Volunteer,Maeola,,Waters,35406 Arrowhead Lane,,Frankford,19945,Delaware,Sussex,8,,,,,13410
+505,,Mr.,FGP Volunteer,Gary,,Wilkinson,100 12th St ,Apt 101,Delmar,19940,Delaware,Sussex,8,1/18/2012,,,,119734
+412,,Ms.,FGP Volunteer,Patricia ,,Wilkinson,100 12th St ,Apt 101,Delmar,19940,Delaware,Sussex,8,11/17/2009,,,,8810
+269,,Ms.,FGP Volunteer,Gladys,,Wilson,19325 E. Redden Rd.,,Georgetown,19947,Delaware,Sussex,8,,,,,13151
+275,,Ms.,FGP Volunteer,Gloria,,Zmuda,10 Lakewood Drive,,Lewes,19958,Delaware,Sussex,8,3/21/2006,,,,7957

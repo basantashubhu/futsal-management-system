@@ -1,0 +1,47 @@
+.custom-table {
+    th {
+        border-bottom: 2px solid #ddd !important;
+        border-top: 2px solid #ddd !important;
+    }
+    td {
+        border-bottom: 1px solid #ddd !important;
+    }
+}
+.bg-r:nth-child(even){
+    background-color:#d1e2f14d;
+}
+.bg-r:nth-child(odd){
+    background-color:#effbf23b;
+}
+.m--bg-brand-blue {
+    background-color: #36a3f7 !important;
+}
+
+.active_row {
+    $bg-color: #fffad0;
+    background-color: $bg-color !important;
+
+    td,
+    .m-datatable__cell {
+        background-color: $bg-color !important;
+    }
+}
+
+.active_class_row{
+	$bg-color: #beffd7;
+    background-color: $bg-color !important;
+
+    td,
+    .m-datatable__cell {
+        background-color: $bg-color !important;
+    }
+}
+
+.borderless td, .borderless th {
+    border: none !important;
+    padding: 0;
+}
+
+.borderless th {
+    padding-bottom: 5px;
+}
