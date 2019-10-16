@@ -81,20 +81,10 @@ class RouteServiceProvider extends ServiceProvider
             ->namespace($this->namespace . '\Settings')
             ->group(base_path('routes/route_validation.php'));
 
-        //Route For Invoice
-        Route::middleware('web')
-            ->namespace($this->namespace . '\Invoice')
-            ->group(base_path('routes/route_invoice.php'));
-
         //Route For Role Management
         Route::middleware('web', 'canAccess:role management,view')
             ->namespace($this->namespace . '\RoleManagement')
             ->group(base_path('routes/route_roleManagement.php'));
-
-        // //Route For Profile
-        // Route::middleware('web')
-        //     ->namespace($this->namespace.'\Profile')
-        //     ->group(base_path('routes/route_profile.php'));
 
         //Route For Email Log
         Route::middleware('web')
@@ -136,21 +126,6 @@ class RouteServiceProvider extends ServiceProvider
             ->namespace($this->namespace . '\Report')
             ->group(base_path('routes/route_mailLetter.php'));
 
-        //Route for Text log
-        Route::middleware('web')
-            ->namespace($this->namespace . '\ReportLog')
-            ->group(base_path('routes/route_textLog.php'));
-
-        //Route for Text log
-        Route::middleware('web')
-            ->namespace($this->namespace . '\SandBox')
-            ->group(base_path('routes/route_sandbox.php'));
-
-        //Route for database backup_and_restore
-        Route::middleware('web', 'canAccess:database backup,view')
-            ->namespace($this->namespace . '\database')
-            ->group(base_path('routes/route_database.php'));
-
         //Route for database backup_and_restore
         Route::middleware('web')
             ->namespace($this->namespace . '\Session')
@@ -166,15 +141,6 @@ class RouteServiceProvider extends ServiceProvider
             ->namespace($this->namespace . '\DeveloperNote')
             ->group(base_path('routes/route_developernote.php'));
 
-        //Route for ledgers
-        Route::middleware('web')
-            ->namespace($this->namespace . '\Ledger')
-            ->group(base_path('routes/route_ledger.php'));
-
-        //Route for only logged in service provider
-        Route::middleware('web')
-            ->namespace($this->namespace . '\Audits')
-            ->group(base_path('routes/route_audit.php'));
 
         //Route for Legacy
         Route::middleware('web')
@@ -206,10 +172,7 @@ class RouteServiceProvider extends ServiceProvider
         Route::middleware('web')
             ->namespace($this->namespace . '\Draft')
             ->group(base_path('routes/route_draft.php'));
-        //Route for CMS
-        Route::middleware('web')
-            ->namespace($this->namespace . '\CMS')
-            ->group(base_path('routes/route_cms.php'));
+       
 
         //Route for FGP
         Route::middleware('web')

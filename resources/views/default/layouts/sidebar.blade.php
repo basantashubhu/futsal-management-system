@@ -48,6 +48,38 @@
 									</span>
 								</a>
 							</li>
+								
+							<li class="m-menu__item  m-menu__item--submenu m-menu__item--open" aria-haspopup="true" 
+							 data-menu-submenu-toggle="hover" title="Courts">
+								<a  href="#" data-route="courts" class="m-menu__link m-menu__toggle">
+									<span class="m-menu__item-here"></span>
+									<i class="m-menu__link-icon flaticon-location"></i>
+									<span class="m-menu__link-title">
+										<span class="m-menu__link-wrap">
+											<span class="m-menu__link-text">
+												Courts
+											</span>
+										</span>
+									</span>
+									<i class="m-menu__ver-arrow la la-angle-right"></i>
+								</a>
+							</li>
+
+							<li class="m-menu__item  m-menu__item--submenu m-menu__item--open" aria-haspopup="true"  
+							data-menu-submenu-toggle="hover" title="Organizations">
+								<a  href="#" data-route="organizations" class="m-menu__link m-menu__toggle">
+									<span class="m-menu__item-here"></span>
+									<i class="m-menu__link-icon flaticon-suitcase"></i>
+									<span class="m-menu__link-title">
+										<span class="m-menu__link-wrap">
+											<span class="m-menu__link-text">
+												Organizations
+											</span>
+										</span>
+									</span>
+									<i class="m-menu__ver-arrow la la-angle-right"></i>
+								</a>
+							</li>
 							
 							<li class="m-menu__item  m-menu__item--submenu m-menu__item--open" aria-haspopup="true"  data-menu-submenu-toggle="hover" title="Calendar">
 								<a  href="#" data-route="calendarSchedules" class="m-menu__link m-menu__toggle">
@@ -63,6 +95,7 @@
 									<i class="m-menu__ver-arrow la la-angle-right"></i>
 								</a>
 							</li>
+						
 
 							<li class="m-menu__item  m-menu__item--submenu m-menu__item--open" aria-haspopup="true"  data-menu-submenu-toggle="hover" title="Notes">
 								<a  href="#" data-route="note" class="m-menu__link m-menu__toggle">

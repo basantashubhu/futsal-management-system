@@ -18,11 +18,11 @@
 						{{ ucfirst($client->first_name) }} {{ ucfirst($client->last_name) }}
 					</span>
 					<a href="javascript:void(0)" class="m-card-profile__email m-link">
-						@if(isset($contact->id)) {{$contact->email}} @endif
+						{{ $user->email }}
 					</a>
 					<br>
 					@if($contact && $contact->cell_phone)
-						<a href="#"><i class="fa fa-phone"></i>&nbsp; {{'('.substr($contact->cell_phone,0,3).') - '.substr($contact->cell_phone,3,3).'- '.substr($contact->cell_phone, 6)}}</a>
+						<a href="javascript:;"><i class="fa fa-phone"></i>&nbsp; {{ format_cell($contact->cell_phone) }}</a>
 						<br>
 					@endif
 				</div>

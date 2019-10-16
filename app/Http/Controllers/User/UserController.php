@@ -1,40 +1,23 @@
 <?php
-/**
- * @author Suman Thaapa -- Lead
- * @author Rakesh Shrestha
- * @author Basanta Tajpuriya
- * @author Prabhat gurung
- * @author Manish Buddhacharya
- * @author Lekh Raj Rai
- * @email NEPALNME@GMAIL.COM
- * @create date 2019-03-12 16:51:56
- * @modify date 2019-03-12 16:51:56
- * @desc [description]
- */
-
 namespace App\Http\Controllers\User;
 
-use Hash;
-use LogicException;
+use App\Http\Controllers\BaseController;
+use App\Http\Requests\UserEditRequest;
+use App\Http\Requests\UserRequest;
+use App\Models\Address;
+use App\Models\Contact;
+use App\Models\EmailSettingsModel;
 use App\Models\File;
+use App\Models\Member;
 use App\Models\Note;
 use App\Models\Role;
 use App\Models\User;
-use App\Models\Audit;
-use App\Models\Member;
 use App\Repo\UserRepo;
-use App\Models\Address;
-use App\Models\Contact;
-use App\Models\Notification;
+use Hash;
 use Illuminate\Http\Request;
-use App\Repo\FGP\VolunteerRepo;
-use App\Http\Requests\UserRequest;
-use App\Models\EmailSettingsModel;
-use Illuminate\Support\Facades\DB;
-use function GuzzleHttp\json_encode;
 use Illuminate\Support\Facades\Auth;
-use App\Http\Requests\UserEditRequest;
-use App\Http\Controllers\BaseController;
+use Illuminate\Support\Facades\DB;
+use LogicException;
 
 class UserController extends BaseController
 {
@@ -226,14 +209,6 @@ class UserController extends BaseController
         foreach ($notes as $note):
             $note->line = $i++;
         endforeach;
-//        $client = Client::where('user_id', $id)->first();
-        //        if (is_null($client)) {
-        //            return $this->response("Profile Not Found", "error", 500);
-        //        }
-
-        /*
-         * use of client model is deprecated use member instead of model
-         * */
         $member = Member::where('user_id', $id)->first();
         $user = User::find($id);
         if (is_null($member)) {
@@ -251,10 +226,10 @@ class UserController extends BaseController
             endif;
         }
 
-        $address = Address::where('table_name', 'members')->where('table_id', $member->id)->first();
-        $contact = Contact::where('table_name', 'members')->where('table_id', $member->id)->first();
+        $address = $member->address->exists ? $member->address : null;
+        $contact = $member->contact->exists ? $member->contact : null;
         $client = $member;
-        // dd($address, $contact);
+
         return view('default.fgp.profile.index', compact('profile', 'notes', 'email', 'user', 'sig', 'client', 'address', 'contact'));
     }
 
@@ -268,26 +243,6 @@ class UserController extends BaseController
         $user->is_active = false;
         $user->save();
         return $this->response("User Successfully Deleted", "view", 200);
-    }
-
-    public function userCounties(Request $request)
-    {
-        $user_counties = auth()->user()->settings()->where('type', 'default_counties')->pluck('value')->map(function ($county) {
-            return '"' . $county . '"';
-        })->all();
-
-        $user_counties = count($user_counties) ? $user_counties : ['""'];
-
-        return [
-            'counties' => Address::select('county')->selectRaw('(case when county in (' . implode(',', $user_counties) . ') then "1" else "0" end) as selected')
-                ->distinct()->whereNotNull('county')->orderBy('selected', 'desc')
-                ->get(),
-        ];
-    }
-
-    public function getSupervisors(Request $request)
-    {
-        return (new UserRepo('User'))->selectSupervisorDataTable($request);
     }
 
     public function checkUserEmail(Request $request)
@@ -340,68 +295,13 @@ class UserController extends BaseController
 
     }
 
-    // public function checkToUpdateUserName(Request $request, User $user){
-
-    //     if($user->id !== (int)$request->user_id){
-    //         throw new LogicException("User of that username already exists");
-    //     }
-
-    // }
-
-    public function getSites(Request $request, User $user)
+    public function profileUpdate(Request $request, User $user)
     {
-        return $user->sites(['id', 'site_name']);
-    }
-
-    public function filter_SearchSites($query, $site_name)
-    {
-        $query->where('sites.site_name', 'like', "%$site_name%");
-    }
-
-    public function getVolData(Request $request, User $user)
-    {
-        return VolunteerRepo::getUserVolunteers($request, $user);
-    }
-
-    public function transferVolModal()
-    {
-        return view('default.fgp.profile.transfer_supervisor');
-    }
-
-    public function transferVols(Request $request, User $user)
-    {
-        $old = json_encode($user->volunteers->pluck('volunteers.alt_id')->all());
-        $existingVols = collect();
-        $newVols = is_array($request->input('volunteers')) ? $request->input('volunteers') : false;
-
-        if (!$newVols) {
-            return response(['errors' => ['message' => 'No volunteers selected.']], 422);
-        }
-
-        $allVols = $existingVols->merge($newVols);
-        $allVols = $allVols->unique()->all();
-        $user->volunteers()->detach();
-        $user->volunteers()->sync($allVols);
-
-        Notification::create(array(
-            'table_name' => 'users',
-            'table_id' => $user->id,
-            'user_id' => auth()->id(),
-            'to' => $user->id,
-            'message' => 'New Volunteer Assigned',
-            'type' => 'Notification',
-            'url' => 'userProfile',
-            'is_read' => 0,
-        ));
-
-        Audit::create(array(
-            'table_name' => 'users',
-            'table_id' => $user->id,
-            'old_record' => $old,
-            'new_record' => json_encode($newVols),
-            'user_id' => auth()->id(),
-        ));
-
-        return response(['message' => 'Volunteers transfered successfully.'], 200);
+        $repo = static::getInstance($user);
+        $repo->saveUpdate($request->only('email'));
+        $repo->updateRelation('member', $request->only('first_name', 'middle_name', 'last_name'));
+        $repo->updateRelation('member.address', $request->only('add1', 'city', 'state', 'zip_code'), $request->filled('add1'));
+        $repo->updateRelation('member.contact', $request->only('cell_phone'), $request->filled('cell_phone'));
+        return $this->response('Details successfully updated.', $user, 200);
     }
 }

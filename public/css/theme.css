@@ -53859,148 +53859,147 @@ legend#custom_legend{
     }
 
 
-.m-aside-menu.m-aside-menu--skin-dark
-	.m-menu__nav
-	> .m-menu__item.m-menu__item--expanded {
-	background-color: #dc3545;
-}
-.m-aside-menu.m-aside-menu--skin-dark
-	.m-menu__nav
-	> .m-menu__item.m-menu__item--expanded
-	.m-menu__link-icon,
-.m-aside-menu.m-aside-menu--skin-dark
-	.m-menu__nav
-	> .m-menu__item.m-menu__item--expanded
-	.m-menu__link-text {
-	color: #fff !important;
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--expanded {
+    background-color: #dc3545;
 }
 
-#siteSettingsFilter.lookupT
-	.select2-container--default
-	.select2-selection--single
-	.select2-selection__arrow:before,
-.select2-container--default
-	.select2-selection--multiple
-	.select2-selection__arrow:before {
-	content: "Y";
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--expanded .m-menu__link-icon,
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--expanded .m-menu__link-text {
+    color: #fff !important;
 }
 
-#timeSheetsQuickFilter
-	.select2-container--default
-	.select2-selection--single
-	.select2-selection__rendered {
-	line-height: 0.75;
+#siteSettingsFilter.lookupT .select2-container--default .select2-selection--single .select2-selection__arrow:before,
+.select2-container--default .select2-selection--multiple .select2-selection__arrow:before {
+    content: "Y";
+}
+
+#timeSheetsQuickFilter .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 0.75;
 }
 
 .LookupSingleView:not(:last-child) {
-	transition: 300ms;
-	border-bottom: 1px dashed gray;
+    transition: 300ms;
+    border-bottom: 1px dashed gray;
 }
 
 .LookupSingleView:hover {
-	cursor: pointer;
-	background-color: #e5e5e5;
+    cursor: pointer;
+    background-color: #e5e5e5;
 }
 
 .LookupSingleView.active_row:hover .m-widget4__sub,
 .LookupSingleView.active_row:hover .m-widget4__title {
-	color: #575962;
+    color: #575962;
 }
+
 table#time_sheet_data_table {
-	border-collapse: collapse !important;
+    border-collapse: collapse !important;
 }
+
 table#time_sheet_data_table.dataTable thead tr th {
-	background-color: rgb(11, 158, 175) !important;
-	color: #fff;
-	letter-spacing: 1px;
+    background-color: rgb(11, 158, 175) !important;
+    color: #fff;
+    letter-spacing: 1px;
 }
+
 table#time_sheet_data_table.dataTable tr.group td {
-	background-color: rgba(84, 232, 135, 0.2);
+    background-color: rgba(84, 232, 135, 0.2);
 }
+
 table#time_sheet_data_table.dataTable tr.group_site td {
-	/*background-color: #1996f62e;*/
-	background-color: #f7f8fa;
+    /*background-color: #1996f62e;*/
+    background-color: #f7f8fa;
 }
+
 table#time_sheet_data_table.dataTable tr.group_site.active_row {
-	background-color: #1996f62e !important;
+    background-color: #1996f62e !important;
 }
+
 table#time_sheet_data_table.dataTable tr.group_site.active_row td {
-	background-color: unset !important;
+    background-color: unset !important;
 }
+
 table#time_sheet_data_table.dataTable th {
-	vertical-align: middle;
-	padding: 2px 10px !important;
-	font-weight: bold;
+    vertical-align: middle;
+    padding: 2px 10px !important;
+    font-weight: bold;
 }
-table#time_sheet_data_table.dataTable .m-checkbox > span:after {
-	border-color: #fff !important;
+
+table#time_sheet_data_table.dataTable .m-checkbox>span:after {
+    border-color: #fff !important;
 }
-#TimeSheetCascadingSearchQueries .m-checkbox > span:after {
-	border-color: #fff !important;
+
+#TimeSheetCascadingSearchQueries .m-checkbox>span:after {
+    border-color: #fff !important;
 }
-#timesheet-cascading .m-checkbox > span:after {
-	border-color: #fff !important;
+
+#timesheet-cascading .m-checkbox>span:after {
+    border-color: #fff !important;
 }
+
 .time-sheets .checked .approve-time-sheets {
-	display: inline-block;
+    display: inline-block;
 }
+
 .time-sheets .approve-time-sheets {
-	display: none;
+    display: none;
 }
 
 .time-sheets .list-group-item .container-fluid {
-	padding: 0;
+    padding: 0;
 }
 
 table.bd-unset tr:hover {
-	background-color: unset;
+    background-color: unset;
 }
+
 table.bd-unset td {
-	border: unset;
-	background-color: unset !important;
+    border: unset;
+    background-color: unset !important;
 }
 
 /* Checkbox colors  */
 
-.checkbox-yellow input:checked ~ span {
-	background-color: #ffb822;
-	border-color: #ffb822 !important;
+.checkbox-yellow input:checked~span {
+    background-color: #ffb822;
+    border-color: #ffb822 !important;
 }
 
-.checkbox-green input:checked ~ span {
-	background-color: #34bfa3;
-	border-color: #34bfa3 !important;
+.checkbox-green input:checked~span {
+    background-color: #34bfa3;
+    border-color: #34bfa3 !important;
 }
 
-.checkbox-red input:checked ~ span {
-	background-color: #f4516c;
-	border-color: #f4516c !important;
-}
-.checkbox-green-dark input:checked ~ span {
-	background-color: #0b9eaf;
-	border-color: #0b9eaf !important;
+.checkbox-red input:checked~span {
+    background-color: #f4516c;
+    border-color: #f4516c !important;
 }
 
-.checkbox-green input:checked ~ span:after {
-	border-color: white !important;
+.checkbox-green-dark input:checked~span {
+    background-color: #0b9eaf;
+    border-color: #0b9eaf !important;
 }
 
-.checkbox-navy input:checked ~ span {
-	background-color: #5867dd;
-	border-color: #5867dd !important;
+.checkbox-green input:checked~span:after {
+    border-color: white !important;
 }
 
-.checkbox-navy input:checked ~ span:after {
-	border-color: white !important;
+.checkbox-navy input:checked~span {
+    background-color: #5867dd;
+    border-color: #5867dd !important;
 }
 
-.checkbox-light-blue input:checked ~ span {
-	background-color: #36a3f7;
-	border-color: #36a3f7 !important;
+.checkbox-navy input:checked~span:after {
+    border-color: white !important;
 }
 
-.checkbox-light-blue input:checked ~ span:after {
-	border-color: white !important;
+.checkbox-light-blue input:checked~span {
+    background-color: #36a3f7;
+    border-color: #36a3f7 !important;
+}
+
+.checkbox-light-blue input:checked~span:after {
+    border-color: white !important;
 }
 
 /* Scrollbars */
@@ -54009,142 +54008,144 @@ table.bd-unset td {
 .scrollbar-green::-webkit-scrollbar,
 .scrollbar-navy::-webkit-scrollbar,
 .scrollbar-light-blue::-webkit-scrollbar {
-	width: 0.3em;
+    width: 0.3em;
 }
 
 .scrollbar-yellow::-webkit-scrollbar-track,
 .scrollbar-green::-webkit-scrollbar-track,
 .scrollbar-navy::-webkit-scrollbar-track,
 .scrollbar-light-blue::-webkit-scrollbar-track {
-	/*background-color: #ddd;*/
-	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-	border-radius: 10px;
+    /*background-color: #ddd;*/
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 .scrollbar-yellow::-webkit-scrollbar-thumb {
-	background-color: #ffb822;
-	border-radius: 10px;
+    background-color: #ffb822;
+    border-radius: 10px;
 }
+
 .scrollbar-red::-webkit-scrollbar-thumb {
-	background-color: #f4516c;
+    background-color: #f4516c;
 }
 
 .scrollbar-green::-webkit-scrollbar-thumb {
-	background-color: #34bfa3;
-	border-radius: 10px;
+    background-color: #34bfa3;
+    border-radius: 10px;
 }
 
 .scrollbar-navy::-webkit-scrollbar-thumb {
-	background-color: #5867dd;
-	border-radius: 10px;
+    background-color: #5867dd;
+    border-radius: 10px;
 }
 
 .scrollbar-light-blue::-webkit-scrollbar-thumb {
-	background-color: #36a3f7;
-	border-radius: 10px;
+    background-color: #36a3f7;
+    border-radius: 10px;
 }
 
 /* Calendar */
 
 .m-fc-event--solid-past {
-	background-color: #f9f9f9 !important;
-	border: 1px solid #d9d9d9 !important;
+    background-color: #f9f9f9 !important;
+    border: 1px solid #d9d9d9 !important;
 }
 
 .m-fc-event--solid-future {
-	background-color: #028fb8 !important;
-	border: 1px solid #0b8bb0 !important;
+    background-color: #028fb8 !important;
+    border: 1px solid #0b8bb0 !important;
 }
 
 .m-fc-event--solid-future .fc-content span {
-	color: white !important;
+    color: white !important;
 }
 
 .m-fc-event--solid-today {
-	background-color: #ffb822 !important;
+    background-color: #ffb822 !important;
 }
 
 .m-fc-event--solid-today .fc-content span {
-	color: white !important;
+    color: white !important;
 }
 
 /* timesheet */
 
 .ts-holiday-date {
-	color: #ff8b9f;
-	display: block;
+    color: #ff8b9f;
+    display: block;
 }
 
 .full-week-day {
-	color: #9f9f9f;
-	font-weight: 500;
-	font-size: 12px;
-	display: block;
+    color: #9f9f9f;
+    font-weight: 500;
+    font-size: 12px;
+    display: block;
 }
 
 .row-to-be-removed .full-week-day,
 .row-to-be-removed .ts-holiday-date {
-	color: #7b7e8a;
+    color: #7b7e8a;
 }
 
 .ts-holiday-full-week {
-	font-weight: 500;
-	font-size: 12px;
+    font-weight: 500;
+    font-size: 12px;
 }
 
 .ts-holiday-name {
-	font-weight: 500;
+    font-weight: 500;
 }
 
 .row-to-be-removed,
 .newly-added-rows {
-	/*background-color: #ffdcdf !important;*/
-	background-color: #fffad0 !important;
-	transition: all 500ms ease-in-out;
+    /*background-color: #ffdcdf !important;*/
+    background-color: #fffad0 !important;
+    transition: all 500ms ease-in-out;
 }
 
 .row-to-be-removed.odd td,
 .newly-added-rows.odd td {
-	/*background-color: #ffdcdf !important;*/
-	background-color: #fffad0 !important;
-	transition: all 500ms ease-in-out;
+    /*background-color: #ffdcdf !important;*/
+    background-color: #fffad0 !important;
+    transition: all 500ms ease-in-out;
 }
 
 .rows-to-be-removed .removeDayRow,
 .newly-added-rows .removeDayRow {
-	background-color: white !important;
-	color: #f4516c !important;
+    background-color: white !important;
+    color: #f4516c !important;
 }
 
 .rows-to-be-removed .addTsTravelOption,
 .rows-to-be-removed .removeTravelOption,
 .newly-added-rows .addTsTravelOption,
 .newly-added-rows .removeTravelOption {
-	background-color: white !important;
+    background-color: white !important;
 }
 
 .datepicker.datepicker-dropdown {
-	z-index: 1000 !important;
+    z-index: 1000 !important;
 }
+
 #line-chart-element .morris-hover {
-	z-index: 100 !important;
+    z-index: 100 !important;
 }
 
 /*  Disable the date picker  */
 
 .datepicker table tr td.disabled,
 .datepicker table tr td.disabled:hover {
-	color: #e1e1e1 !important;
-	background-color: transparent !important;
+    color: #e1e1e1 !important;
+    background-color: transparent !important;
 }
 
-.datepicker tbody tr > td.day.old {
-	color: #e1e1e1 !important;
+.datepicker tbody tr>td.day.old {
+    color: #e1e1e1 !important;
 }
 
 /* Timesheet */
 .hideTsTable {
-	display: none;
+    display: none;
 }
 
 /*.addDefaultDiv{
@@ -54154,38 +54155,43 @@ table.bd-unset td {
 /* Overriding the red border color */
 
 [rel="subModalContainer"] {
-	overflow-y: auto;
+    overflow-y: auto;
 }
 
 .t-u-a {
-	border-bottom: 1px solid #00c5dc;
+    border-bottom: 1px solid #00c5dc;
 }
 
 .scrollbar-y {
-	overflow-y: scroll !important;
+    overflow-y: scroll !important;
 }
 
-.bs-donebutton button{
-	background: #34bfa3 !important;
-	border-radius: 20px;
-	color: white !important;
+.bs-donebutton button {
+    background: #34bfa3 !important;
+    border-radius: 20px;
+    color: white !important;
 }
 
-.ts--search-bar .m-checkbox .whiteTick:after{
-	border-color: white;
+.ts--search-bar .m-checkbox .whiteTick:after {
+    border-color: white;
 }
 
-.ts--search-bar .m-checkbox .whiteTick{
-	border-color: rgb(220, 53, 69) !important;
-	background-color: rgb(220, 53, 69);
+.ts--search-bar .m-checkbox .whiteTick {
+    border-color: rgb(220, 53, 69) !important;
+    background-color: rgb(220, 53, 69);
 }
 
-.items-map-table tr{
-	border-bottom: 1px dashed #e8e8e8;
+.items-map-table tr {
+    border-bottom: 1px dashed #e8e8e8;
 }
 
-.items-map-table tr td{
-	padding: 7px;
+.items-map-table tr td {
+    padding: 7px;
+}
+
+
+body.modal-open {
+    overflow: hidden !important;
 }
 
 

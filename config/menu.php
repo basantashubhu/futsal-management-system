@@ -1,6 +1,5 @@
 <?php
 
-
 return [
     'top_nav' => [
 //        'Menu' => [
@@ -65,10 +64,10 @@ return [
 
                     ],
                     [
-                        'name' => 'Support',
+                        'name' => 'Validations',
                         'icon' => 'm-menu__link-icon flaticon-notes',
-                        'url' => 'developernote',
-                        'access' => ['support', 'view'],
+                        'url' => 'validation',
+                        'access' => ['validation', 'view'],
                     ],
                     [
                         'name' => 'Table Maintenance',
@@ -128,24 +127,24 @@ return [
                 'label' => 'Utitilies',
                 'access' => ['utilities', 'view'],
                 'sub-menu' => [
-                    [
-                        'name' => 'Backup',
-                        'url' => 'database',
-                        'icon' => 'm-menu__link-icon la la-database',
-                        'access' => ['database backup', 'view'],
-                    ],
-                    [
-                        'name' => 'Api Generator',
-                        'url' => 'client/apigenerator',
-                        'icon' => 'm-menu__link-icon fa fa-key',
-                        'access' => ['database backup', 'view'],
-                    ],
-                    [
-                        'name' => 'Layout Builder',
-                        'url' => 'layout_builder',
-                        'icon' => 'm-menu__link-icon flaticon-app',
-                        'access' => ['layout_builder', 'view'],
-                    ],
+                    // [
+                    //     'name' => 'Backup',
+                    //     'url' => 'database',
+                    //     'icon' => 'm-menu__link-icon la la-database',
+                    //     'access' => ['database backup', 'view'],
+                    // ],
+                    // [
+                    //     'name' => 'Api Generator',
+                    //     'url' => 'client/apigenerator',
+                    //     'icon' => 'm-menu__link-icon fa fa-key',
+                    //     'access' => ['database backup', 'view'],
+                    // ],
+                    // [
+                    //     'name' => 'Layout Builder',
+                    //     'url' => 'layout_builder',
+                    //     'icon' => 'm-menu__link-icon flaticon-app',
+                    //     'access' => ['layout_builder', 'view'],
+                    // ],
                     [
                         'name' => 'Program Setup',
                         'url' => 'program-setup',

@@ -1,23 +1,9 @@
 <?php
-/**
- * @author Suman Thaapa -- Lead
- * @author Prabhat gurung
- * @author Basanta Tajpuriya
- * @author Rakesh Shrestha
- * @author Manish Buddhacharya
- * @author Lekh Raj Rai
- * @author Ascol Parajuli
- * @email NEPALNME@GMAIL.COM
- * @create date 2019-03-12 16:51:56
- * @modify date 2019-03-12 16:51:56
- * @desc [description]
- */
 
 namespace App\Repo;
 
 use App\Lib\Filter\UserFilter\UserFilter;
 use App\Models\Contact;
-use App\Models\Fgp\Site;
 use App\Models\Member;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -55,12 +41,6 @@ class UserRepo extends BaseRepo
              * */
             $this->saveSites($this->model, $request);
 
-//            $client = new Client(); // **** Use of Client Model is deprecated ****
-            /*
-             * Every user i.e. Supervisor, Director have details in members table
-             * details as first name, middle name, last name
-             * details as date of birth etc.
-             * */
             $member = new Member();
             $member = save_update($member, [
                 'first_name' => $formData['fname'], 'last_name' => $formData['lname'],
@@ -117,31 +97,6 @@ class UserRepo extends BaseRepo
         return $this->model;
     }
 
-    /**
-     * save the requested sites for user
-     * @param         $user
-     * @param Request $request
-     */
-    private function saveSites($user, Request $request)
-    {
-        $site_ids = $request->input('selected_sites', []);
-        // site informations
-        DB::table('site_managers')->where('user_id', $user->id)->delete();
-        // $sites = DB::table('sites')->whereIn('id', $site_ids)->get()->map(function($site) use($user){
-        //     return [
-        //         'user_id' => $user->id,
-        //         'site_id' => $site->id
-        //     ];
-        // })->toArray();
-        $sites = Site::whereIn('id', $site_ids)->get()->map(function ($site) use ($user) {
-            return [
-                'user_id' => $user->id,
-                'site_id' => $site->id,
-            ];
-        })->toArray();
-        DB::table('site_managers')->insert($sites);
-    }
-
     public function selectDataTable(Request $request)
     {
         $perpage = $request->pagination['perpage'] ?: 1000;
@@ -195,8 +150,6 @@ class UserRepo extends BaseRepo
             ->select('users.name', 'users.email', 'users.id',
                 DB::raw('CONCAT(members.first_name," ",COALESCE(members.middle_name,"")," ", coalesce(members.last_name, "")) AS sup_name'))
             ->selectRaw('(select count(distinct volunteer_id) from volunteers_supervisors where supervisor_id = users.id) as volunteers')
-//            ->selectRaw('(select group_concat(concat(m.first_name, " ", coalesce(m.middle_name, "")," ", coalesce(m.last_name, "")) separator ", ")
-        //                    from user_rpt_mgr rpt join members m on m.user_id = rpt.rpt_mgr_id where rpt.user_id = users.id group by rpt.user_id) as rpt_mgrs')
             ->where('users.name', '!=', 'dsc')->where('users.is_deleted', false)
             ->where(DB::raw('lower(roles.label)'), 'supervisor');
 

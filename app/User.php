@@ -1,11 +1,7 @@
 <?php
 
-
 namespace App\Models;
 
-use App\Models\Fgp\Site;
-use App\Models\Fgp\Volunteer;
-use App\Models\Organization;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Http\Request;
 use Illuminate\Notifications\Notifiable;
@@ -44,65 +40,6 @@ class User extends Authenticatable implements JWTSubject
         return $this->belongsTo(Role::class, 'role_id');
     }
 
-    public function reportingMgr()
-    {
-        return $this->belongsToMany(self::class, 'user_rpt_mgr', 'user_id', 'rpt_mgr_id')
-            ->select(['users.id', 'users.alt_id', 'users.name', 'users.email', 'users.role_id']);
-    }
-
-    public function reportingMgrOf()
-    {
-//        return $this->hasMany(self::class, 'rpt_mgr_id')
-        //            ->select(['users.id', 'users.alt_id', 'users.name', 'users.email', 'users.role_id']);
-        return $this->belongsToMany(self::class, 'user_rpt_mgr', 'rpt_mgr_id', 'user_id')
-            ->select(['users.id', 'users.alt_id', 'users.name', 'users.email', 'users.role_id']);
-    }
-
-    /**
-     * volunteer of user
-     * This is outdated
-     */
-    public function volunteer()
-    {return $this->hasOne(Volunteer::class, 'user_id', 'id');
-    }
-
-    public function volunteers()
-    {
-        return $this->belongsToMany(Volunteer::class, 'volunteers_supervisors', 'supervisor_id', 'volunteer_id')
-            ->where('volunteers.is_deleted', 0);
-    }
-
-    // reporting manager of auth not current user object
-    public function getReportingMgr()
-    {
-
-        if (count(auth()->user()->reportingMgrOf)) {
-            return auth()->user()->reportingMgrOf->map(function ($user) {
-                return $user->id;
-            })->push(auth()->id())->unique();
-        } else {
-            return [auth()->id()];
-        }
-
-        // $rptMgr = auth()->user()->reportingMgrOf()->select('users.id', 'users.rpt_mgr_id')->with(['reportingMgrOf' => function($u) {
-        //     $u->select('id', 'rpt_mgr_id');
-        // }])->get()->map(function($user) {
-        //     return $user->reportingMgrOf->pluck('id')->push($user->id);
-        // })->collapse()->push(auth()->id())->unique()->all();
-
-        // return $rptMgr;
-
-    }
-
-    public function getVolunteers()
-    {
-        $rptMgr = $this->getReportingMgr();
-
-        return Volunteer::whereHas('supervisors', function ($sup) use ($rptMgr) {
-            $sup->whereIn('volunteers_supervisors.supervisor_id', $rptMgr);
-        })->get();
-    }
-
     /**
      * system user as member
      * @return \Illuminate\Database\Eloquent\Relations\HasOne
@@ -132,11 +69,6 @@ class User extends Authenticatable implements JWTSubject
 
     }
 
-    public function client()
-    {
-        return $this->hasOne(Client::class, 'user_id');
-    }
-
     public function hasRole($roleName)
     {
         return ($this->role && ($this->role->name == $roleName || $this->role->label == $roleName)) ? true : false;
@@ -152,11 +84,6 @@ class User extends Authenticatable implements JWTSubject
         return $this->hasMany(Notification::class);
     }
 
-    public function communicationpreference()
-    {
-        return $this->hasOne(CommunicationPrefrence::class);
-    }
-
     public function userlogs()
     {
         return $this->hasMany(UserLog::class);
@@ -165,11 +92,6 @@ class User extends Authenticatable implements JWTSubject
     public function developersNotes()
     {
         return $this->hasMany(DeveloperNote::class);
-    }
-
-    public function emailsettings()
-    {
-        return $this->hasOne(EmailSettingsModel::class, 'user_id');
     }
 
     public function checkPermission($page, $action)
@@ -220,6 +142,7 @@ class User extends Authenticatable implements JWTSubject
             return redirect('/login');
         endif;
     }
+
     public function checkSettings($code)
     {
         $settings = $this->settings();
@@ -230,28 +153,6 @@ class User extends Authenticatable implements JWTSubject
 
         }
         return false;
-    }
-
-    public function communicationby($key)
-    {
-
-        if ($preference = $this->communicationpreference) {
-            if ($preference->$key) {
-                return true;
-            }
-
-        }
-        return false;
-    }
-
-    public function organization()
-    {
-        $client = $this->client;
-        if ($client) {
-            return $client->organization;
-        }
-
-        return null;
     }
 
     protected function getAllPermission($role, $user)
@@ -271,74 +172,6 @@ class User extends Authenticatable implements JWTSubject
             ->get();
 
         return $permissions;
-    }
-
-    public function managerSites()
-    {
-
-        return $this->belongsToMany(Site::class, 'site_managers', 'user_id', 'site_id');
-    }
-
-    /**
-     * @param array|callable $selectables
-     * @param array $relSelectable
-     * @return Site[]|\Illuminate\Database\Eloquent\Builder[]|\Illuminate\Database\Eloquent\Collection|mixed[]
-     */
-    public function sites($selectables = ['*'], $relSelectable = ['*'])
-    {
-
-        $rptMgr = $this->hierarchyIds()->all();
-        $rel = [];
-        if (count($relSelectable)) {
-            $rel['address'] = function ($rel) use ($relSelectable) {$rel->select($relSelectable);};
-        }
-
-        $query = Site::when(count($rel) ? $rel : false, function ($query, $rel) {
-            $query->with($rel);
-        })
-            ->unless((auth()->user()->role_id === 7 || auth()->user()->role_id === 1), function ($query) use ($rptMgr) {
-                $query->whereHas('users', function ($users) use ($rptMgr) {
-                    $users->whereIn('users.id', $rptMgr);
-                });
-            });
-
-        if (is_callable($selectables)) {
-            $selectables($query);
-        }
-
-        return $query->when(!is_callable($selectables), function ($query) use ($selectables) {
-            $query->select($selectables);
-        })->get();
-    }
-
-    public function hasSite($id)
-    {
-        $rptMgr = $this->hierarchyIds()->all();
-
-        if (isset($this->hasSites)) {
-            return $this->hasSites->contains($id);
-        }
-        $this->hasSites = Site::whereRaw('exists (select site_id from site_managers where user_id in (' . implode(',', $rptMgr) . ') and site_id = sites.id and site_managers.is_deleted = 0)')
-            ->where('sites.id', $id)
-            ->pluck('sites.id');
-
-        return $this->hasSite($id);
-    }
-
-    public function hierarchyIds()
-    {
-        return $this->reportingMgrOf()->with('reportingMgrOf')->get()
-            ->map(function ($user) {
-                return $user->reportingMgrOf->pluck('id')->push($user->id);
-            })
-            ->collapse()->push($this->id)
-            ->unique();
-    }
-
-    public function default_counties()
-    {
-        return $this->hasMany(UserSettings::class, 'user_id')
-            ->where('type', 'default_counties');
     }
 
     public function notes()

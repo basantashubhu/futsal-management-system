@@ -7,9 +7,6 @@ use App\Models\Fgp\StipendItem;
 use App\Models\LayoutBuilder;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
-
-
 
 //
 
@@ -22,6 +19,9 @@ use Illuminate\Support\Facades\DB;
  */
 function save_update($target, $data = array(), $save = true)
 {
+    if ($target->exists) {
+        $data['useru_id'] = auth()->id();
+    }
     foreach ($data as $key => $value) {
         $target->$key = $value;
     }

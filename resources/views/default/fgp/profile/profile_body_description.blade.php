@@ -3,22 +3,9 @@
         <div class="m-portlet__head">
             <div class="m-portlet__head-tools">
                 <ul class="nav nav-tabs m-tabs m-tabs-line   m-tabs-line--left m-tabs-line--primary" role="tablist">
+                    
                     <li class="nav-item m-tabs__item">
-                        <a class="nav-link m-tabs__link active" data-toggle="tab" href="#user_sites"
-                           role="tab">
-                            <i class="flaticon-share m--hide"></i>
-                            Sites
-                        </a>
-                    </li>
-                    <li class="nav-item m-tabs__item">
-                        <a class="nav-link m-tabs__link" data-toggle="tab" href="#Volunteers"
-                           role="tab">
-                            <i class="flaticon-share m--hide"></i>
-                            Volunteers
-                        </a>
-                    </li>
-                    <li class="nav-item m-tabs__item">
-                        <a class="nav-link m-tabs__link" data-toggle="tab" href="#update_profile"
+                        <a class="nav-link m-tabs__link active" data-toggle="tab" href="#update_profile"
                            role="tab">
                             <i class="flaticon-share m--hide"></i>
                             Update Profile
@@ -46,37 +33,17 @@
                             </a>
                         </li>
                     @endif
-                    <li class="nav-item m-tabs__item">
-                        <a class="nav-link m-tabs__link" data-toggle="tab" href="#user_settings" role="tab">
-                            Settings
-                        </a>
-                    </li>
-                    <li class="nav-item m-tabs__item">
-                        <a class="nav-link m-tabs__link" data-toggle="tab" href="#emailSettings" role="tab">
-                            Email Settings
-                        </a>
-                    </li>
-                    <!-- <li class="nav-item m-tabs__item">
-                        <a class="nav-link m-tabs__link" data-route="layout_builder">
-                            Layout Builder
-                        </a>
-                    </li> -->
+                    
                 </ul>
             </div>
         </div>
         <div class="tab-content">
-            <div id="user_sites" class="tab-pane active">
-                @include('default.fgp.profile.user_sites')
-            </div>
-            @include('default.fgp.profile.volunteers')
             @include('default.fgp.profile.update_profile')
             @include('default.fgp.profile.change_password')
             @include('default.fgp.profile.signature')
             @include('default.fgp.profile.activity')
             @include('default.fgp.profile.message')
-            @include('default.fgp.profile.settings')
-            @include('default.fgp.profile.emailSettings')
-            @include('default.fgp.profile.layout_builder')
+            
         </div>
     </div>
 </div>
@@ -86,13 +53,13 @@
 
     $(document).off('click', '#submitPass').on('click', '#submitPass', function (e) {
         var old_password = $('#old_password').val();
-        var new_password = $('#new_password').val();
-        var confirm_password = $('#confirm_password').val();
+        var new_password = $('#password').val();
+        var confirm_password = $('#password_confirmation').val();
 
         if (old_password) {
             $('#old_password').css('border', '');
             $('#wrong1').css('display', 'none');
-            if (new_password == confirm_password) {
+            if (new_password === confirm_password) {
                 $('#confirmation').css('display', 'none');
                 var request = {
                     url: '/changePass/{{$client->user_id}}',

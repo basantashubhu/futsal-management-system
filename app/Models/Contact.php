@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Contact extends Model
 {
+    protected $guarded = [];
+    
     public function Client()
     {
         return $this->belongsTo(Client::class,'client_id');

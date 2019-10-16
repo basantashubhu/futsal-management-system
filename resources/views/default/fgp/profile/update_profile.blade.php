@@ -1,7 +1,7 @@
 <style>
     .m-body .m-wrapper {overflow: visible;}
 </style>
-<div class="tab-pane" id="update_profile">
+<div class="tab-pane active" id="update_profile">
     <form class="m-form m-form--fit m-form--label-align-right" id="profileForm">
         <div class="m-portlet__body">
             <div class="form-group m-form__group m--margin-top-10 m--hide">
@@ -36,7 +36,7 @@
                     Email
                 </label>
                 <div class="col-7">
-                    <input class="form-control m-input" type="text" name="email" value="@if(isset($contact->id)) {{$contact->email}} @endif">
+                <input class="form-control m-input" type="text" name="email" value="{{ $user->email }}">
                 </div>
             </div>
             <div class="form-group m-form__group row">
@@ -44,7 +44,7 @@
                     Phone No.
                 </label>
                 <div class="col-7">
-                    <input class="form-control m-input" type="text" name="cell_phone" value="@if(isset($contact->id)) {{$contact->cell_phone}} @endif">
+                    <input class="form-control m-input" type="text" name="cell_phone" value="{{ $contact->cell_phone ?? '' }}">
                 </div>
             </div>
             <div class="m-form__seperator m-form__seperator--dashed m-form__seperator--space-2x"></div>
@@ -88,22 +88,7 @@
                     <input class="form-control m-input" type="text" value="@if(isset($address->id)) {{$address->zip_code}} @endif" name="zip_code">
                 </div>
             </div>
-            <div class="m-form__seperator m-form__seperator--dashed m-form__seperator--space-2x"></div>
-            <div class="form-group m-form__group row">
-                <div class="col-10 ml-auto">
-                    <h3 class="m-form__section">
-                        3. Default Counties
-                    </h3>
-                </div>
-            </div>
-            <div class="form-group m-form__group row mb-20">
-                <label for="user-default-counties" class="col-2 col-form-label">
-                    Counties
-                </label>
-                <div class="col-7">
-                    <select name="default_counties[]" id="user-default-counties" multiple class="form-control"></select>
-                </div>
-            </div>
+            
         </div>
         <div class="m-portlet__foot m-portlet__foot--fit">
             <div class="m-form__actions">
@@ -130,7 +115,7 @@
         // var id= $(this).attr('data-id');
         e.preventDefault();
         var request = {
-            url: '/updateClient/{{$client->user_id}}',
+            url: '/user/profile/update/{{$client->user_id}}',
             method: 'post',
             form: $(this).attr('data-target')
         };
@@ -157,19 +142,4 @@
         })
     }
 
-    $(function (userCounties) {
-        sendAjax('user-county-list', function ({counties}) {
-            let append = true;
-            counties = counties.map(function ({county, selected}) {
-                if (selected) append = false;
-                selected = selected > 0 ? 'selected' : '';
-                return `<option value="${county}" ${selected}>${county}</option>`;
-            });
-            userCounties.html(counties);
-            userCounties.selectpicker({width: '100%', liveSearch: true, showTick: true, actionsBox: true, dropdownParent: $('body')});
-            if (append) {
-                userCounties.selectpicker('val', '');
-            }
-        });
-    }( $('#user-default-counties') ))
 </script>

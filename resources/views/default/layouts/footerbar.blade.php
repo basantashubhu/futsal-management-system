@@ -22,7 +22,7 @@
 						&nbsp;
 						@php echo date("Y") @endphp &copy;
 						<a href="" class="m-link">
-							ZEUSLOGIC, INC.
+							Futsal Mangement System.
 						</a>
 
 					</span>

@@ -20,8 +20,8 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8">
-    <title>Foster Grandparents Program</title>
-    <meta name="author" content="Suman Thapa">
+    <title>Futsal Management System</title>
+    <meta name="author" content="Basanta Tajpuriya">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Latest updates and statistic charts">

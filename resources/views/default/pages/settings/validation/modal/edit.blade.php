@@ -1,4 +1,4 @@
-<!-- Single row field -->
+<!-- Single row -->
 <div class="modal-dialog modal-md" role="document">
     <div class="modal-content">
         <!-- Modal Header -->
@@ -15,9 +15,9 @@
         </div>
         <!-- Modal Body -->
         <div class="modal-body has-divider bg-white">
-            <form id="ValidationUpdate" class="m-form floatLabelForm">
+            <form id="ValidationUpdate" class="m-form">
                 <div class="form-group m-form__group row">
-                    <div class="col-lg-12 field">
+                    <div class="col-lg-12">
                         <label for="code" class="required">
                             Section
                         </label>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="form-group m-form__group row">
-                    <div class="col-lg-12 field">
+                    <div class="col-lg-12">
                         <label for="code" class="required">
                             Code
                         </label>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="form-group m-form__group row">
-                    <div class="col-lg-12 field">
+                    <div class="col-lg-12">
                         <label for="value" class="required">
                             Value
                         </label>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="form-group m-form__group row">
-                    <div class="col-lg-12 field">
+                    <div class="col-lg-12">
                         <label for="state">
                             Description
                         </label>
@@ -80,22 +80,6 @@
         showTick: true,
         actionsBox: true
     });
-    $('.floatLabelForm').off('focus', 'input:text, input:password, textarea, input[type="email"] , select').on('focus', 'input:text, input:password, input[type="email"], textarea, select', function (e) {
-        floatLabelInput(this);
-    }).on('blur','input:text, input:password, textarea, input[type="email"] , select',function(e){
-        $(this).closest('.field').css('position','relative');
-        if(!this.value.length)
-        {
-            $(this).closest('.field').find('label').first().attr('style','');
-        }
-    });
-
-    $('.floatLabelForm').find('input:text, input:password, input[type="email"], textarea, select').each(function (i, elem) {
-        floatLabelInput(this, true);
-    });
-    // $('.custom_disable').find('input, textarea, select').each(function (event) {
-    //     $(this).attr("disabled", true);
-    // });
     $(document).off('click', '#updateValidation').on('click', '#updateValidation', function (e) {
         var request = {
             url: '/validation/update/{{$validation->id}}',

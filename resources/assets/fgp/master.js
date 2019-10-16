@@ -23,13 +23,18 @@
 ajax function using jquery ajax
 * */
 function sendAjax(props, callback = resp => 1, errorCallback = err => 1) {
-    props = typeof props === 'string' ? { url: props } : props;
+    props = typeof props === 'string' ? {
+        url: props
+    } : props;
     if (props.loader) {
         addFormLoader();
         props.complete = removeFormLoader;
     }
     if (props.data instanceof FormData) {
-        Object.assign(props, { contentType: false, processData: false });
+        Object.assign(props, {
+            contentType: false,
+            processData: false
+        });
     }
     return $.ajax(props).then(callback, errorCallback);
 }
@@ -57,8 +62,8 @@ function processAjaxForm(responseArr, cb = false) {
 }
 
 /*
-* form validator with toastr message
-* */
+ * form validator with toastr message
+ * */
 function formValidation(err, highlight = false) {
     let message = '';
     if (highlight) {
@@ -66,6 +71,7 @@ function formValidation(err, highlight = false) {
         $('form [name]').css('border-color', '#ccc');
         $('form [name]+.note-editor').css('border-color', '#ccc');
         $('form [name]+.select2-container').find('.select2-selection--single').css('border-color', '#ccc');
+        $('form [name]').siblings('.btn.dropdown-toggle').css('border-color', '#ccc');
     }
     if (err.status === 422) {
         for (let [i, msg] of Object.entries(err.responseJSON.errors)) {
@@ -74,8 +80,8 @@ function formValidation(err, highlight = false) {
             if (highlight) {
                 $('form [name="' + i + '"]').css('border-color', 'brown');
                 $('form [name="' + i + '"]+.note-editor').css('border-color', 'brown');
-                $('form [name]+.select2-container').find('.select2-selection--single').css('border-color', '#ccc');
-
+                $('form [name="' + i + '"]+.select2-container').find('.select2-selection--single').css('border-color', 'brown');
+                $('form [name="' + i + '"]').siblings('.btn.dropdown-toggle').css('border-color', 'brown');
             }
         }
     }
@@ -84,8 +90,8 @@ function formValidation(err, highlight = false) {
 }
 
 /*
-* confirm box before ajax action
-* */
+ * confirm box before ajax action
+ * */
 function confirmAction(props, callback = '') {
     let date = new Date();
     const modal_id = date.getTime();
@@ -159,7 +165,9 @@ function resetCookie(key) {
 
 function deleteCookieOf(cookie, key) {
     (function (cookieArr, cookie) {
-        cookieArr = cookieArr.filter(function ({ name }) {
+        cookieArr = cookieArr.filter(function ({
+            name
+        }) {
             return name !== key;
         });
         setCookie(cookie, JSON.stringify(cookieArr));
@@ -171,7 +179,10 @@ function put_filter(key, data, append = false) {
     let hasReplaced = false;
     for (let i = 0; i < time_sheet_cookie.length; i++) {
         if (time_sheet_cookie[i].name !== data.name) continue;
-        time_sheet_cookie[i] = !append ? data : { name: data.name, value: [time_sheet_cookie[i].value, data.value].join(',') };
+        time_sheet_cookie[i] = !append ? data : {
+            name: data.name,
+            value: [time_sheet_cookie[i].value, data.value].join(',')
+        };
         hasReplaced = true;
         break;
     }
@@ -193,7 +204,8 @@ String.prototype.escapeSpecialChars = function () {
 };
 
 String.prototype.hashCode = function () {
-    let hash = 0, i, chr;
+    let hash = 0,
+        i, chr;
     if (this.length === 0) return hash;
     for (i = 0; i < this.length; i++) {
         chr = this.charCodeAt(i);
@@ -225,9 +237,12 @@ Number.prototype.formatHrs = function () {
 function replaceLookups(context = null) {
     $('input[data-lookup]:not([data-advanced])', context || document).each(function (i, elem) {
         const element = $(elem);
-        const url = element.attr('data-lookup'), value = element.val();
+        const url = element.attr('data-lookup'),
+            value = element.val();
         const select = document.createElement('SELECT');
-        select.className = 'form-control'; select.title = 'Choose'; select.name = element.attr('name');
+        select.className = 'form-control';
+        select.title = 'Choose';
+        select.name = element.attr('name');
         if (element.attr('multiple')) {
             select.multiple = "multiple";
             if (element.attr('title'))
@@ -239,7 +254,9 @@ function replaceLookups(context = null) {
             select.setAttribute('data-done-button-text', 'Apply');
         }
         element.replaceWith(select);
-        $(select).selectpicker({ width: '100%' });
+        $(select).selectpicker({
+            width: '100%'
+        });
         sendAjax(url, function (results) {
             results = results.map(x => `<option value="${x.value}">${x.value}</option>`);
             $(select).html(results).selectpicker('refresh').selectpicker('val', value);

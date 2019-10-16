@@ -1,10 +1,8 @@
 <?php
 
-
 namespace App\Repo;
 
 use App\Models\Audit;
-use App\Models\Fgp\HighVolumeHeaders;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
@@ -78,6 +76,20 @@ class BaseRepo implements Repo
         return $this->model;
     }
 
+    private function loadRelation($model, $relations)
+    {
+        foreach ($relations as $relation) {
+            $model = $model->$relation;
+        }
+        return $model;
+    }
+
+    public function updateRelation($relation, array $data, $check = true)
+    {
+        $target = $check ? $this->loadRelation($this->model, explode('.', $relation)) : false;
+        return $target ? save_update($target, $data) : false;
+    }
+
     /**
      * @return mixed
      * function to select all value of database
@@ -96,7 +108,7 @@ class BaseRepo implements Repo
     {
         //check if variadic is empty or not
         $selectedField = '*';
-        if (count($args) > 0) {
+        if (!empty($args)) {
             $selectedField = $args;
         }
 
@@ -180,28 +192,6 @@ class BaseRepo implements Repo
         ]);
     }
 
-    private function updateHeadersAlpha()
-    {
-        $headers = HighVolumeHeaders::where('is_deleted', 0)->orderBy('seq_no')->get();
-        $letters = range('A', 'Z');
-        $loop = range(1, count($headers));
-
-        $generated = $this->getLetters($loop, $letters);
-    }
-
-    private function getLetters($loop, $letters, $prefix = '')
-    {
-        $generated = [];
-        foreach ($loop as $i => $k):
-            if ($k % 26 === 0) {
-                $generated = array_merge($generated, $this->getLetters($loop, $letters, $letters[0]));
-            }
-
-//            $generated[$i] =>
-        endforeach;
-        return $generated;
-    }
-
     public function execute($callback, ...$args)
     {
         $callback($this->builder, request(), ...$args);
@@ -216,9 +206,9 @@ class BaseRepo implements Repo
     public function paginate($count = '*')
     {
         $request = request();
-        $per_page = (int) $request->input('pagination.perpage', 1000);
+        $per_page = (int) $request->input('pagination.perpage', null);
         $page = (int) $request->input('pagination.page', 1);
-        $offset = ($page - 1) * $per_page;
+        $offset = $per_page ? ($page - 1) * $per_page : null;
 
         $totalResult = $this->countRows($this->builder, $count);
 
@@ -228,14 +218,16 @@ class BaseRepo implements Repo
             }
         }
 
-        $this->builder->limit($per_page)->offset($offset);
+        if ($per_page) {
+            $this->builder->limit($per_page)->offset($offset);
+        }
 
         $result = $this->builder->get();
 
         $data = [
             'meta' => [
                 'page' => $page,
-                'pages' => ceil($totalResult / $per_page),
+                'pages' => $per_page ? ceil($totalResult / $per_page) : 1,
                 'perpage' => $per_page,
                 'total' => $totalResult,
                 'sort' => $sort,
