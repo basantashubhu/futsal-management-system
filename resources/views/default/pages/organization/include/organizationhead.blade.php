@@ -24,8 +24,16 @@
         </div>
 
 
-        <button type="button" class="btn m-btn m-btn--pill btn-primary" data-modal-route="organizations/create">
+        <button type="button" class="btn m-btn m-btn--pill btn-primary" 
+            data-modal-route="organizations/create" data-modal-callback="reloadOrg">
             <i class="la la-plus"></i> Add Organization
         </button>
     </div>
 </div>
+
+
+<style>
+    .m-datatable__cell {
+        text-transform: unset;
+    }
+</style>

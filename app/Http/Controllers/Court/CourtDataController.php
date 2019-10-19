@@ -3,11 +3,17 @@
 namespace App\Http\Controllers\Court;
 
 use App\Http\Controllers\Controller;
-use App\Lib\Filter\OrganizationFilter\OrganizationFilter;
-use App\Repo\OrganizationRepo;
+use App\Repo\CourtRepo;
 
 class CourtDataController extends Controller
 {
+    static $repo;
+
+    public static function createInstance($model = null)
+    {
+        return static::$repo = new CourtRepo($model);
+    }
+
     /**
      * Table Data
      *
@@ -15,12 +21,6 @@ class CourtDataController extends Controller
      */
     public function getData()
     {
-        $organizations = new OrganizationRepo();
-        return $organizations->execute(function ($query, $request) {
-            $filter = new OrganizationFilter($request);
-            $filter->getQuery($query);
-
-            $query->where('organizations.is_deleted', 0);
-        })->paginate();
+        return static::createInstance()->selectData();
     }
 }

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Organization;
 
 use App\Http\Controllers\RootController;
+use App\Models\Organization;
 
 class OrganizationShowController extends RootController
 {
@@ -16,5 +17,11 @@ class OrganizationShowController extends RootController
     {
         $title = 'Organization';
         return $this->view('organization.modals.add', compact('title'));
+    }
+
+    public function edit(Organization $organization)
+    {
+        $title = 'Organization';
+        return $this->view('organization.modals.edit', compact('organization', 'title'));
     }
 }

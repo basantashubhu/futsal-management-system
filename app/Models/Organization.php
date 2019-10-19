@@ -16,8 +16,11 @@ class Organization extends Model
         ]);
     }
 
-    public function details()
+    public function details($key = null)
     {
+        if ($key) {
+            return $this->details->firstWhere('code', $key);
+        }
         return $this->hasMany(OrganizationDetal::class, 'organization_id');
     }
 

@@ -155,9 +155,7 @@
 </div>
 
 <script>
-    BootstrapDatetimepicker.init();
-    BootstrapSelect.init();
-    $('#submitOrganization').on('click', function (e) {
+    $('#submitOrganization').off('click').on('click', function (e) {
         e.preventDefault();
 
         const form = $(this).attr('data-target');
@@ -168,7 +166,7 @@
         };
 
         sendAjax(request, function(response) {
-            toastr.success('Organization addes successfully.');
+            toastr.success('Organization added successfully.');
             processModal();
         }, function(errResponse) {
             formValidation(errResponse, true);

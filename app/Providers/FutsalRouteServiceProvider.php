@@ -45,5 +45,9 @@ class FutsalRouteServiceProvider extends ServiceProvider
         IlluminateRoute::middleware('web')
             ->namespace($this->namespace . '\Organization')
             ->group(base_path('routes/organization/route_organization.php'));
+
+        IlluminateRoute::middleware('web')
+            ->namespace($this->namespace . '\Schedule')
+            ->group(base_path('routes/schedule.php'));
     }
 }

@@ -41,11 +41,14 @@ class MasterTable {
 
     init(options) {
         for (let [method, value] of Object.entries(options)) {
-            if (typeof this[method] !== 'function') continue;
+            if (typeof this[method] !== 'function') {
+                this.tableOptions[method] = value;
+                continue;
+            }
             this[method](value);
         }
 
-        console.log(this.selector, this.tableOptions);
+        // console.log(this.selector, this.tableOptions);
 
         return $(this.selector).mDatatable(this.tableOptions);
     }
@@ -58,9 +61,9 @@ class MasterTable {
         this.tableOptions.data.source.read.method = method;
     }
 
-    columns(columns) {
-        this.tableOptions.columns = columns;
-    }
+    // columns(columns) {
+    //     this.tableOptions.columns = columns;
+    // }
 
     searchfield(field) {
         this.tableOptions.search.input = field;
@@ -68,6 +71,10 @@ class MasterTable {
 
     pageSize(limit) {
         this.tableOptions.data.pageSize = limit;
+    }
+
+    layout(layout) {
+        Object.assign(this.tableOptions.layout, layout);
     }
 }
 

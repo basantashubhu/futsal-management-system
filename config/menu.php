@@ -77,35 +77,36 @@ return [
                     ],
                 ],
             ],
+            /* [
+            'label' => 'Log',
+            'sub-menu' => [
+            // [
+            //     'name' => 'Text Log',
+            //     'url' => 'textLog',
+            //     'icon' => 'm-menu__link-icon flaticon-file-1',
+            //     'access' => ['text log', 'view'],
+            // ],
             [
-                'label' => 'Log',
-                'sub-menu' => [
-                    // [
-                    //     'name' => 'Text Log',
-                    //     'url' => 'textLog',
-                    //     'icon' => 'm-menu__link-icon flaticon-file-1',
-                    //     'access' => ['text log', 'view'],
-                    // ],
-                    [
-                        'name' => 'Email Log',
-                        'url' => 'email_log',
-                        'icon' => 'm-menu__link-icon flaticon-tool',
-                        'access' => ['email log', 'view'],
-                    ],
-                    [
-                        'name' => 'Audit',
-                        'icon' => 'm-menu__link-icon fa fa-user-md',
-                        'url' => 'audit/all',
-                        'access' => ['audit', 'view'],
-                    ],
-                    [
-                        'name' => 'Note',
-                        'icon' => 'm-menu__link-icon flaticon-file',
-                        'url' => 'note',
-                        'access' => ['note', 'view'],
-                    ],
-                ],
-            ], [
+            'name' => 'Email Log',
+            'url' => 'email_log',
+            'icon' => 'm-menu__link-icon flaticon-tool',
+            'access' => ['email log', 'view'],
+            ],
+            [
+            'name' => 'Audit',
+            'icon' => 'm-menu__link-icon fa fa-user-md',
+            'url' => 'audit/all',
+            'access' => ['audit', 'view'],
+            ],
+            [
+            'name' => 'Note',
+            'icon' => 'm-menu__link-icon flaticon-file',
+            'url' => 'note',
+            'access' => ['note', 'view'],
+            ],
+            ],
+            ],  */
+            [
                 'label' => 'Template',
                 'sub-menu' => [
                     [

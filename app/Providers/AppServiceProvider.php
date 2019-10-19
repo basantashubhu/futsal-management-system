@@ -2,10 +2,10 @@
 
 namespace App\Providers;
 
+use App\Models\Court;
 use App\Models\Fgp\Program;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -18,7 +18,10 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         view()->composer('*', function ($view) {
-            if(!auth()->id()) return;
+            if (!auth()->id()) {
+                return;
+            }
+
             $userLayout = DB::table('layout_builders')->where("user_id", auth()->id())->where('is_deleted', 0)->get()->keyBy('setting_label')->toArray();
             $view->with('userLayout', $userLayout);
         });
@@ -43,6 +46,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        #
+        $this->app->singleton('courts', function () {
+            return Court::query()->where('courts.is_deleted', 0);
+        });
     }
 }

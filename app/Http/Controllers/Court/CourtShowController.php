@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Court;
 
 use App\Http\Controllers\RootController;
+use App\Models\Court;
 
 class CourtShowController extends RootController
 {
@@ -14,5 +15,10 @@ class CourtShowController extends RootController
     public function create()
     {
         return $this->view('courts.modals.create');
+    }
+
+    public function edit(Court $court)
+    {
+        return $this->view('courts.modals.edit', compact('court'));
     }
 }

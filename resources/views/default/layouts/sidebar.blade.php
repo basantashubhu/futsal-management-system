@@ -80,6 +80,23 @@
 									<i class="m-menu__ver-arrow la la-angle-right"></i>
 								</a>
 							</li>
+
+							{{-- schedules --}}
+							<li class="m-menu__item  m-menu__item--submenu m-menu__item--open" aria-haspopup="true"  
+							data-menu-submenu-toggle="hover" title="Schedules">
+								<a  href="#" data-route="schedules" class="m-menu__link m-menu__toggle">
+									<span class="m-menu__item-here"></span>
+									<i class="m-menu__link-icon flaticon-list-3"></i>
+									<span class="m-menu__link-title">
+										<span class="m-menu__link-wrap">
+											<span class="m-menu__link-text">
+												Schedules
+											</span>
+										</span>
+									</span>
+									<i class="m-menu__ver-arrow la la-angle-right"></i>
+								</a>
+							</li>
 							
 							<li class="m-menu__item  m-menu__item--submenu m-menu__item--open" aria-haspopup="true"  data-menu-submenu-toggle="hover" title="Calendar">
 								<a  href="#" data-route="calendarSchedules" class="m-menu__link m-menu__toggle">

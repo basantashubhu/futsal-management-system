@@ -105,7 +105,7 @@ new Route({
         url: 'importer'
     },
     'layout_builder': {},
-    
+
     'audit/all': {
         url: 'audit/all'
     },
@@ -134,7 +134,7 @@ new Route({
     'maintenance': {
         url: 'maintenance'
     },
-    
+
     'view/location': {
         url: 'view/location'
     },
@@ -162,7 +162,9 @@ new Route({
     'organizations': {
         url: 'organizations'
     },
-    'courts' : {}
+    'courts': {},
+    'schedules': {},
+    'schedules/add': {},
 });
 
 function dashboardLoaded(response) {
@@ -180,4 +182,3 @@ function calendarLoaded(response) {
 function dashboardNoteLoaded(response) {
     // console.log("Dashboard note loaded");
 }
-

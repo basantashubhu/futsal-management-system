@@ -210,7 +210,7 @@ class BaseRepo implements Repo
         $page = (int) $request->input('pagination.page', 1);
         $offset = $per_page ? ($page - 1) * $per_page : null;
 
-        $totalResult = $this->countRows($this->builder, $count);
+        $totalResult = $this->builder->get()->count($count);
 
         if ($sort = $request->input('sort.sort')) {
             if ($field = $request->input('sort.field')) {

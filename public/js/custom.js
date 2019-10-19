@@ -10130,6 +10130,19 @@ function processModalSilently(callback = '') {
     $('.modal.show').modal('hide');
 }
 
+
+$(document).on('click', '.makeEditable', function (e) {
+    e.preventDefault();
+
+    const self = $(this);
+    const form = $(`#${ self.attr('data-target') }`);
+
+    form.find(':input:not(.exception-disable)').prop('disabled', false);
+    self.siblings('[data-target]').removeClass('d-none');
+
+    self.addClass('d-none');
+});
+
 class MasterTable {
     tableOptions = {
         data: {
@@ -10173,11 +10186,14 @@ class MasterTable {
 
     init(options) {
         for (let [method, value] of Object.entries(options)) {
-            if (typeof this[method] !== 'function') continue;
+            if (typeof this[method] !== 'function') {
+                this.tableOptions[method] = value;
+                continue;
+            }
             this[method](value);
         }
 
-        console.log(this.selector, this.tableOptions);
+        // console.log(this.selector, this.tableOptions);
 
         return $(this.selector).mDatatable(this.tableOptions);
     }
@@ -10190,9 +10206,9 @@ class MasterTable {
         this.tableOptions.data.source.read.method = method;
     }
 
-    columns(columns) {
-        this.tableOptions.columns = columns;
-    }
+    // columns(columns) {
+    //     this.tableOptions.columns = columns;
+    // }
 
     searchfield(field) {
         this.tableOptions.search.input = field;
@@ -10200,6 +10216,10 @@ class MasterTable {
 
     pageSize(limit) {
         this.tableOptions.data.pageSize = limit;
+    }
+
+    layout(layout) {
+        Object.assign(this.tableOptions.layout, layout);
     }
 }
 

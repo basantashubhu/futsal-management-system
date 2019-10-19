@@ -1,3 +1,5 @@
+@include('default.pages.schedules.includes.head')
+
 <div class="m-content">
     <div class="m-portlet m-portlet--mobile provider-border-color">
         <div class="m-portlet__body" style="padding-bottom: 30px; padding: 20px">
@@ -9,34 +11,36 @@
                             <div class="col-md-4">
                                 <div class="m-input-icon m-input-icon--left">
                                     <input type="text" class="form-control m-input" placeholder="Search..."
-                                           id="generalSearch">
+                                        id="generalSearch">
                                     <span class="m-input-icon__icon m-input-icon__icon--left">
-        								<span>
-        									<i class="la la-search"></i>
-        								</span>
-        							</span>
+                                        <span>
+                                            <i class="la la-search"></i>
+                                        </span>
+                                    </span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     {{-- <div class="col-xl-4 order-1 order-xl-2 m--align-right">
-                        <button data-modal-route="addNP"
-                            class="btn btn-info m-btn m-btn--custom m-btn--icon m-btn--pill">
-                            <span>
-                                <i class="la la-plus"></i>
+                            <button data-modal-route="addNP"
+                                class="btn btn-info m-btn m-btn--custom m-btn--icon m-btn--pill">
                                 <span>
-                                    Add Application
+                                    <i class="la la-plus"></i>
+                                    <span>
+                                        Add Application
+                                    </span>
                                 </span>
-                            </span>
-                        </button>
-                        <div class="m-separator m-separator--dashed d-xl-none"></div>
-                    </div> --}}
+                            </button>
+                            <div class="m-separator m-separator--dashed d-xl-none"></div>
+                        </div> --}}
                 </div>
             </div>
             <!--end: Search Form -->
             <!--begin: Datatable -->
-            <div class="m_datatable" id="organization_datatable"></div>
+            <div class="m_datatable" id="schedule_datatable"></div>
             <!--end: Datatable -->
         </div>
     </div>
 </div>
+
+@include('default.pages.schedules.includes.script')

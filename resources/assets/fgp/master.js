@@ -314,3 +314,16 @@ function processModalSilently(callback = '') {
     $('.modal-dialog,.modal-backdrop').remove();
     $('.modal.show').modal('hide');
 }
+
+
+$(document).on('click', '.makeEditable', function (e) {
+    e.preventDefault();
+
+    const self = $(this);
+    const form = $(`#${ self.attr('data-target') }`);
+
+    form.find(':input:not(.exception-disable)').prop('disabled', false);
+    self.siblings('[data-target]').removeClass('d-none');
+
+    self.addClass('d-none');
+});

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Organization;
 
 use App\Http\Controllers\Controller;
+use App\Models\Organization;
 use App\Repo\OrganizationRepo;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -35,6 +36,33 @@ class OrganizationStoreController extends Controller
             DB::commit();
 
             return response(['data' => $org, 'message' => 'Organization added successfully.'], 200);
+        } catch (\Throwable $th) {
+            DB::rollBack();
+            return response(['errors' => [
+                'message' => $th->getMessage() . ' ' . $th->getFile() . ':' . $th->getLine(),
+            ]], 422);
+        }
+    }
+
+    public function update(Request $request, Organization $organization)
+    {
+        $this->validateOrg($request);
+        $repo = static::createInstance($organization);
+
+        DB::beginTransaction();
+        try {
+
+            $org = $repo->saveUpdate([
+                'name' => $request->input('cname'),
+            ]);
+
+            $repo->updateDetails($request);
+            $repo->updateAddress($request);
+            $repo->updateContact($request);
+
+            DB::commit();
+
+            return response(['data' => $org, 'message' => 'Organization updated successfully.'], 200);
         } catch (\Throwable $th) {
             DB::rollBack();
             return response(['errors' => [
