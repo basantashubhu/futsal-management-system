@@ -1,5 +1,5 @@
-@include('default.pages.organization.include.organizationhead')
-@include('default.pages.organization.include.organizationbody')
+@includeWhen(!isset($no_pad), 'default.pages.organization.include.organizationhead')
+@include('default.pages.organization.include.organizationbody', ['no_pad' => isset($no_pad)])
 
 <script type="text/javascript">
     $(function (Table) {

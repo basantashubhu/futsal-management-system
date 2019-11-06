@@ -57,6 +57,10 @@
     #rightSection  td.m-datatable__cell {
         vertical-align: top;
     }
+    #schedule_datable tr th:last-child span,
+    #schedule_datable tr td:last-child span {
+        width: 80px !important;
+    }
 </style>
 
 
@@ -78,7 +82,10 @@
         if(courts.length) {
             const request = {
                 url: `schedules/create`,
-                data: { court_id: courts.first().attr('data-id') }
+                data: { 
+                    court_id: '{{ request()->court_id }}' || courts.first().attr('data-id'),
+                    date: '{{ request()->date?date_create(request()->date)->format("Y-m-d"):"" }}' || moment().format('Y-m-d') 
+                }
             };
             sendAjax(request, function(response) {
                 $('#rightSection').html(response);

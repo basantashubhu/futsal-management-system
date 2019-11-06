@@ -5,7 +5,7 @@ var datatable = $('#organization_datatable').mDatatable({
         type: 'remote',
         source: {
             read: {
-                url: '/organization/all?type={{$type=='Non Profit'?'NP':'SP'}}',
+                url: '/organization/all',
                 method: 'GET'
             },
         },

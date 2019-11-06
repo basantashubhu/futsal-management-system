@@ -1,4 +1,4 @@
-<div class="m-content">
+<div class="m-content {{ isset($no_pad) ?'p-0':'' }}">
     <div class="m-portlet m-portlet--mobile provider-border-color">
         <div class="m-portlet__body" style="padding-bottom: 30px; padding: 20px">
             <!--begin: Search Form -->

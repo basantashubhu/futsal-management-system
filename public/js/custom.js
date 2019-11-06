@@ -10138,9 +10138,21 @@ $(document).on('click', '.makeEditable', function (e) {
     const form = $(`#${ self.attr('data-target') }`);
 
     form.find(':input:not(.exception-disable)').prop('disabled', false);
+    $(self.attr('data-id')).prop('disabled', false);
     self.siblings('[data-target]').removeClass('d-none');
 
     self.addClass('d-none');
+});
+
+$(document).on('click', '.loadPage', function (e) {
+    e.preventDefault();
+    const route = $(this).attr('data-route1');
+    addFormLoader();
+    sendAjax(route, function (content) {
+        $('#contentHolder').html(content);
+        location.hash = route;
+        removeFormLoader();
+    });
 });
 
 class MasterTable {
@@ -10206,9 +10218,9 @@ class MasterTable {
         this.tableOptions.data.source.read.method = method;
     }
 
-    // columns(columns) {
-    //     this.tableOptions.columns = columns;
-    // }
+    query(data) {
+        this.tableOptions.data.source.read.params = data;
+    }
 
     searchfield(field) {
         this.tableOptions.search.input = field;

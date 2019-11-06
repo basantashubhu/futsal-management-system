@@ -99,6 +99,21 @@
 							</li>
 							
 							<li class="m-menu__item  m-menu__item--submenu m-menu__item--open" aria-haspopup="true"  data-menu-submenu-toggle="hover" title="Calendar">
+								<a  href="#" data-route="bookings" class="m-menu__link m-menu__toggle">
+									<span class="m-menu__item-here"></span>
+									<i class="m-menu__link-icon flaticon-tabs"></i>
+									<span class="m-menu__link-title">
+										<span class="m-menu__link-wrap">
+											<span class="m-menu__link-text">
+												Bookings
+											</span>
+										</span>
+									</span>
+									<i class="m-menu__ver-arrow la la-angle-right"></i>
+								</a>
+							</li>
+							{{-- 
+							<li class="m-menu__item  m-menu__item--submenu m-menu__item--open" aria-haspopup="true"  data-menu-submenu-toggle="hover" title="Calendar">
 								<a  href="#" data-route="calendarSchedules" class="m-menu__link m-menu__toggle">
 									<span class="m-menu__item-here"></span>
 									<i class="m-menu__link-icon flaticon-calendar"></i>
@@ -111,7 +126,7 @@
 									</span>
 									<i class="m-menu__ver-arrow la la-angle-right"></i>
 								</a>
-							</li>
+							</li> --}}
 						
 
 							<li class="m-menu__item  m-menu__item--submenu m-menu__item--open" aria-haspopup="true"  data-menu-submenu-toggle="hover" title="Notes">
@@ -128,7 +143,7 @@
 									<i class="m-menu__ver-arrow la la-angle-right"></i>
 								</a>
 							</li>
-							<li class="m-menu__item  m-menu__item--submenu m-menu__item--open" aria-haspopup="true"  data-menu-submenu-toggle="hover">
+							{{-- <li class="m-menu__item  m-menu__item--submenu m-menu__item--open" aria-haspopup="true"  data-menu-submenu-toggle="hover">
 								<a  href="#" data-route="support" class="m-menu__link m-menu__toggle">
 									<span class="m-menu__item-here"></span>
 									<i class="m-menu__link-icon la la-bug"></i>
@@ -141,7 +156,7 @@
 									</span>
 									<i class="m-menu__ver-arrow la la-angle-right"></i>
 								</a>
-							</li>
+							</li> --}}
 						</ul>
 
 				</div>

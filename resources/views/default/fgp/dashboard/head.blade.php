@@ -28,31 +28,33 @@
                                         </span>
                                         </li>
                                         <li class="m-nav__item m-b-10">
-                                            <button href="#" class="c-p btn btn-success m-btn m-btn--custom m-btn--icon m-btn--pill btn-sm full-width-i">
+                                            <button href="#" data-modal-route="organizations/create" 
+                                            class="c-p btn btn-success m-btn m-btn--custom m-btn--icon m-btn--pill btn-sm full-width-i">
                                                 <span>
                                                     <i class="la la-plus"></i>
                                                     <span>
-                                                        Button 1
+                                                        Add Organization
                                                     </span>
                                                 </span>
                                             </button>
                                         </li>
                                         <li class="m-nav__item m-b-10">
-                                            <button href="#" class="c-p btn btn-primary m-btn m-btn--custom m-btn--icon m-btn--pill btn-sm full-width-i">
+                                            <button href="#" data-modal-route="courts/create"
+                                            class="c-p btn btn-primary m-btn m-btn--custom m-btn--icon m-btn--pill btn-sm full-width-i">
                                                 <span>
                                                     <i class="la la-plus"></i>
                                                     <span>
-                                                        Button 2
+                                                        Add Court
                                                     </span>
                                                 </span>
                                             </button>
                                         </li>
                                         <li class="m-nav__item">
-                                            <button href="#" class="c-p btn btn-info m-btn m-btn--custom m-btn--icon m-btn--pill btn-sm full-width-i">
+                                            <button href="#" data-route="schedules/add" class="c-p btn btn-info m-btn m-btn--custom m-btn--icon m-btn--pill btn-sm full-width-i">
                                                 <span>
-                                                    <i class="la la-eye"></i>
+                                                    <i class="la la-plus"></i>
                                                     <span>
-                                                        Button 3
+                                                        Add Schedules
                                                     </span>
                                                 </span>
                                             </button>

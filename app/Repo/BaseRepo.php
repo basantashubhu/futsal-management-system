@@ -15,6 +15,7 @@ class BaseRepo implements Repo
     protected $model;
     protected $action = "userc_id";
     protected $builder;
+    protected $mapper;
 
     /**
      * BaseRepo constructor.
@@ -203,6 +204,11 @@ class BaseRepo implements Repo
         return $this->builder->get();
     }
 
+    public function map(callable $callback)
+    {
+        $this->mapper = $callback;
+    }
+
     public function paginate($count = '*')
     {
         $request = request();
@@ -223,6 +229,10 @@ class BaseRepo implements Repo
         }
 
         $result = $this->builder->get();
+
+        if (isset($this->mapper) && is_callable($this->mapper)) {
+            $result = $result->map($this->mapper);
+        }
 
         $data = [
             'meta' => [

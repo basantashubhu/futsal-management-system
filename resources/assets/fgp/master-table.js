@@ -61,9 +61,9 @@ class MasterTable {
         this.tableOptions.data.source.read.method = method;
     }
 
-    // columns(columns) {
-    //     this.tableOptions.columns = columns;
-    // }
+    query(data) {
+        this.tableOptions.data.source.read.params = data;
+    }
 
     searchfield(field) {
         this.tableOptions.search.input = field;

@@ -35,115 +35,7 @@
 <div class="m-portlet">
     <div class="m-portlet__body  m-portlet__body--no-padding no-pd-i">
         <div class="row m-row--no-padding m-row--col-separator-xl">
-            <div class="col-xl-5">
-                <!--begin:: Widgets/Profit Share-->
-                <div class="m-widget1" style="padding: 0.1rem 1.1rem;">
-                    <div class="m-widget1__item">
-                        <div class="row m-row--no-padding align-items-center">
-                            <div class="col">
-                                <h3 class="m-widget1__title">
-                                    Sample Dashboard
-                                </h3>
-                            </div>
-                            <div class="col m--align-right">
-                                <span class="m-widget1__number m--font-brand">
-                                    <select class="form-control form-control-sm m-bootstrap-select m-input m-bootstrap-select--pill m-input--pill"
-                                            id="selectStipendPeriod"
-                                            data-style="btn-redius" data-width="300"
-                                            title="Select Stipend Period"
-                                            data-actions-box="true">
-                                        <option value="{{ dateRange('previous year') }}">{{ dateRange('previous year') }}</option>
-                                        <option selected value="{{ dateRange('this year') }}">{{ dateRange('this year') }}</option>
-                                        <option value="{{ dateRange('next year') }}">{{ dateRange('next year') }}</option>
-                                    </select>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="m-widget1__item fiscal-tabs" style="padding: 0.1rem 0rem !important;">
-                        <ul class="nav nav-tabs  m-tabs-line m-tabs-line--success" role="tablist">
-                            
-                            <li class="nav-item m-tabs__item">
-                                <a class="nav-link m-tabs__link active" data-toggle="tab" href="#finance_tab1" role="tab">
-                                    Time Type
-                                </a>
-                            </li>
-                            <li class="nav-item m-tabs__item">
-                                <a class="nav-link m-tabs__link" data-toggle="tab" href="#finance_tab2" role="tab">
-                                    Items
-                                </a>
-                            </li>  
-                            @canAccess('tab', 'vsySummary')
-                                <li class="nav-item m-tabs__item">
-                                        <a class="nav-link m-tabs__link" data-toggle="tab" href="#vsySummary" role="tab">
-                                            Summary
-                                        </a>
-                                    </li>
-                                <li class="nav-item m-tabs__item">
-                                    <a class="nav-link m-tabs__link" data-toggle="tab" data-init="true" href="#finance_tab4" role="tab">
-                                        Sample Chart
-                                    </a>
-                                </li>
-                            @endif                          
-
-                        </ul>
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="finance_tab1" role="tabpanel">
-                                @include('default.fgp.dashboard.includes.partialsummary')
-                            </div>
-                            <div class="tab-pane" id="finance_tab2" role="tabpanel">
-                                @include('default.fgp.dashboard.includes.partialItems')
-                            </div>
-                            <div class="tab-pane" id="finance_tab3" role="tabpanel">
-                            
-                            </div>
-                            @canAccess('tab', 'vsySummary')
-                            <div class="tab-pane" id="vsySummary" role="tabpanel" style="padding: 10px; padding-left: 15px">
-                                <div class="col-md-10 offset-1" style="margin-top: 20px">
-                                    @include('default.fgp.dashboard.includes.partialVsySummary')
-                                </div>
-                                {{-- <div class="row">
-                                    <div class="col-md-8 offset-1">
-                                        <div class="d-flex align-items-center justify-content-between" style="margin-bottom: 20px; padding-left:15px" >
-                                            <h4 style="margin-right: 10px; margin-bottom: 0">Grant Year</h4>
-                                            <input type="text" class="form-control" id="summaryRangePicker" style="width: 40%;">
-                                        </div>
-                                        <table cellpadding="15" class="table-brd">
-                                            <tr>
-                                                <td>Total VSY Achieved</td>
-                                                <td id="totalVsy"></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Total Monthly Hours</td>
-                                                <td id="totalMonthly"></td>
-                                            </tr>
-                                            <tr>
-                                                <td>VSY Shortfall</td>
-                                                <td id="shrtFall"></td>
-                                            </tr>
-                                        </table>
-        
-                                        <div style="padding-left: 10px">
-                                                <button class="btn btn-primary m-t-10">More Details</button>
-                                        </div>
-                                    </div>
-                                </div> --}}
-
-                            </div>
-                            <div class="tab-pane" id="finance_tab4" role="tabpanel">
-                                <div class="p-3 pt-0 text-right">Shortfall : <div id="short-fall-value" class="px-2 d-inline" style="display: inline-block;"></div></div>
-                                <div id="line-chart-element1"></div>
-                                &nbsp;
-                            </div>
-                                
-                            @endif
-
-                        </div>
-                    </div>
-                </div>
-                <!--end:: Widgets/Profit Share-->
-            </div>
-            <div class="col-xl-3">
+            <div class="col-xl-8">
                 <!--begin:: Widgets/Stats2-1 -->
                 <div class="m-widget1" style="padding: 0.1rem 1.1rem;">
                     <div class="m-widget1__item">
@@ -164,7 +56,7 @@
                         <ul class="nav nav-tabs  m-tabs-line m-tabs-line--success" role="tablist">
                             <li class="nav-item m-tabs__item">
                                 <a class="nav-link m-tabs__link active" data-toggle="tab" href="#summary_tab1" role="tab">
-                                    Fiscal
+                                    Organizations
                                 </a>
                             </li>
                         </ul>

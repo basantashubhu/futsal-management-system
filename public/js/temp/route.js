@@ -164,6 +164,7 @@ new Route({
     },
     'courts': {},
     'schedules': {},
+    'bookings': {},
     'schedules/add': {},
 });
 

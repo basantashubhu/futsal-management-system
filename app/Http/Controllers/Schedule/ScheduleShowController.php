@@ -20,7 +20,11 @@ class ScheduleShowController extends RootController
 
     public function create(Request $request)
     {
-        $court = Court::query()->findOrFail($request->court_id);
-        return $this->view('schedules.includes.rightSection', compact('court'));
+        $date = $request->input('date', date('Y-m-d'));
+        $court = Court::query()->with(['schedules' => function ($schedules) use ($date) {
+            $schedules->where('date', $date);
+        }])->findOrFail($request->court_id);
+
+        return $this->view('schedules.includes.rightSection', compact('court', 'date'));
     }
 }
