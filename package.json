@@ -17,7 +17,7 @@
     "d3": "^5.9.2",
     "jquery": "^3.4.1",
     "laravel-mix": "^2.1.11",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "popper.js": "^1.15.0",
     "print-this": "^1.12.3",
     "spectrum-colorpicker": "^1.8.0",
