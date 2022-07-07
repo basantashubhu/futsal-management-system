@@ -27,7 +27,7 @@
     "chart.js": "^2.8.0",
     "clientjs": "^0.1.11",
     "fullcalendar": "^3.10.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "npm": "^6.2.0",
     "print-js": "^1.0.55",
     "system": "^2.0.1",
